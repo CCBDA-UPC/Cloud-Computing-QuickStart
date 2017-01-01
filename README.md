@@ -8,11 +8,11 @@ This hand-on will show some basic characteristics of Python to help to enter tho
 
 ## How to install Python?
 
-We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on it is not important, the student should focus on learning Python as a language. Shifting between versions should just be a matter of time.
+We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on it is not important, the student should focus on learning Python as a language. For advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
 
 Before you start, you will need Python on your computer, but you may not need to download it. Nowadays many Linux and UNIX distributions include a recent Python. Even some Windows computers now come with Python already installed. First of all check that you don’t already have Python installed by entering python in a command line. If you see a response from a Python interpreter it will include a version number in its initial display. If you use are in a environment you will see:
 
-```shell
+``` 
 torres@vm:~$ python
 Python 2.7.5+ (default, Sep 19 2013, 13:48:49)
 [GCC 4.8.1] on linux2
@@ -20,5 +20,5 @@ Type “help”, “copyright”, “credits” or “license” for more inform
 >>>
 ```
 
-If you need to install Python , you may as well download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/). For advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
+If you need to install Python , you may as well download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/). 
 
