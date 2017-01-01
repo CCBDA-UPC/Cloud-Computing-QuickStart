@@ -4,7 +4,7 @@ Python is a widely used programming language (source code is now available under
 
 Although it is an interpreted language rather than compiled language, hence might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve, Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly. 
 
-This hand-on will show some basic characteristics of Python to help to enter those **students of my course who have no prior knowledge of python**. At the end of the page you will find very useful links to advance on your own and some tips that could help you.  
+This hand-on will show some basic characteristics of Python to help to enter those **students of my course who have no prior knowledge of python**. 
 
 ## How to install Python?
 
@@ -348,6 +348,21 @@ External libraries are used with the import \[libname\] keyword. We can also use
 ```
 In this example we are showing how first we are importing the whole library and then accessing and individual function of that library, and then how we can import just the individual function and use it directly without needing to write the library.
 
+###Read/Write files
+Python uses the following sintax for read/write files:
+```
+>>> f = open("test.txt","w") #opens file with name of "test.txt"
+>>> f.write("Barcelona, ")
+>>> f.write("is the best city of the world.")
+>>> f.write("With an excellent weather.")
+>>> f.close()
+>>> 
+>>> f = open("test.txt","r") #opens file with name of "test.txt"
+>>> print(f.read())
+Barcelona, is the best city of the world.With an excellent weather.
+>>> f.close
+
+```
 
 
 ## Development environment
