@@ -66,7 +66,7 @@ class int(object)
 (type q to exit)
 
 ```
-The addition, subtraction, multiplication, and division operations work just like expected. In addition we can use the modulus operator (\%). All the modulus operator does is to divide the left side by the right side and get the remainder. The floor division operator (\/\/) just divides the number and rounds down. The double * is just an easy way to provide exponents to Python.
+The addition, subtraction, multiplication, and division operations work just like expected. In addition we can use the modulus operator (%). All the modulus operator does is to divide the left side by the right side and get the remainder. The floor division operator (//) just divides the number and rounds down. The double * is just an easy way to provide exponents to Python.
 
 Values are assigned with the sign “=”, in fact, objects are bound to names (the equality testing is done using two equal signs “==”). It is possible use the += and -= operators on many datatypes, strings included. You can also use multiple variables and swaps variables in one line. It doesn’t violate variable typing because values aren’t actually being assigned, but new objects are bound to the old names.
 
@@ -95,6 +95,73 @@ class int(object)
 
 ```
 ###Data types
+
+The data structures available in Python are lists, tuples and dictionaries. Lists are like one-dimensional arrays and we can also have lists of other lists or tuples. There are number of methods for lists (methods follow the list name). Tuples are immutable one-dimensional array.
+
+``` 
+>>> sampleList = [1,2,3,4,5,6,7,8]
+>>> print (sampleList[1])
+2
+>>> sampleTuple = (1,2,3,4,5,6,7,8)
+>>> print (sampleTuple)
+(1, 2, 3, 4, 5, 6, 7, 8)
+>>> print sampleList
+[1, 2, 3, 4, 5, 6, 7, 8]
+>>> sampleList.append(9)
+>>> print sampleList
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> sampleTuple.append(9)
+Traceback (most recent call last):
+  File “<stdin>”, line 1, in <module>
+AttributeError: ‘tuple’ object has no attribute ‘append’
+>>>
+
+```
+
+Python dictionaries are associative arrays that has keys to obtain the elements of the dictionary. Dictionaries aren’t exactly based on an index, there is no particular order in dictionaries (we could add a key: value and, it will appear in random places). A big caution here is that you cannot create different values with the same key (Python will just overwrite the value of the duplicate keys).
+
+``` 
+>>> myDicc = {‘someItem’: 2, ‘otherItem’: 20}
+>>> print(myDicc[‘otherItem’])
+20
+>>>
+
+```
+Python lists/dictionaries/tuples can be of any type, so you can mix them in. Variables can point to functions. The index of the first element is 0 and negative numbers count from the end towards the beginning ( -1 is the last element).
+
+``` 
+>> Example = [1, “BCN”, [“another”, “list”], {“and”,”a”,”tuple”}]
+>>> print Example
+[1, ‘BCN’, [‘another’, ‘list’], set([‘a’, ‘and’, ‘tuple’])]
+>>> myfunction = len
+>>> print myfunction (Example)
+4
+>>> print Example[-1]
+set([‘a’, ‘and’, ‘tuple’])
+>>> print Example[3]
+set([‘a’, ‘and’, ‘tuple’])
+
+```
+
+Finally, Python strings can use either single or double quotation marks, and we can have quotation marks of one kind inside a string that uses the other kind (i.e. “He said ‘I enjoy Barcelona’.” ). Multiline strings are enclosed in triple double (or single) quotes  (“””). Another interesting feature is that Python supports Unicode out of the box, using the syntax u”This is a unicode string example”. To fill a string with values, we use the % operator and a tuple. Each %s gets replaced with an item from the tuple, left to right, and we can also use dictionary substitutions as we show in the following example:
+
+``` 
+>>> MultiString = “”” Example of 
+… a multiline
+… string”””
+>>> print MultiString
+ Example of 
+a multiline
+string
+>>> 
+>>> print “Arrival: %s from %s” % ( “BA230”, “Barcelona”)
+Arrival: BA230 from Barcelona
+>>> print “Arrival: %(fly)s from %(city)s” % {“fly”:”BA230″, “city”:”Barcelona”}
+Arrival: BA230 from Barcelona
+
+```
+
+
 
 ## Development environment
 
