@@ -161,6 +161,51 @@ Arrival: BA230 from Barcelona
 
 ```
 
+###Flow control statements
+Flow control statements are *if*, *for*, and *while*.  Often partnered with the if statement are else if and else. However, Python's else if is shortened into elif. After every conditional we have a colon. Next, we could proceed to a new line with number of spaces to tell Python we only want this code to be run when the previous conditional is satisfied. 
+
+``` 
+>>> a = 20
+>>> if a >= 22:
+...     print("Paris")
+... elif a >= 21:
+...     print("Londres")
+... else:
+...     print("Barcelona")
+... 
+Barcelona
+>>> 
+
+```
+Loops in Python are very versatile and simple.
+
+``` 
+>>> for a in range(1,4):
+...     print (a)
+... 
+1
+2
+3
+>>> 
+
+>>> a = 1
+>>> while a < 4:
+...     print (a)
+...     a+=1
+... 
+1
+2
+3
+>>>
+
+```
+You can stop the loop using the “break” statement.
+
+In this example we use the range keyword (used to enumerate through members of a list and to obtain a list of numbers) to set the starting point and the point right after we would finish (this is precisely why the number 4 didn’t print). Python is quite fond of this idea of all the way up to a number, but not including it.
+
+###Functions
+We can define a function by using the keyword def before your function name. Optional arguments are set in the function declaration after the mandatory arguments by being assigned a default value. Functions can return a tuple (and using tuple unpacking you can effectively return multiple values).
+
 
 
 ## Development environment
