@@ -75,8 +75,8 @@ Values are assigned with the sign “=”, in fact, objects are bound to names (
 >>> IntegerVar += 10
 >>> print IntegerVar
 20
->>> StringVar = “Welcome”
->>> StringVar += ” to Barcelona”
+>>> StringVar = "Welcome"
+>>> StringVar += " to Barcelona"
 >>> print StringVar
 Welcome to Barcelona
 >>> IntegerVar, StringVar = StringVar, IntegerVar
@@ -130,7 +130,7 @@ Python dictionaries are associative arrays that has keys to obtain the elements 
 Python lists/dictionaries/tuples can be of any type, so you can mix them in. Variables can point to functions. The index of the first element is 0 and negative numbers count from the end towards the beginning ( -1 is the last element).
 
 ``` 
->> Example = [1, “BCN”, [“another”, “list”], {“and”,”a”,”tuple”}]
+>> Example = [1, "BCN", ["another", "list"], {"and","a","tuple"}]
 >>> print Example
 [1, ‘BCN’, [‘another’, ‘list’], set([‘a’, ‘and’, ‘tuple’])]
 >>> myfunction = len
@@ -146,17 +146,17 @@ set([‘a’, ‘and’, ‘tuple’])
 Finally, Python strings can use either single or double quotation marks, and we can have quotation marks of one kind inside a string that uses the other kind (i.e. “He said ‘I enjoy Barcelona’.” ). Multiline strings are enclosed in triple double (or single) quotes  (“””). Another interesting feature is that Python supports Unicode out of the box, using the syntax u”This is a unicode string example”. To fill a string with values, we use the % operator and a tuple. Each %s gets replaced with an item from the tuple, left to right, and we can also use dictionary substitutions as we show in the following example:
 
 ``` 
->>> MultiString = “”” Example of 
+>>> MultiString = """ Example of 
 … a multiline
-… string”””
+… string"""
 >>> print MultiString
  Example of 
 a multiline
 string
 >>> 
->>> print “Arrival: %s from %s” % ( “BA230”, “Barcelona”)
+>>> print "Arrival: %s from %s" % ( "BA230", "Barcelona")
 Arrival: BA230 from Barcelona
->>> print “Arrival: %(fly)s from %(city)s” % {“fly”:”BA230″, “city”:”Barcelona”}
+>>> print "Arrival: %(fly)s from %(city)s" % {"fly":"BA230", "city":”Barcelona”}
 Arrival: BA230 from Barcelona
 
 ```
