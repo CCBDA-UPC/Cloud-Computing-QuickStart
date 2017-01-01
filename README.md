@@ -30,10 +30,21 @@ Congratulations, good job!
 If you need to install Python, you can download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/).
 
 
-Alternately, you can download and install a package, which comes with pre-installed libraries. I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads).  Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default).
+Alternately, you can download and install a package, which comes with pre-installed libraries. I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads) available for Windows, OS X or Linux, 32- or 64-bit.
+Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default).
 
 ## Development environment
 
-As we mentioned earlier you can use your terminal/shell based environment. However I personally prefer iPython Notebooks because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial.
+As we mentioned earlier you can use your terminal/shell based environment. However I personally prefer iPython Notebooks from Anaconda because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial.
+
+You can start iPython notebook by writing “ipython notebook” on your terminal:
+``` 
+torres@vm:~$ ipython notebook
+
+```
+You can create a new iPython notebook by simply clicking on the ** new ** button  in the top. The interface shows ** In \[*\] **  for inputs and ** Out\[*\] ** for output. You can execute a code by pressing “Shift + Enter” or “ALT + Enter”, if you want to insert an additional row after.
+
+
+Before we deep dive into problem solving, lets take a step back and understand the basics of Python. As we know that data structures and iteration and conditional constructs form the crux of any language. In Python, these include lists, strings, tuples, dictionaries, for-loop, while-loop, if-else, etc. Let’s take a look at some of these.
 
 
