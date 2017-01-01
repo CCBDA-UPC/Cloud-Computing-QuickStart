@@ -143,7 +143,7 @@ set(['a', 'and', 'tuple'])
 
 ```
 
-Finally, Python strings can use either single or double quotation marks, and we can have quotation marks of one kind inside a string that uses the other kind (i.e. “He said ‘I enjoy Barcelona’.” ). Multiline strings are enclosed in triple double (or single) quotes  (“””). Another interesting feature is that Python supports Unicode out of the box, using the syntax u”This is a unicode string example”. To fill a string with values, we use the % operator and a tuple. Each %s gets replaced with an item from the tuple, left to right, and we can also use dictionary substitutions as we show in the following example:
+Finally, Python strings can use either single or double quotation marks, and we can have quotation marks of one kind inside a string that uses the other kind (i.e. "He said 'I enjoy Barcelona'." ). Multiline strings are enclosed in triple double (or single) quotes  ("""). Another interesting feature is that Python supports Unicode out of the box, using the syntax u”This is a unicode string example”. To fill a string with values, we use the % operator and a tuple. Each %s gets replaced with an item from the tuple, left to right, and we can also use dictionary substitutions as we show in the following example:
 
 ``` 
 >>> MultiString = """ Example of 
@@ -156,7 +156,7 @@ string
 >>> 
 >>> print "Arrival: %s from %s" % ( "BA230", "Barcelona")
 Arrival: BA230 from Barcelona
->>> print "Arrival: %(fly)s from %(city)s" % {"fly":"BA230", "city":”Barcelona”}
+>>> print "Arrival: %(fly)s from %(city)s" % {"fly":"BA230", "city":"Barcelona"}
 Arrival: BA230 from Barcelona
 
 ```
