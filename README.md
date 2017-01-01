@@ -228,8 +228,25 @@ Barcelona
 ```
 
 ###Lambda Functions
-Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called “lambda”. This is not exactly the same as lambda in functional programming languages:
+Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called “lambda”. 
 
+>This is not exactly the same as lambda in functional programming languages
+
+This piece of code shows the difference between a normal function definition("Jordi") and a lambda function ("George"):
+
+```
+>>> def Jordi (x): return x**2
+... 
+>>> print Jordi(10)
+100
+>>> 
+>>> George=lambda x:x**2
+>>> print George(10)
+100
+>>> 
+
+```
+As you can see, Jordi() and George() do exactly the same and can be used in the same ways. Note that the lambda definition does not include a "return" statement. Also we can put a lambda definition anywhere a function is expected, and we don't have to assign it to a variable at all as we could see in the following examples:
 
 ```
 >>>
