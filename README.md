@@ -20,5 +20,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
 
-If you need to install Python , you may as well download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/). 
+If you need to install Python, you can download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/).
+
+
+Alternately, you can download and install a package, which comes with pre-installed libraries. I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads).  Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default).
+
 
