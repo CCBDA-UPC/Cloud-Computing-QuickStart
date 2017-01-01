@@ -27,6 +27,8 @@ For Warming up you can run your first Python program. You can use Python as a si
 ```
 Congratulations, good job!
 
+>Note: Lines beginning with ">>>" and "..." indicate input to Python (these are the default prompts of the interactive interpreter). Everything else is output from Python.
+
 If you need to install Python, you can download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/).
 
 ## Python basics
@@ -206,7 +208,46 @@ In this example we use the range keyword (used to enumerate through members of a
 ###Functions
 We can define a function by using the keyword def before your function name. Optional arguments are set in the function declaration after the mandatory arguments by being assigned a default value. Functions can return a tuple (and using tuple unpacking you can effectively return multiple values).
 
+```
+>>> 
+>>> def someFunction():
+...     print("Barcelona")
+... 
+>>> someFunction()
+Barcelona
+>>> 
+>>> def fib(n):    # write Fibonacci series up to n
+...     a, b = 0, 1
+...     while b < n:
+...             print b,
+...             a, b = b, a+b
+... 
+>>> fib(1000)
+1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+>>> 
+```
 
+###Lambda Functions
+Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called “lambda”. This is not exactly the same as lambda in functional programming languages:
+
+
+```
+>>>
+>>> fibonacci = (lambda x: 1 if x <= 2 else fibonacci(x-1) +  fibonacci(x-2))
+>>> fibonacci(10)
+55
+>>> foo = [2, 18, 9, 22, 17, 24, 8, 12, 27]
+>>> for i in filter(lambda x: x % 3 == 0, foo):
+...     print (i)
+... 
+18
+9
+24
+12
+27
+>>> 
+
+```
 
 ## Development environment
 
