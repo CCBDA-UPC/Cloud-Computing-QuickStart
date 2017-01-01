@@ -132,7 +132,7 @@ Python lists/dictionaries/tuples can be of any type, so you can mix them in. Var
 ``` 
 >>> Example = [1, "BCN", ["another", "list"], {"and","a","tuple"}]
 >>> print Example
-[1, ‘BCN’, ['another', 'list'], set(['a', 'and', 'tuple'])]
+[1, 'BCN', ['another', 'list'], set(['a', 'and', 'tuple'])]
 >>> myfunction = len
 >>> print myfunction (Example)
 4
