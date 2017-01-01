@@ -19,6 +19,13 @@ Python 2.7.10 (default, Sep 23 2015, 04:34:14)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
+For Warming up you can run your first Python program. You can use Python as a simple calculator to start with:
+``` 
+>>> 15+10
+25
+>>> 
+```
+Congratulations, good job!
 
 If you need to install Python, you can download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/).
 
