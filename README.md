@@ -266,6 +266,90 @@ As you can see, Jordi() and George() do exactly the same and can be used in the 
 
 ```
 
+###Classes
+
+Python supports a limited form of multiple inheritance in classes.
+
+```
+>>> 
+>>> class Calculator(object):
+... #define class to simulate a calculator
+...     def __init__ (self):
+...             #start with zero
+...             self.current = 0
+...     def add(self, amount):
+...             #add number to current
+...             self.current += amount
+...     def getCurrent(self):
+...             return self.current
+... 
+>>> myCalc = Calculator() # make myCalc into a Calculator object
+>>> myCalc.add(2) #use myCalc’s new add method derived from the Calculator class>>> print(myCalc.getCurrent())  
+2
+>>> myCalc.add(2)
+>>> print(myCalc.getCurrent())
+4
+>>> 
+```
+In the previous example the first part defines a Class. def __init__ is the constructor function, the function that is called when a new instance of the class is created. The actual new instance is created in the line myCalc = Calculator(). The second part shows how to use this class in Python.
+
+###Iterators
+
+Python define a object type for taking each item of something, one after another. Any time you use a loop, explicit or implicit, to go over a group of items, that is iteration
+
+An iterable is an object that has an __iter__ method which returns an iterator, or which defines a __getitem__ method that can take sequential indexes starting from zero.
+
+An iterator is an object with a next (Python 2) or __next__ (Python 3) method.
+
+```
+>>> vec = [1, 2, 3]
+>>> it = iter (vec)
+>>> next (it)
+1
+>>> next (it)
+2
+>>> next (it)
+3
+>>> type (vec)
+<class ‘list’>
+>>> type (it)
+<class ‘list_iterator’>
+```
+###Exceptions
+
+Exceptions in Python are handled with try-except blocks. See the following code for one example:
+
+```
+>>> def function():
+...     try:
+...             # Division by zero raises an exception
+...             10 / 0
+...     except ZeroDivisionError:
+...             print "Invalid operation."
+... 
+>>> function()
+Invalid operation.
+>>> 
+
+```
+
+###Importing
+External libraries are used with the import \[libname\] keyword. We can also use from \[libname\] import \[funcname\] for individual functions.
+
+```
+>>> from random import randint
+>>> randomint = random.randint(1, 100)
+>>> print randomint
+84
+>>> randomint = random.randint(1, 100)
+>>> print randomint
+44
+>>>
+```
+In this example we are showing how first we are importing the whole library and then accessing and individual function of that library, and then how we can import just the individual function and use it directly without needing to write the library.
+
+
+
 ## Development environment
 
 Alternately, you can download and install a package, which comes with pre-installed libraries. I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads) available for Windows, OS X or Linux, 32- or 64-bit.
@@ -279,5 +363,5 @@ torres@vm:~$ ipython notebook
 You can create a new iPython notebook by simply clicking on the **new** button  in the top. The interface shows **In\[\*\]**  for inputs and **Out\[\*\]** for output. You can execute a code by pressing *“Shift + Enter”* or *“ALT + Enter”*, if you want to insert an additional row after.
 
 
-
+**First version: 30/11/2013. Updates 5/02/2014, 29/12/2016.**
 
