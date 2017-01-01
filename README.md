@@ -25,4 +25,8 @@ If you need to install Python, you can download the most recent stable version o
 
 Alternately, you can download and install a package, which comes with pre-installed libraries. I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads).  Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default).
 
+## Development environment
+
+As we mentioned earlier you can use your terminal/shell based environment. However I personally prefer iPython Notebooks because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial.
+
 
