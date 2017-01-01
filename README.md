@@ -113,7 +113,7 @@ The data structures available in Python are lists, tuples and dictionaries. List
 >>> sampleTuple.append(9)
 Traceback (most recent call last):
   File “<stdin>”, line 1, in <module>
-AttributeError: ‘tuple’ object has no attribute ‘append’
+AttributeError: 'tuple' object has no attribute ‘append’
 >>>
 
 ```
@@ -121,8 +121,8 @@ AttributeError: ‘tuple’ object has no attribute ‘append’
 Python dictionaries are associative arrays that has keys to obtain the elements of the dictionary. Dictionaries aren’t exactly based on an index, there is no particular order in dictionaries (we could add a key: value and, it will appear in random places). A big caution here is that you cannot create different values with the same key (Python will just overwrite the value of the duplicate keys).
 
 ``` 
->>> myDicc = {‘someItem’: 2, ‘otherItem’: 20}
->>> print(myDicc[‘otherItem’])
+>>> myDicc = {'someItem': 2, 'otherItem': 20}
+>>> print(myDicc['otherItem'])
 20
 >>>
 
@@ -130,16 +130,16 @@ Python dictionaries are associative arrays that has keys to obtain the elements 
 Python lists/dictionaries/tuples can be of any type, so you can mix them in. Variables can point to functions. The index of the first element is 0 and negative numbers count from the end towards the beginning ( -1 is the last element).
 
 ``` 
->> Example = [1, "BCN", ["another", "list"], {"and","a","tuple"}]
+>>> Example = [1, "BCN", ["another", "list"], {"and","a","tuple"}]
 >>> print Example
-[1, ‘BCN’, [‘another’, ‘list’], set([‘a’, ‘and’, ‘tuple’])]
+[1, ‘BCN’, ['another', 'list'], set(['a', 'and', 'tuple'])]
 >>> myfunction = len
 >>> print myfunction (Example)
 4
 >>> print Example[-1]
-set([‘a’, ‘and’, ‘tuple’])
+set(['a', 'and', 'tuple'])
 >>> print Example[3]
-set([‘a’, ‘and’, ‘tuple’])
+set(['a', 'and', 'tuple'])
 
 ```
 
