@@ -41,12 +41,12 @@ IndentationError: unexpected indent
 ```
 Comments start with the pound (#) sign and are single-line, multi-line strings are used for multi-line comments.
 
-###Variables, operators and data types
+###Variables and operators
 
-Python is implicitly typed language (i.e. you don’t have to declare variables), case sensitive (i.e. Barcelona and BARCELONA are two different variables) and object-oriented (i.e. everything is an object). Help in Python is always available right in the interpreter. Type help() for interactive help, or help(object) for help about object. If you want to know how an object works, all you have to do is call help(<object>) Also useful are dir(), which shows you all the object’s methods:
+Python is implicitly typed language (i.e. you don’t have to declare variables), case sensitive (i.e. Barcelona and BARCELONA are two different variables) and object-oriented (i.e. everything is an object). Help in Python is always available right in the interpreter. Type *help()* for interactive help, or *help(object)* for help about object. If you want to know how an object works, all you have to do is call *help(\<object\>)* Also useful are *dir()*, which shows you all the object’s methods:
 
 
-``` python
+```
 
 >>> help (int)
 
@@ -66,7 +66,35 @@ class int(object)
 (type q to exit)
 
 ```
+The addition, subtraction, multiplication, and division operations work just like expected. In addition we can use the modulus operator (\%). All the modulus operator does is to divide the left side by the right side and get the remainder. The floor division operator (\/\/) just divides the number and rounds down. The double * is just an easy way to provide exponents to Python.
 
+Values are assigned with the sign “=”, in fact, objects are bound to names (the equality testing is done using two equal signs “==”). It is possible use the += and -= operators on many datatypes, strings included. You can also use multiple variables and swaps variables in one line. It doesn’t violate variable typing because values aren’t actually being assigned, but new objects are bound to the old names.
+
+``` 
+>>> IntegerVar = 10
+>>> IntegerVar += 10
+>>> print IntegerVar
+20
+>>> StringVar = “Welcome”
+>>> StringVar += ” to Barcelona”
+>>> print StringVar
+Welcome to Barcelona
+>>> IntegerVar, StringVar = StringVar, IntegerVar
+>>> print IntegerVar
+Welcome to Barcelona
+>>> print StringVar
+20
+>>> help (StringVar)
+Help on int object:
+
+class int(object)
+| int(x=0) -> int or long
+| int(x, base=10) -> int or long
+| 
+…
+
+```
+###Data types
 
 ## Development environment
 
