@@ -14,10 +14,10 @@ Before you start, you will need Python on your computer, but you may not need to
 
 ``` 
 torres@vm:~$ python
-Python 2.7.5+ (default, Sep 19 2013, 13:48:49)
-[GCC 4.8.1] on linux2
-Type “help”, “copyright”, “credits” or “license” for more information.
->>>
+Python 2.7.10 (default, Sep 23 2015, 04:34:14) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.72)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
 ```
 
 If you need to install Python , you may as well download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/). 
