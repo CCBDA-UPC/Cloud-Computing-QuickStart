@@ -29,13 +29,49 @@ Congratulations, good job!
 
 If you need to install Python, you can download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/).
 
+## Python basics
+###Line indentation
 
-Alternately, you can download and install a package, which comes with pre-installed libraries. I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads) available for Windows, OS X or Linux, 32- or 64-bit.
-Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default).
+Python has no mandatory statement termination characters and blocks are specified by indentation (there are no braces to indicate blocks of code for class and function definitions or flow control). Statements that expect an indentation level end in a colon (:). The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. Python will advise you if there is a unclear line indentation with the following warning:
+
+``` 
+
+IndentationError: unexpected indent
+
+```
+Comments start with the pound (#) sign and are single-line, multi-line strings are used for multi-line comments.
+
+###Variables, operators and data types
+
+Python is implicitly typed language (i.e. you don’t have to declare variables), case sensitive (i.e. Barcelona and BARCELONA are two different variables) and object-oriented (i.e. everything is an object). Help in Python is always available right in the interpreter. Type help() for interactive help, or help(object) for help about object. If you want to know how an object works, all you have to do is call help(<object>) Also useful are dir(), which shows you all the object’s methods:
+
+
+``` python
+
+>>> help (int)
+
+Help on int object:
+class int(object)
+| int(x=0) -> int or long
+| int(x, base=10) -> int or long
+| 
+…
+
+| Methods defined here:
+| 
+| __abs__(…)
+| x.__abs__() <==> abs(x)
+…
+
+(type q to exit)
+
+```
+
 
 ## Development environment
 
-As we mentioned earlier you can use your terminal/shell based environment. However I personally prefer iPython Notebooks from Anaconda because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial.
+Alternately, you can download and install a package, which comes with pre-installed libraries. I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads) available for Windows, OS X or Linux, 32- or 64-bit.
+Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default). I personally prefer iPython Notebooks from Anaconda because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial.
 
 You can start iPython notebook by writing “ipython notebook” on your terminal:
 ``` 
@@ -45,6 +81,5 @@ torres@vm:~$ ipython notebook
 You can create a new iPython notebook by simply clicking on the **new** button  in the top. The interface shows **In\[\*\]**  for inputs and **Out\[\*\]** for output. You can execute a code by pressing *“Shift + Enter”* or *“ALT + Enter”*, if you want to insert an additional row after.
 
 
-Before we deep dive into problem solving, lets take a step back and understand the basics of Python. As we know that data structures and iteration and conditional constructs form the crux of any language. In Python, these include lists, strings, tuples, dictionaries, for-loop, while-loop, if-else, etc. Let’s take a look at some of these.
 
 
