@@ -6,6 +6,13 @@ Although it is an interpreted language rather than compiled language, hence migh
 
 This hand-on will show some basic characteristics of Python to help to enter those **students of my course who have no prior knowledge of python**. 
 
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+## Headers
+
 ## How to install Python?
 
 We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on it is not important, the student should focus on learning Python as a language. For advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
@@ -360,9 +367,12 @@ Python uses the following sintax for read/write files:
 >>> f = open("test.txt","r") #opens file with name of "test.txt"
 >>> print(f.read())
 Barcelona, is the best city of the world.With an excellent weather.
->>> f.close
+>>> f.close()
 
 ```
+
+
+**First version: 30/11/2013. Updates 5/02/2014, 29/12/2016.**
 
 
 ## Development environment
@@ -378,5 +388,4 @@ torres@vm:~$ ipython notebook
 You can create a new iPython notebook by simply clicking on the **new** button  in the top. The interface shows **In\[\*\]**  for inputs and **Out\[\*\]** for output. You can execute a code by pressing *“Shift + Enter”* or *“ALT + Enter”*, if you want to insert an additional row after.
 
 
-**First version: 30/11/2013. Updates 5/02/2014, 29/12/2016.**
 
