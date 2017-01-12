@@ -400,7 +400,7 @@ To run a python script, simply use the following terminal command, where <file p
 
 ## Python Development Environment
  
-In https://github.com/jorditorresBCN/Python-Quick-Start we discover how to write our first programb in Python and how to install the required environment. 
+Until now we discover how to write our first programb in Python and how to install the required environment. 
 
 Alternately, we can download and install an environment that can simplify package management and deployment (which comes with pre-installed libraries). 
 
