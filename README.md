@@ -68,6 +68,7 @@ IndentationError: unexpected indent
 ```
 Comments start with the pound (#) sign and are single-line, multi-line strings are used for multi-line comments.
 
+<a name="variables"/>
 ###Variables and operators
 
 Python is implicitly typed language (i.e. you don’t have to declare variables), case sensitive (i.e. Barcelona and BARCELONA are two different variables) and object-oriented (i.e. everything is an object). Help in Python is always available right in the interpreter. Type *help()* for interactive help, or *help(object)* for help about object. If you want to know how an object works, all you have to do is call *help(\<object\>)* Also useful are *dir()*, which shows you all the object’s methods:
@@ -121,6 +122,7 @@ class int(object)
 …
 
 ```
+<a name="datatypes"/>
 ###Data types
 
 The data structures available in Python are lists, tuples and dictionaries. Lists are like one-dimensional arrays and we can also have lists of other lists or tuples. There are number of methods for lists (methods follow the list name). Tuples are immutable one-dimensional array.
@@ -188,6 +190,7 @@ Arrival: BA230 from Barcelona
 
 ```
 
+<a name="flow"/>
 ###Flow control statements
 Flow control statements are *if*, *for*, and *while*.  Often partnered with the if statement are else if and else. However, Python's else if is shortened into elif. After every conditional we have a colon. Next, we could proceed to a new line with number of spaces to tell Python we only want this code to be run when the previous conditional is satisfied. 
 
@@ -230,6 +233,7 @@ You can stop the loop using the “break” statement.
 
 In this example we use the range keyword (used to enumerate through members of a list and to obtain a list of numbers) to set the starting point and the point right after we would finish (this is precisely why the number 4 didn’t print). Python is quite fond of this idea of all the way up to a number, but not including it.
 
+<a name="functions"/>
 ###Functions
 We can define a function by using the keyword def before your function name. Optional arguments are set in the function declaration after the mandatory arguments by being assigned a default value. Functions can return a tuple (and using tuple unpacking you can effectively return multiple values).
 
@@ -252,6 +256,7 @@ Barcelona
 >>> 
 ```
 
+<a name="lambda"/>
 ###Lambda Functions
 Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called “lambda”. 
 
@@ -291,6 +296,7 @@ As you can see, Jordi() and George() do exactly the same and can be used in the 
 
 ```
 
+<a name="classes"/>
 ###Classes
 
 Python supports a limited form of multiple inheritance in classes.
@@ -318,6 +324,7 @@ Python supports a limited form of multiple inheritance in classes.
 ```
 In the previous example the first part defines a Class. def __init__ is the constructor function, the function that is called when a new instance of the class is created. The actual new instance is created in the line myCalc = Calculator(). The second part shows how to use this class in Python.
 
+<a name="iterators"/>
 ###Iterators
 
 Python define a object type for taking each item of something, one after another. Any time you use a loop, explicit or implicit, to go over a group of items, that is iteration
@@ -340,6 +347,7 @@ An iterator is an object with a next (Python 2) or __next__ (Python 3) method.
 >>> type (it)
 <class ‘list_iterator’>
 ```
+<a name="exceptions"/>
 ###Exceptions
 
 Exceptions in Python are handled with try-except blocks. See the following code for one example:
@@ -358,6 +366,7 @@ Invalid operation.
 
 ```
 
+<a name="importing"/>
 ###Importing
 External libraries are used with the import \[libname\] keyword. We can also use from \[libname\] import \[funcname\] for individual functions.
 
@@ -373,6 +382,7 @@ External libraries are used with the import \[libname\] keyword. We can also use
 ```
 In this example we are showing how first we are importing the whole library and then accessing and individual function of that library, and then how we can import just the individual function and use it directly without needing to write the library.
 
+<a name="files"/>
 ###Read/Write files
 Python uses the following sintax for read/write files:
 ```
@@ -388,6 +398,7 @@ Barcelona, is the best city of the world.With an excellent weather.
 >>> f.close()
 
 ```
+<a name="first"/>
 ## Warming up: Running your first Python program
 
 Using the “random” library, we write a code that generates a random number between 1 and 20. Then let the player guess the number introduced, displaying if the number is to low or high. The game ends either when the number is guesses correctly.
@@ -416,6 +427,7 @@ To run a python script, simply use the following terminal command, where <file p
  torres@vm:~$ python guessnumber.py
 ```
 
+<a name="environment"/>
 ## Python Development Environment
  
 Until now we discover how to write our first programb in Python and how to install the required environment. 
@@ -426,6 +438,7 @@ I would recommend for beginners downloading [Anaconda](https://www.continuum.io/
 
 Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default). I personally prefer iPython Notebooks from Anaconda because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial.
 
+<a name="anaconda"/>
 ### Download and installing Anaconda
 Visit the [Anaconda](https://www.continuum.io/downloads) web page and download the correct version of package acording your OS system and follow the instructions. 
 
@@ -438,6 +451,8 @@ torres@vm:~$ ipython notebook
 
 This will launch a new browser window (or a new tab) showing the Notebook Dashboard on a localhost to the URL of your Notebooks, by default http://127.0.0.1:8888. Windows users need to open up their Command Prompt. You'll see a dashboard with all your Notebooks. You can launch your Notebooks from this control panel that allows (among other things) to select which notebook to open or create a new one. 
 
+<a name="notebook"/>
+### iPython notebooks
 You can create a new iPython notebook by simply clicking on the **new** button  in the top. The interface shows **In\[\*\]**  for inputs and **Out\[\*\]** for output. You can execute a code by pressing *“Shift + Enter”* or *“ALT + Enter”*, if you want to insert an additional row after.
 
 
