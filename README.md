@@ -425,6 +425,6 @@ You can create a new iPython notebook by simply clicking on the **new** button  
 
 ![ipythonnotebookExample](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/img/ipythonnotebookExample.png)
 
-
+Open the [GuessNumber.ipynb](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/GuessNumber.ipynb) file with your **Anaconda** environment. You can copy \& paste the code in **In\[1\]** and try.
 
 **First version: 30/11/2013. Updates 5/02/2014, 29/12/2016.**
