@@ -1,17 +1,25 @@
 # Python Quick Start
-Table of contents
------------------
+
+* [About this hands-on](#about)
 * [How to Install Python](#install)
 * [Python Basics](#basics)
     * [Line indentation](#indentation)
+    * [Variables and operators](#variables)
+    * [Data types](#datatypes)
+    * [Flow control statements](#flow)
+    * [Functions](#functions)
+    * [Lambda Functions](#lambda)
+    * [Classes](#classes)
+    * [Iterators](#iterators)
+    * [Exceptions](#exceptions)
+    * [Importing](#importing)
+    * [Read/Write files](#files)
+* [Warming up: Running your first Python program](#first)
+* [Python Development Environment](#environment)
+    * [Download and installing Anaconda](#anaconda)
+    * [New iPython notebook](#notebook)
 
-
-- How to Install Python
-- Python Basics
-- Warming up: Running your first Python program
-- Python Development Environment
-
-
+<a name="about"/>
 Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
 
 Although it is an interpreted language rather than compiled language, hence might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve, Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly. 
