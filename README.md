@@ -13,12 +13,12 @@
     * [Iterators](#iterators)
     * [Exceptions](#exceptions)
     * [Importing](#importing)
+    * [Python packages](#packages)
     * [Read/Write files](#files)
 * [Warming up: Running your first Python program](#first)
 * [Python Development Environment](#environment)
     * [Download and installing Anaconda](#anaconda)
     * [New iPython notebook](#notebook)
-* [Python packages](#packages)
 
 <a name="about"/>
 Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
@@ -383,6 +383,19 @@ External libraries are used with the import \[libname\] keyword. We can also use
 ```
 In this example we are showing how first we are importing the whole library and then accessing and individual function of that library, and then how we can import just the individual function and use it directly without needing to write the library.
 
+
+<a name="packages"/>
+## Python Packages
+We already know how to import packages. You can find near 100.000 packages [here](https://pypi.python.org/pypi). However let me list some of them as a example, that we could need for a scientific computation and data analysis:
+
+* **NumPy** and **SciPy** stands for Numerical Python and Scientific Python respectively. The most powerful feature of NumPy is n-dimensional array. This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general programming language to a very powerful matrix-oriented one.
+
+* **Matplotlib** for plotting vast variety of graphs, starting from histograms to line plots to heat plots. You can use Pylab feature in ipython notebook ( `ipython notebook –pylab = inline` ) to use these plotting features inline (we will use this in the next section).
+
+* **Pandas** for structured data operations and manipulations. Pandas brought `data.frames` to python. Data.frames are one of the core concepts in modern data analysis.
+
+* **Scikit_Learn** for machine learning. Built on top of NumPy, SciPy and matplotlib, this library contains a lot of effiecient tools for machine learning and statistical modeling.
+
 <a name="files"/>
 ###Read/Write files
 Python uses the following sintax for read/write files:
@@ -462,19 +475,6 @@ You can create a new iPython notebook by simply clicking on the **new** button  
 Open the [GuessNumber.ipynb](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/GuessNumber.ipynb) file with your **Anaconda** environment. You can copy \& paste the code at **In\[1\]**, press “Shift + Enter” and introduce your guess number.
 
 
-<a name="packages"/>
-## Python Packages
-We already know how to import packages. You can find near 100.000 packages [here](https://pypi.python.org/pypi). However let me list some of them as a example, that we could need for a scientific computation and data analysis:
-
-* **NumPy** and **SciPy** stands for Numerical Python and Scientific Python respectively. The most powerful feature of NumPy is n-dimensional array. This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general programming language to a very powerful matrix-oriented one.
-
-* **Matplotlib** for plotting vast variety of graphs, starting from histograms to line plots to heat plots. You can use Pylab feature in ipython notebook ( `ipython notebook –pylab = inline` ) to use these plotting features inline (we will use this in the next section).
-* **Matplotlib** for plotting vast variety of graphs, starting from histograms to line plots to heat plots. You can use Pylab feature in 
-ipython notebook (ipython notebook –pylab = inline) to use these plotting features inline (we will use this in the next section).
-
-* **Pandas** for structured data operations and manipulations. Pandas brought `data.frames` to python. Data.frames are one of the core concepts in modern data analysis.
-
-* **Scikit_Learn** for machine learning. Built on top of NumPy, SciPy and matplotlib, this library contains a lot of effiecient tools for machine learning and statistical modeling.
 
 
 **First version: 30/11/2013. Updates 5/02/2014, 29/12/2016.**
