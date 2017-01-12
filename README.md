@@ -1,4 +1,10 @@
 # Python Quick Start
+Table of contents
+=================
+
+  * [How to Install Python](#How-to-Install-Python)
+  * [HPython Basics](#Python-Basics)
+
 - How to Install Python
 - Python Basics
 - Warming up: Running your first Python program
