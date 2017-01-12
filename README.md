@@ -1,10 +1,12 @@
 # Python Quick Start
 Table of contents
-=================
+-----------------
+* [How to Install Python](#How-to-Install-Python)
+* [Python Basics](#Python-Basics)
+    * [Line indentation](#Line-indentation)
 
-  * [How to Install Python](#How-to-Install-Python)
-  * [HPython Basics](#Python-Basics)
-
+Line indentation
+----------------
 - How to Install Python
 - Python Basics
 - Warming up: Running your first Python program
@@ -19,7 +21,8 @@ This hand-on will show some basic characteristics of Python to help to enter tho
 
 
 
-## How to install Python?
+How to install Python
+=====================
 
 We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on it is not important, the student should focus on learning Python as a language. For advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
 
@@ -44,8 +47,11 @@ Congratulations, good job!
 
 If you need to install Python, you can download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/).
 
-## Python basics
-###Line indentation
+Python Basics
+=============
+
+Line indentation
+----------------
 
 Python has no mandatory statement termination characters and blocks are specified by indentation (there are no braces to indicate blocks of code for class and function definitions or flow control). Statements that expect an indentation level end in a colon (:). The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. Python will advise you if there is a unclear line indentation with the following warning:
 
