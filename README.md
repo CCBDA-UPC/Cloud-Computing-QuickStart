@@ -1,4 +1,9 @@
 # Python Quick Start
+- How to Install Python
+- Python Basics
+- Warming up: Running your first Python program
+- Python Development Environment
+
 
 Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
 
@@ -365,6 +370,52 @@ Barcelona, is the best city of the world.With an excellent weather.
 >>> f.close()
 
 ```
+## Warming up: Running your first Python program
 
+Using the “random” library, we write a code that generates a random number between 1 and 20. Then let the player guess the number introduced, displaying if the number is to low or high. The game ends either when the number is guesses correctly.
+
+``` 
+import random
+randomNumber = random.randrange(0,20)
+print("Random number between 0 and 20 has been generated")
+guessed = False
+while guessed==False:
+    userNumber = int(input("Introduce your guess number: "))
+    if userNumber==randomNumber:
+        guessed = True
+        print("Excellent, Well done!")
+    elif userNumber>randomNumber:
+        print("Try one more time, a bit lower")
+    elif userNumber < randomNumber:
+        print("Try one more time, a bit higher")
+print("Yes, you can!")
+
+```
+
+To run a python script, simply use the following terminal command, where <file path> is the path to the file containing your script (python scripts must have the .py extension):
+
+```
+ python file_path ;
+```
+
+## Python Development Environment
+ 
+In https://github.com/jorditorresBCN/Python-Quick-Start we discover how to write our first programb in Python and how to install the required environment. 
+
+Alternately, we can download and install an environment that can simplify package management and deployment (which comes with pre-installed libraries). 
+
+I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads) available for Windows, OS X or Linux, 32- or 64-bit. Anaconda is a freemium open source distribution of the Python and R programming languages for large-scale data processing, predictive analytics, and scientific computing.
+
+Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default). I personally prefer iPython Notebooks from Anaconda because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial.
+
+### Download and installing Anaconda
+Visit the [Anaconda](https://www.continuum.io/downloads) web page and download the correct version of package acording your OS system and follow the instructions. 
+
+After your installation proces is finished you can start iPython notebook by writing `ipython notebook` on your terminal:
+``` 
+torres@vm:~$ ipython notebook
+
+```
+You can create a new iPython notebook by simply clicking on the **new** button  in the top. The interface shows **In\[\*\]**  for inputs and **Out\[\*\]** for output. You can execute a code by pressing *“Shift + Enter”* or *“ALT + Enter”*, if you want to insert an additional row after.
 
 **First version: 30/11/2013. Updates 5/02/2014, 29/12/2016.**
