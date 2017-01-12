@@ -395,7 +395,7 @@ print("Yes, you can!")
 To run a python script, simply use the following terminal command, where <file path> is the path to the file containing your script (python scripts must have the .py extension):
 
 ```
- python file_path ;
+ torres@vm:~$ python guessnumber.py
 ```
 
 ## Python Development Environment
