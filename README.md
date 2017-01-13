@@ -458,7 +458,7 @@ Visit the [Anaconda](https://www.continuum.io/downloads) web page and download t
 
 After your installation proces is finished you can start iPython notebook by writing `ipython notebook` on your terminal:
 ``` 
-torres@vm:~$ ipython notebook
+torres@vm:~$ jupyter notebook
 
 ```
 
