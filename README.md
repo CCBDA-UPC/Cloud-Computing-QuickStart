@@ -1,5 +1,7 @@
 # Python Quick Start
 
+>Python is the programming choice language for my courses.
+
 * [About this hands-on](#about)
 * [How to Install Python](#install)
 * [Python Basics](#basics)
