@@ -27,12 +27,8 @@ Although it is an interpreted language rather than compiled language, hence migh
 
 Python is the programming choice language for many of my courses at the *Facultat d'Informàtica de Barcelona*  (Barcelona School of Informatics, FIB), the teaching institution of the *Universitat Politècnica de Catalunya - BarcelonaTech (UPC)* in charge of the university education in the fields of computer science, computer engineering, and related matters.
 
-This hand-on is intended to be a "Simple Beginner’s guide" that review the basic characteristics of Python to help those **students of any of my Master courses who have no prior knowledge of Python** to learn by themselve before start the courses.
+This hand-on is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the basic characteristics of Python to help those **students of any of my Master Courses who have no prior knowledge of Python** to learn by themselve the required background knowledge to follow the courses.
 
-<a name="install"/>
-The Facultat d'Informàtica de Barcelona (FIB) is, since the academic year 1977-78, the teaching
-institution of the Universitat Politècnica de Catalunya - BarcelonaTech (UPC) in charge of the university
-education in the fields of computer science, computer engineering, and related matters.
 
 <a name="install"/>
 ##How to install Python
