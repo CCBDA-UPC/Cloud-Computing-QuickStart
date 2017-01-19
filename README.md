@@ -1,7 +1,5 @@
 # Python Quick Start
 
->Python is the programming choice language for my courses.
-
 * [About this hands-on](#about)
 * [How to Install Python](#install)
 * [Python Basics](#basics)
@@ -27,8 +25,14 @@ Python is a widely used programming language (source code is now available under
 
 Although it is an interpreted language rather than compiled language, hence might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve, Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly. 
 
-This hand-on will show some basic characteristics of Python to help to enter those **students of my course who have no prior knowledge of python**. 
+Python is the programming choice language for many of my courses at the *Facultat d'Informàtica de Barcelona*  (Barcelona School of Informatics, FIB), the teaching institution of the *Universitat Politècnica de Catalunya - BarcelonaTech (UPC)* in charge of the university education in the fields of computer science, computer engineering, and related matters.
 
+This hand-on is intended to be a "Simple Beginner’s guide" that review the basic characteristics of Python to help those **students of any of my Master courses who have no prior knowledge of Python** to learn by themselve before start the courses.
+
+<a name="install"/>
+The Facultat d'Informàtica de Barcelona (FIB) is, since the academic year 1977-78, the teaching
+institution of the Universitat Politècnica de Catalunya - BarcelonaTech (UPC) in charge of the university
+education in the fields of computer science, computer engineering, and related matters.
 
 <a name="install"/>
 ##How to install Python
