@@ -390,16 +390,18 @@ Or, in pure Markdown, but losing the image sizing and border:
 Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. 
 Markdown provides backslash escapes for the following characters:
 
-| **\\**   | backslash| 
-| **\`**   | backtick| 
-| \*    | asterisk| 
-| **\_**   | underscore| 
-| **\{\}**  | curly braces| 
-| **\[\]**  | square brackets| 
-| **\(\)**  | parentheses| 
-| **\#**   | hash mark| 
-| **\+**   | plus sign| 
-| **\-**   | minus sign (hyphen)| 
-| **\.**   | dot| 
-| **\!**   | exclamation mark| 
+Character | Description
+--- | ---
+ **\\**   | backslash
+ **\`**   | backtick
+ \*    | asterisk
+ **\_**   | underscore
+ **\{\}**  | curly braces
+ **\[\]**  | square brackets
+ **\(\)**  | parentheses
+ **\#**   | hash mark
+ **\+**   | plus sign
+ **\-**   | minus sign (hyphen)
+ **\.**   | dot
+ **\!**   | exclamation mark
 
