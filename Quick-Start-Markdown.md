@@ -1,6 +1,6 @@
 # Markdown syntax
 
-Markdown is a way to style text on the web very popular between computer science engineers. Monstly, Markdown is just regular text with a few non-alphabetic characters thorwn in, like \# or \*. Github uses its own version of the Markdown syntax tjat provides an additional set of useful features. This is a subset of Github-flavored Markdown syntax that I'm using.
+Markdown is a way to style text on the web very popular between computer science engineers because it is intended to be as easy-to-read and easy-to-write as is feasible. Monstly, Markdown is just regular text with a few non-alphabetic characters thorwn in, like \# or \*. Github uses its own version of the Markdown syntax tjat provides an additional set of useful features. This is a subset of Github-flavored Markdown syntax that I'm using.
 
 # Markdown codes for "Headers"
 We have 6 levels:
