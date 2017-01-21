@@ -141,6 +141,10 @@ URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
 
 [This is an inline-style link to my web page](http://www.JordiTorres.Barcelona)
 
+```
+URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
+```
+
 URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
 
 You can also use numbers or text for reference-style a link:
@@ -158,7 +162,6 @@ We can do it either in inline-style or reference-style:
 ```
 ![UPC Barcelona Tech](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
 
-Reference-style: 
 ![UPC Barcelona Tech][UPC-logo]
 
 [UPC-logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "UPC logo"
