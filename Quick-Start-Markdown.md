@@ -133,25 +133,25 @@ Unordered list can use asterisks, or minuses, or pluses.
 # Markdown codes for "Links"
 I'm using two ways to create links:
 ```
-[This is an inline-style link](https://www.JordiTorres.Barcelona)
+[This is an inline-style link](http://www.JordiTorres.Barcelona)
 
-URLs will automatically get turned into links: https://www.JordiTorres.Barcelona
+URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
 
 ```
 
-[This is an inline-style link to my web page](https://www.JordiTorres.Barcelona)
+[This is an inline-style link to my web page](http://www.JordiTorres.Barcelona)
 
-URLs will automatically get turned into links: https://www.JordiTorres.Barcelona
+URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
 
 You can also use numbers or text for reference-style a link:
 ```
 [This is a reference-style link to my web page][text_or_number]
 
-[text_or_number]: https://www.JordiTorres.Barcelona
+[text_or_number]: http://www.JordiTorres.Barcelona
 ```
 [This is a reference-style link to my web page][text_or_number]
 
-[text_or_number]: https://www.JordiTorres.Barcelona
+[text_or_number]: http://www.JordiTorres.Barcelona
 
 # Markdown codes for "Images"
 We can do it either in inline-style or reference-style:
@@ -169,5 +169,5 @@ Reference-style:
 Reference-style: 
 ![UPC Barcelona Tech][UPC-logo]
 
-[UPC-logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "UPC logo"
+[UPC-logo]: https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png  "UPC logo"
 
