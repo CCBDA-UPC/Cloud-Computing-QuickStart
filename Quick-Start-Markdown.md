@@ -56,6 +56,16 @@ Italic+Bold with **asterisks and _underscores_**.
 
 Strikethrough with two tildes. ~~Scratch this.~~
 
+
+Highlighting code inline isn't part of the Markdown spec, however Github support it, using `back-ticks around` the especific code. 
+
+```no-highlight
+Inline `code` has `back-ticks around` it.
+```
+
+Inline `code` has `back-ticks around` it.
+
+
 # Markdown codes for "Ordered Lists"
 Actual numbers don't matter in an ordered list, just that it's a number. Could content a unordered or ordered list. A text box can be aligned with the above item as shown in the example (keep a :
 ```
@@ -157,6 +167,18 @@ You can also use numbers or text for reference-style a link:
 
 [text_or_number]: http://www.JordiTorres.Barcelona
 
+Finally, despite it isn't part of the Markdown spec, if you want to link in a specific posigion in the same page `.md` you can create a label as:
+
+```
+<a name="code"/>
+```
+in the correct position and use
+```
+[Code](#code)  
+```
+<a name="code"/>
+[Code](#code)  
+
 # Markdown codes for "Images"
 We can do it either in inline-style or reference-style:
 ```
@@ -177,14 +199,11 @@ We can do it either in inline-style or reference-style:
 
 
 
+# Markdown codes for "Code"
 
-# VAIG PER AQUI
+# Markdown codes for "Highlighting Code inline "
 
-
-<a name="code"/>
-## Code and Syntax Highlighting
-
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+Highlighting code inline isn't part of the Markdown spec, however Github support it, using `back-ticks around` the especific code. 
 
 ```no-highlight
 Inline `code` has `back-ticks around` it.
