@@ -67,9 +67,14 @@ Actual numbers don't matter in an ordered list, just that it's a number. Could c
   * Unordered sub-list item 1
   * Unordered sub-list item 2
   
+    Some text that should be aligned with the above item.
+   
+    Another text that should be aligned with the above item.  
+   
 7. List Item 4
 
    Some text that should be aligned with the above item.
+   
    Another text that should be aligned with the above item.
 ```
 
@@ -80,10 +85,15 @@ Actual numbers don't matter in an ordered list, just that it's a number. Could c
 5. List Item 3
   * Unordered sub-list item 1
   * Unordered sub-list item 2
-  
+   
+    Some text that should be aligned with the above item.
+   
+    Another text that should be aligned with the above item.  
+    
 7. List Item 4
    
    Some text that should be aligned with the above item.
+   
    Another text that should be aligned with the above item.
  
 # Markdown codes for "Unordered Lists"
@@ -101,6 +111,7 @@ Unordered list can use asterisks, or minuses, or pluses.
 - List Item 4
    
    Some text that should be aligned with the above item.
+   
    Another text that should be aligned with the above item.
 
 ```
@@ -116,6 +127,7 @@ Unordered list can use asterisks, or minuses, or pluses.
 - List Item 4
    
    Some text that should be aligned with the above item.
+   
    Another text that should be aligned with the above item.
 
 
