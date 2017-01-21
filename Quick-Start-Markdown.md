@@ -130,4 +130,19 @@ Unordered list can use asterisks, or minuses, or pluses.
    
    Another text that should be aligned with the above item.
 
+# Markdown codes for "Links"
+I'm using two ways to create links:
+```
+[I'm an inline-style link](https://www.JordiTorres.Barcelona)
+
+URLs will automatically get turned into links: https://www.JordiTorres.Barcelona
+
+```
+
+[I'm an inline-style link](https://www.JordiTorres.Barcelona)
+
+URLs will automatically get turned into links: https://www.JordiTorres.Barcelona
+
+# Markdown codes for "Images"
+
 
