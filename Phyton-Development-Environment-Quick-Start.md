@@ -40,13 +40,9 @@ This will launch a new browser window (or a new tab) showing the Notebook Dashbo
 
 <a name="notebook"/>
 ### iPython notebooks
-You can create a new iPython notebook by simply clicking on the **new** button  in the top. The interface shows **In\[\*\]**  for inputs and **Out\[\*\]** for output. You can execute a code by pressing *“Shift + Enter”* or *“ALT + Enter”*, if you want to insert an additional row after.
-
+You can create a new iPython notebook by simply clicking on the **new** button  in the top. The interface shows **In\[\*\]**  for inputs and **Out\[\*\]** for output. You can execute a code by pressing *“Shift + Enter”* or *“ALT + Enter”*, if you want to insert an additional row after.  Copy \& paste the previous code example `GuessNumber.py` at **In\[1\]**, press “Shift + Enter” and introduce your guess number.
 
 ![ipythonnotebookExample](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/img/ipythonnotebookExample.png)
 
-Open the [GuessNumber.ipynb](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/GuessNumber.ipynb) file with your **Anaconda** environment. You can copy \& paste the code at **In\[1\]**, press “Shift + Enter” and introduce your guess number.
+Open the [NLTK.ipynb](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/NLTK.ipynb) file with your **Anaconda** environment. You can warm-up practicing with Anaconda using some features of the package NLTK that we will use later.
 
-# FALTA PART DE (afegir part de NKTK) !!!!!!!
-
-Now, we are ready to start a new hands-on. Enjoy!
