@@ -1,4 +1,4 @@
-# Python Quick Start
+# Python Development Environment Quick Start
 
 * [About this hands-on](#about)
 * [Python Development Environment](#environment)
@@ -6,7 +6,7 @@
     * [New iPython notebook](#notebook)
 
 <a name="about"/>
-Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
+(((canviar))) Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
 
 Although it is an interpreted language rather than compiled language, hence might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve, Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly. 
 
@@ -49,5 +49,3 @@ Open the [GuessNumber.ipynb](https://github.com/jorditorresBCN/Python-Quick-Star
 
 
 Now, we are ready to start a new hands-on. Enjoy!
-
-**First version: 30/11/2013. Updates 5/02/2014, 29/12/2016.**
