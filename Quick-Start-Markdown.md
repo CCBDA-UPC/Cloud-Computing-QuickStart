@@ -169,7 +169,7 @@ We can do it either in inline-style or reference-style:
 ```
 ![UPC Barcelona Tech](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
 
-Reference-style: 
+
 ![UPC Barcelona Tech][UPC-logo]
 
 [UPC-logo]: https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png  "UPC logo"
