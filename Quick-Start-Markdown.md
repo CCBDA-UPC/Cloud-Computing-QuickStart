@@ -57,7 +57,7 @@ Italic+Bold with **asterisks and _underscores_**.
 Strikethrough with two tildes. ~~Scratch this.~~
 
 
-Highlighting code inline isn't part of the Markdown spec, however Github support it, using `back-ticks around` the especific code. 
+Highlighting code inline isn't part of the Markdown spec, however Github support it, using `back-ticks around` the especific code: 
 
 ```no-highlight
 Inline `code` has `back-ticks around` it.
@@ -199,17 +199,7 @@ We can do it either in inline-style or reference-style:
 
 
 
-# Markdown codes for "Code"
-
-# Markdown codes for "Highlighting Code inline "
-
-Highlighting code inline isn't part of the Markdown spec, however Github support it, using `back-ticks around` the especific code. 
-
-```no-highlight
-Inline `code` has `back-ticks around` it.
-```
-
-Inline `code` has `back-ticks around` it.
+# Markdown codes for "Bloc code"
 
 Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
 
@@ -246,16 +236,20 @@ No language indicated, so no syntax highlighting in Markdown Here (varies on Git
 But let's throw in a <b>tag</b>.
 ```
 
-
-<a name="tables"/>
-## Tables
-
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+# Markdown codes for "Tables"
+You can add tables using colons to align columns: 
 
 ```no-highlight
-Colons can be used to align columns.
 
 | Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+```
+
+| Tables        | Are           | Cool |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
@@ -265,21 +259,12 @@ There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown.
 
+```
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 ```
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
 Markdown | Less | Pretty
 --- | --- | ---
@@ -423,4 +408,3 @@ Character | Description
  **\-**   | minus sign (hyphen)
  **\.**   | dot
  **\!**   | exclamation mark
-
