@@ -13,9 +13,10 @@
     * [Iterators](#iterators)
     * [Exceptions](#exceptions)
     * [Importing](#importing)
-    * [Python packages](#packages)
-    * [Pip and virtualenv](#pip)
     * [Read/Write files](#files)
+* [Python Environment](#packages)
+    * [Python packages](#packages)
+    * [Pip and virtualenv](#pip)
 * [Warming up: Running your first Python program](#first)
 
 <a name="about"/>
@@ -384,8 +385,26 @@ External libraries are used with the import \[libname\] keyword. We can also use
 In this example we are showing how first we are importing the whole library and then accessing and individual function of that library, and then how we can import just the individual function and use it directly without needing to write the library.
 
 
+
+<a name="files"/>
+###Read/Write files
+Python uses the following sintax for read/write files:
+```
+>>> f = open("test.txt","w") #opens file with name of "test.txt"
+>>> f.write("Barcelona, ")
+>>> f.write("is the best city of the world.")
+>>> f.write("With an excellent weather.")
+>>> f.close()
+>>> 
+>>> f = open("test.txt","r") #opens file with name of "test.txt"
+>>> print(f.read())
+Barcelona, is the best city of the world.With an excellent weather.
+>>> f.close()
+
+```
+## Python Environment
 <a name="packages"/>
-# Python Packages
+### Python Packages
 We already know how to import packages. You can find near 100.000 packages [here](https://pypi.python.org/pypi). However let me list some of them as a example, that we could need for a scientific computation and data analysis:
 
 * **NumPy** and **SciPy** stands for Numerical Python and Scientific Python respectively. The most powerful feature of NumPy is n-dimensional array. This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general programming language to a very powerful matrix-oriented one.
@@ -432,22 +451,6 @@ command:
 $ deactivate
 ```
 
-<a name="files"/>
-###Read/Write files
-Python uses the following sintax for read/write files:
-```
->>> f = open("test.txt","w") #opens file with name of "test.txt"
->>> f.write("Barcelona, ")
->>> f.write("is the best city of the world.")
->>> f.write("With an excellent weather.")
->>> f.close()
->>> 
->>> f = open("test.txt","r") #opens file with name of "test.txt"
->>> print(f.read())
-Barcelona, is the best city of the world.With an excellent weather.
->>> f.close()
-
-```
 <a name="first"/>
 ## Warming up: Running your first Python program
 
