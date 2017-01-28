@@ -6,21 +6,12 @@
     * [New iPython notebook](#notebook)
 
 <a name="about"/>
-(((canviar))) Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
-
-Although it is an interpreted language rather than compiled language, hence might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve, Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly. 
-
-Python is the programming choice language for many of my courses at the *Facultat d'Informàtica de Barcelona*  (Barcelona School of Informatics, FIB), the teaching institution of the *Universitat Politècnica de Catalunya - BarcelonaTech (UPC)* in charge of the university education in the fields of computer science, computer engineering, and related matters.
-
-This hand-on is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the basic characteristics of Python to help those **students of any of my Master Courses who have no prior knowledge of Python** to learn by themselve the required background knowledge to follow the courses.
+Until now we discover how to write our first program in Python and how to install the required environment.  Alternately, we can download and install an environment that can simplify package management and deployment (which comes with pre-installed libraries). 
+This hand-on is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the Python Development Environments.
 
 <a name="environment"/>
 ## Python Development Environment
  
-Until now we discover how to write our first programb in Python and how to install the required environment. 
-
-Alternately, we can download and install an environment that can simplify package management and deployment (which comes with pre-installed libraries). 
-
 I would recommend for beginners downloading [Anaconda](https://www.continuum.io/downloads) available for Windows, OS X or Linux, 32- or 64-bit. Anaconda is a freemium open source distribution of the Python and R programming languages for large-scale data processing, predictive analytics, and scientific computing.
 
 Another option could be [Enthought Canopy Express](https://store.enthought.com/downloads/#default). I personally prefer iPython Notebooks from Anaconda because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial.
@@ -44,5 +35,4 @@ You can create a new iPython notebook by simply clicking on the **new** button  
 
 ![ipythonnotebookExample](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/img/ipythonnotebookExample.png)
 
-Open the [NLTK.ipynb](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/NLTK.ipynb) file with your **Anaconda** environment. You can warm-up practicing with Anaconda using some features of the package NLTK that we will use later.
 
