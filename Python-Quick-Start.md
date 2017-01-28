@@ -425,11 +425,11 @@ We already know how to import packages. You can find near 100.000 packages [here
    1
 ```
   
-    This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general programming language to a very powerful matrix-oriented one.
+      This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general programming language to a very powerful matrix-oriented one.
+
+* **Pandas** is a library for structured data operations and manipulations. It is built on top of NumPy and it offers convenient data structures, called *Series* and *DataFrame*, which allow us to perform data manipulation in a flexible and concise way.
 
 * **Matplotlib** for plotting vast variety of graphs, starting from histograms to line plots to heat plots. You can use Pylab feature in ipython notebook ( `ipython notebook –pylab = inline` ) to use these plotting features inline (we will use this in the next section).
-
-* **Pandas** for structured data operations and manipulations. Pandas brought `data.frames` to python. Data.frames are one of the core concepts in modern data analysis.
 
 * **Scikit_Learn** for machine learning. Built on top of NumPy, SciPy and matplotlib, this library contains a lot of effiecient tools for machine learning and statistical modeling.
 
