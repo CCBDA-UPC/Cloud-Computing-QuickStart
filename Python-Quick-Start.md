@@ -409,7 +409,23 @@ Barcelona, is the best city of the world.With an excellent weather.
 ### Python Packages
 We already know how to import packages. You can find near 100.000 packages [here](https://pypi.python.org/pypi). However let me list some of them as a example, that we could need for a scientific computation and data analysis:
 
-* **NumPy** and **SciPy** stands for Numerical Python and Scientific Python respectively. The most powerful feature of NumPy is n-dimensional array. This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general programming language to a very powerful matrix-oriented one.
+* **NumPy** and **SciPy** stands for Numerical Python and Scientific Python respectively. The most powerful feature of NumPy is n-dimensional array
+   The following snippet, run from the interactive interpreter, showcases the creation of a simple array with NumPy:
+   ```
+   >>> import numpy as np
+   >>> data = [1, 2, 3] # a list of int
+   >>> my_arr = np.array(data)
+   >>> my_arr
+   array([1, 2, 3])
+   >>> my_arr.shape
+   (3,)
+   >>> my_arr.dtype
+   dtype('int64')
+   >>> my_arr.ndim
+   1
+   ```
+  
+  This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general programming language to a very powerful matrix-oriented one.
 
 * **Matplotlib** for plotting vast variety of graphs, starting from histograms to line plots to heat plots. You can use Pylab feature in ipython notebook ( `ipython notebook –pylab = inline` ) to use these plotting features inline (we will use this in the next section).
 
