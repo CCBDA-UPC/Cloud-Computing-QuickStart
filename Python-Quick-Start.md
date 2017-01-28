@@ -14,7 +14,7 @@
     * [Exceptions](#exceptions)
     * [Importing](#importing)
     * [Read/Write files](#files)
-* [Python Environment](#packages)
+* [Python Environment](#environment)
     * [Python packages](#packages)
     * [Pip and virtualenv](#pip)
 * [Warming up: Running your first Python program](#first)
@@ -402,6 +402,8 @@ Barcelona, is the best city of the world.With an excellent weather.
 >>> f.close()
 
 ```
+<a name="#environment"/>
+
 ## Python Environment
 <a name="packages"/>
 ### Python Packages
@@ -482,4 +484,4 @@ To run a python script, simply use the following terminal command, where <file p
 
 Now, we are ready to start a new hands-on. Enjoy!
 
-**First version: 30/11/2013. Updates 5/02/2014, 29/12/2016.**
+**First version: 30/11/2013. Updates 5/02/2014, 29/01/2017.**
