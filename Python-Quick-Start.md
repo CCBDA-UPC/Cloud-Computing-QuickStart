@@ -14,6 +14,7 @@
     * [Exceptions](#exceptions)
     * [Importing](#importing)
     * [Python packages](#packages)
+    * [Pip and virtualenv](#pip)
     * [Read/Write files](#files)
 * [Warming up: Running your first Python program](#first)
 
@@ -394,6 +395,42 @@ We already know how to import packages. You can find near 100.000 packages [here
 * **Pandas** for structured data operations and manipulations. Pandas brought `data.frames` to python. Data.frames are one of the core concepts in modern data analysis.
 
 * **Scikit_Learn** for machine learning. Built on top of NumPy, SciPy and matplotlib, this library contains a lot of effiecient tools for machine learning and statistical modeling.
+
+<a name="pip"/>
+
+### Pip and virtualenv
+virtualenv is a tool for creating and managing different isolated Python environments. By using an isolated virtual environment, we can maintain multiple projects that require different configurations and easily switch from one to the other.  To install `virtualenv` we can use pip from a terminal (Linux/Unix) or command prompt (Windows):
+
+```
+$ [sudo] pip install virtualenv
+```
+Once `virtualenv` is available, we can define a separate Python environment for each project where dependencies are installed in isolation, without tampering with the global environment. In order to set up a virtual environment ( `my_env` ) you can follow these steps:
+
+```
+$ mkdir my_new_project 
+$ cd my_new_project 
+$ virtualenv my_env 
+```
+In order to activate the environment, we can type the following command:
+
+```
+$ source my_env/bin/activate
+```
+Once the environment is active, the following will be added on the prompt:
+
+```
+(my_env)$
+```
+Python packages can be installed for this particular environment using `pip`:
+
+```
+(my_env)$ pip install [package-name]
+```
+When we want to deactivate the virtual environment, we can simply type the following
+command:
+```
+$ deactivate
+```
 
 <a name="files"/>
 ###Read/Write files
