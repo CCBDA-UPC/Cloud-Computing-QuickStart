@@ -1,15 +1,7 @@
 # Getting Started in the Cloud (with AWS)
 
-Està tot aquí
-
-### http://jorditorres.org/hands-on-starting-in-the-cloud/
+Amazon Elastic Compute Cloud (EC2) is the Amazon Web Service you can use to create and run virtual machines in the cloud (AWS call these virtual machines 'instances'). You can follow this [step-by-step guide to launch a Linux virtual machine](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/) on Amazon EC2 within an [AWS Free Tier](https://aws.amazon.com/free/).
 
 
-i també treure-ho d'aquí:
-
-A comprehensive beginner’s guide to start ML with Amazon Web Services (AWS)
+#PENDENT ESBORRAR: http://jorditorres.org/hands-on-starting-in-the-cloud/
 https://www.analyticsvidhya.com/blog/2016/05/complete-tutorial-work-big-data-amazon-web-services-aws/
-(o directament d'aquí????)
-
-
-(o alternativament Ocean????)
