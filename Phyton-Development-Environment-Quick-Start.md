@@ -55,7 +55,7 @@ Once we have an environment created, we can use `source activate my_env` to ente
 When we are in the environment, we will see the environment name in the terminal prompt between brakets. Something like `(my_env) ~ $`. The environment has only a few packages installed by default, plus the ones you installed when creating it. You can check this out with conda list. Installing packages in the environment is the same as before, use `conda install package_name`. Only this time, the specific packages you install will only be available when you're in the environment. 
 
 ### Deactivate environments
-To leave the environment, type source deactivate (on OSX/Linux). On Windows, use deactivate.ç
+To leave the environment, type source `deactivate` on OSX or Linux. On Windows, use `deactivate`.
 
 ### Listing environments
 You can use `conda env list` to list out all the environments you've created. 
