@@ -2,17 +2,13 @@
 
 * [About this hands-on](#about)
 * [Anaconda](#AnacondaChapter)
-    * [Conda](#conda)
-    * [Managing Packages](#managing)
-    * [Environments](#environments)
 * [Download and installing Anaconda](#installing)
 * [Managing environments](#managing)
-    * [Download and installing Anaconda](#anaconda)
-    * [New iPython notebook](#notebook)
+* [New iPython notebook](#ipython)
 
 <a name="about"/>
 Until now we discover how to write our first program in Python and how to install the required environment.  Alternately, we can download and install an environment that can simplify package management and deployment (which comes with pre-installed libraries). 
-This hand-on is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the Python Development Environment  [Anaconda](https://www.continuum.io/why-anaconda).
+This hand-on is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the Python Development Environment  [Anaconda](https://www.continuum.io/why-anaconda). Note that codes in these hands-ons are using Python 2.7.
 
 <a name="AnacondaChapter"/>
 ## Anaconda
@@ -67,16 +63,11 @@ You can use `conda env list` to list out all the environments you've created.
 ### Removing environments
 If there are environments you don't use anymore, you can use `conda env remove -n env_name` to remove the specified environment.
 
-
 For more detailed information about conda you can read the [conda documentation](https://conda.io/docs/using/index.html)  and how it fits in the Python ecosystem you can read [this article](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/).
------  
 
------
-I personally prefer iPython Notebooks from Anaconda because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial. I can say that using Anaconda has made my life working with data much more pleasant.
 
-<a name="anaconda"/>
-### Download and installing Anaconda
-Visit the [Anaconda](https://www.continuum.io/downloads) web page and download the correct version of package acording your OS system and follow the instructions. 
+<a name="ipython"/>
+## New ipython notebook
 
 After your installation proces is finished you can start iPython notebook by writing `ipython notebook` on your terminal:
 ``` 
@@ -87,11 +78,10 @@ torres@vm:~$ jupyter notebook
 
 This will launch a new browser window (or a new tab) showing the Notebook Dashboard on a localhost to the URL of your Notebooks, by default http://127.0.0.1:8888. Windows users need to open up their Command Prompt. You'll see a dashboard with all your Notebooks. You can launch your Notebooks from this control panel that allows (among other things) to select which notebook to open or create a new one. 
 
-<a name="notebook"/>
-### iPython notebooks
+
 You can create a new iPython notebook by simply clicking on the **new** button  in the top. The interface shows **In\[\*\]**  for inputs and **Out\[\*\]** for output. You can execute a code by pressing *“Shift + Enter”* or *“ALT + Enter”*, if you want to insert an additional row after.  Copy \& paste the previous code example `GuessNumber.py` at **In\[1\]**, press “Shift + Enter” and introduce your guess number.
 
 ![ipythonnotebookExample](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/img/ipythonnotebookExample.png)
 
 
-DIR QUE PART  D AQUEST HANDS-ON USA TEXT DE curs...
+acknowledgements: This "Quick Start" has borrowed some ideas and phrases from the course ["Artificial Intelligence"](https://www.udacity.com) Udacty Nanodegree.
