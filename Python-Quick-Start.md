@@ -34,6 +34,19 @@ This hand-on is intended to be a "Simple Beginner’s guide" that provides a fas
 
 We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on it is not important, the student should focus on learning Python as a language. For advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
 
+For the most part, Python 2 code will work with Python 3. Of course, most new features introduced with Python 3 versions won't be backwards compatible. The place where your Python 2 code will fail most often is the `print` statement.
+For most of Python's history including Python 2, printing was done like so:
+```python
+print "Hello", "world!"
+> Hello world!
+```
+This was changed in Python 3 to a function.
+
+```python
+print("Hello", "world!")
+> Hello world!
+```
+
 Before you start, you will need Python on your computer, but you may not need to download it. Nowadays many Linux and UNIX distributions include a recent Python. Even some Windows computers now come with Python already installed. First of all check that you don’t already have Python installed by entering python in a command line. If you see a response from a Python interpreter it will include a version number in its initial display. If you use are in a environment you will see:
 
 ``` 
