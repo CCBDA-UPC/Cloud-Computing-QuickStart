@@ -84,4 +84,4 @@ You can create a new iPython notebook by simply clicking on the **new** button  
 ![ipythonnotebookExample](https://github.com/jorditorresBCN/Python-Quick-Start/blob/master/img/ipythonnotebookExample.png)
 
 
-acknowledgements: This "Quick Start" has borrowed some ideas and phrases from the course ["Artificial Intelligence"](https://www.udacity.com) Udacty Nanodegree.
+acknowledgements: This "Quick Start" has borrowed some ideas and phrases from the course ["Artificial Intelligence"](https://www.udacity.com) Udacity Nanodegree.
