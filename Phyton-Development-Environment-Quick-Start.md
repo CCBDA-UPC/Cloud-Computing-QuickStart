@@ -46,12 +46,29 @@ After installation, you’re automatically in the default conda environment with
 
 <a name="managing"/>
 ## Managing environments
+
+### Create environments
 As  We mentioned before, conda can be used to create environments to isolate a project. To create an environment, we can use `conda create -n env_name list of packages`. Here `-n env_name` sets the name of your environment and `list of packages` is the list of packages you want installed in the environment. For example, to create an environment named `my_env` and install `numpy` in it, we need to type `conda create -n my_env numpy`.
+
 
 A very important point is that when creating an environment, we can specify which **version of Python to install** in the environment. This is useful when we are working with code in both Python 2.x and Python 3.x. To create an environment with a specific Python version we can type `conda create -n my_py3_env python=3` or `conda create -n my_py2_env python=2`. These commands will install the most recent version of Python 3 and 2, respectively. To install a specific version, use `conda create -n py python=3.6` for Python 3.6.
 
+### Activate environments
+Once we have an environment created, we can use `source activate my_env` to enter it on OSX or Linux (on Windows use `activate my_env`).
+
+When we are in the environment, we will see the environment name in the terminal prompt between brakets. Something like `(my_env) ~ $`. The environment has only a few packages installed by default, plus the ones you installed when creating it. You can check this out with conda list. Installing packages in the environment is the same as before, use `conda install package_name`. Only this time, the specific packages you install will only be available when you're in the environment. 
+
+### Deactivate environments
+To leave the environment, type source deactivate (on OSX/Linux). On Windows, use deactivate.ç
+
+### Listing environments
+You can use `conda env list` to list out all the environments you've created. 
+
+### Removing environments
+If there are environments you don't use anymore, you can use `conda env remove -n env_name` to remove the specified environment.
 
 
+For more detailed information about conda you can read the [conda documentation](https://conda.io/docs/using/index.html)  and how it fits in the Python ecosystem you can read [this article](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/).
 -----  
 
 -----
