@@ -5,7 +5,8 @@
     * [Conda](#conda)
     * [Managing Packages](#managing)
     * [Environments](#environments)
-
+* [Installing Anaconda](#installing)
+* [Managing environments](#managing)
     * [Download and installing Anaconda](#anaconda)
     * [New iPython notebook](#notebook)
 
@@ -24,7 +25,7 @@ With Anaconda, it's simple to install the packages you will often use in real da
 
 <a name="Conda"/>
 ### Conda
-Anaconda is actually a distribution of software that comes with `conda`, `Python`, and many scientific packages and their dependencies. The application conda is a package and environment manager. Anaconda is a fairly large download (~500 MB) because it comes with the most common data science packages in Python. There is also **Miniconda**, a smaller distribution that includes only conda and Python. You can still install any of the available packages with conda, it just doesn't come with them. Using conda to manage your packages and environments will reduce future issues dealing with the various libraries you'll be using. 
+Anaconda is actually a distribution of software that comes with `conda`, `Python`, and many scientific packages and their dependencies. The application conda is a package and environment manager. Anaconda is a fairly large download (~500 MB) because it comes with the most common data science packages in Python. There is also [**Miniconda**](https://conda.io/miniconda.html), a smaller distribution that includes only conda and Python. You can still install any of the available packages with conda, it just doesn't come with them. Using conda to manage your packages and environments will reduce future issues dealing with the various libraries you'll be using. 
 
 <a name="managing"/>
 ### Managing Packages
@@ -34,8 +35,17 @@ Package managers are used to install libraries and other software on your comput
 ### Environments
 Along with managing packages, Conda is also a virtual environment manager. It's similar to [`virtualenv`](http://docs.python-guide.org/en/latest/dev/virtualenvs/). **Environments allow you to separate and isolate the packages you are using for different projects**. Sometimes you could be working with code that depends on different versions of some library. For example, you could have code that uses new features of a package, or code that uses old features that have been removed from the package. It’s practically impossible to have two versions of the same package installed at once. Instead, you should make an environment for each version of the package then work in the appropriate environment for the project.  This issue happens a lot when dealing with Python 2 and Python 3 at the same time.
 
-We can also export the list of packages in an environment to a file, then include that file with your code. This allows other people to easily load all the dependencies for our code. Pip has similar functionality with `pip freeze > requirements.txt` (“freeze” the current state of the environment packages).
+We can also export the list of packages in an environment to a file, then include that file with your code. This allows other people to easily load all the dependencies for our code. Pip has similar functionality with `pip freeze > requirements.txt` (“freeze” the current state of the environment packages creating a `requirements.txt` file, which contains a simple list of all the packages in the current environment, and their respective versions).
 
+<a name="installing"/>
+## Download and installing Anaconda
+Visit the [Anaconda](https://www.continuum.io/downloads) web page and download the correct version of package acording your OS system and follow the instructions. Anaconda is available for Windows, Mac OS X, and Linux.  If you already have Python installed on your computer, this won't break anything. Instead, the default Python used by your scripts and programs will be the one that comes with Anaconda.
+
+After installation, you’re automatically in the default conda environment with all packages installed which you can see below. You can check out your own install by entering `conda list` into your terminal. Once you have Anaconda installed, managing packages is fairly straightforward. To install a package, type `conda install package_name` in your terminal. Conda  automatically installs package dependencies for you (for instance, installing `pandas` by itself will also install `numpy` since `numpy` is a dependency of `pandas`). Conda makes sure to also install any packages that are required by the package you're installing..  To uninstall, use `conda remove package_name`. To update a package `conda update package_name`. If you want to update all packages in an environment you can use `conda update --all`. 
+
+
+<a name="managing"/>
+## Managing environments
 
 -----  -----
 I personally prefer iPython Notebooks from Anaconda because it provides a lot of good features for documenting while writing the code itself and you can choose to run the code in blocks rather than the line by line execution in the terminal environment. We will use iPython environment for this complete hands-on tutorial. I can say that using Anaconda has made my life working with data much more pleasant.
