@@ -5,6 +5,9 @@
 * [Download and installing Anaconda](#installing)
 * [Managing environments](#managing)
 * [New iPython notebook](#ipython)
+* [NKernels for Python 2 and 3](#kernels)
+
+
 
 <a name="about"/>
 Until now we discover how to write our first program in Python and how to install the required environment.  Alternately, we can download and install an environment that can simplify package management and deployment (which comes with pre-installed libraries). 
@@ -86,6 +89,8 @@ You can create a new iPython notebook by simply clicking on the **new** button  
 
 acknowledgements: This "Quick Start" has borrowed some ideas and phrases from the course ["Artificial Intelligence"](https://www.udacity.com) Udacity Nanodegree.
 
+<a name="kernels"/>
+
 ##  Kernels for Python 2 and 3
 If you’re running Jupyter on Python 3, you can set up a Python 2 kernel like this:
 ```
@@ -110,13 +115,5 @@ If you’re running Jupyter on Python 2 and want to set up a Python 3 kernel, fo
 
 The last command installs a [kernel spec](https://jupyter-client.readthedocs.io/en/latest/kernels.html#kernelspecs) JSON file for the current python installation.
 
-
-#
-# To activate this environment, use:
-# > source activate ipykernel_py2
-#
-# To deactivate this environment, use:
-# > source deactivate ipykernel_py2
-
-
+_**Acknowledgements: This "Quick Start" has borrowed some ideas and content from the Udacity Nanodegree course ["Artificial Intelligence"](https://www.udacity.com).**_
 
