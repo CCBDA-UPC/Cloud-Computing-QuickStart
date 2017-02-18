@@ -85,3 +85,38 @@ You can create a new iPython notebook by simply clicking on the **new** button  
 
 
 acknowledgements: This "Quick Start" has borrowed some ideas and phrases from the course ["Artificial Intelligence"](https://www.udacity.com) Udacity Nanodegree.
+
+##  Kernels for Python 2 and 3
+If you’re running Jupyter on Python 3, you can set up a Python 2 kernel like this:
+```
+conda create -n ipykernel_py2 python=2 ipykernel
+source activate ipykernel_py2    # On Windows, remove the word 'source'
+python -m ipykernel install --user
+```
+
+To activate this environment, use:
+```
+source activate ipykernel_py2
+```
+
+To deactivate this environment, use:
+
+```
+source deactivate ipykernel_py2
+```
+
+
+If you’re running Jupyter on Python 2 and want to set up a Python 3 kernel, follow the same steps, replacing `2` with `3`.
+
+The last command installs a [kernel spec](https://jupyter-client.readthedocs.io/en/latest/kernels.html#kernelspecs) JSON file for the current python installation.
+
+
+#
+# To activate this environment, use:
+# > source activate ipykernel_py2
+#
+# To deactivate this environment, use:
+# > source deactivate ipykernel_py2
+
+
+
