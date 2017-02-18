@@ -1,6 +1,6 @@
 # Markdown syntax
 
-Markdown is a way to style text on the web very popular between computer science engineers because it is intended to be as easy-to-read and easy-to-write as is feasible. Monstly, Markdown is just regular text with a few non-alphabetic characters thorwn in, like \# or \*. Github uses its own version of the Markdown syntax tjat provides an additional set of useful features. This is a subset of Github-flavored Markdown syntax that I'm using.
+Markdown is a way to style text on the web very popular between computer science engineers because it is intended to be as easy-to-read and easy-to-write as is feasible. Monstly, Markdown is just regular text with a few non-alphabetic characters thorwn in, like \# or \*. Github uses its own version of the Markdown syntax that provides an additional set of useful features. This is a subset of Github-flavored Markdown syntax that I'm using.
 
 # Markdown codes for "Headers"
 We have 6 levels:
@@ -143,7 +143,7 @@ Unordered list can use asterisks, or minuses, or pluses.
 # Markdown codes for "Links"
 We have 3 ways to create links:
 ```
-[This is an inline-style link](http://www.JordiTorres.Barcelona)
+[This is an inline-style link to my web page](http://www.JordiTorres.Barcelona)
 
 URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
 
@@ -167,7 +167,7 @@ You can also use numbers or text for reference-style a link:
 
 [text_or_number]: http://www.JordiTorres.Barcelona
 
-Finally, despite it isn't part of the Markdown spec, if you want to link in a specific posigion in the same page `.md` you can create a label as:
+Finally, despite it isn't part of the Markdown spec, if you want to link in a specific position in the same page `.md` you can create a label as:
 
 ```
 <a name="code"/>
@@ -186,7 +186,7 @@ We can do it either in inline-style or reference-style:
 
 ![UPC Barcelona Tech][UPC-logo]
 
-[UPC-logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "UPC logo"
+[UPC-logo]: https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo"
 
 ```
 ![UPC Barcelona Tech](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
