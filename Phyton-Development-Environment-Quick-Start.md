@@ -5,7 +5,7 @@
 * [Download and installing Anaconda](#installing)
 * [Managing environments](#managing)
 * [New iPython notebook](#ipython)
-* [NKernels for Python 2 and 3](#kernels)
+* [Kernels for Python 2 and 3](#kernels)
 
 
 
