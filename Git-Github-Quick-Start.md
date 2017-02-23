@@ -33,8 +33,7 @@ Before to start it is important to clarify some key concepts:
 - The action of downloading commits that don’t exist on our local repository from a remote repository is called **pulling** changes.  The process of adding our local changes to the remote repository is called **pushing** changes.
 
 
-![Terminology](https://github.com/jorditorresBCN/Git-Github-Basics/blob/master/img/terminology.png)
-
+![Terminology](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/terminology.png)
 
 
 <a name="git"/>
@@ -110,7 +109,7 @@ Our local repository consists of three "trees" maintained by git. the first one 
 
 You can propose changes (add it to the Index) using `git add <filename>`( or `git add *` ). This is the first step in the basic git workflow. To actually commit these changes use `git commit -m "Commit message"`. Now the file is committed to the HEAD of your local working directory (but not in your remote repository yet).
 
-![workflow](https://github.com/jorditorresBCN/Git-Github-Basics/blob/master/img/workflow.png)
+![workflow](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/workflow.png)
 
 In our case we can execute:
 
@@ -130,7 +129,7 @@ In git, a **branch** is a copy of all the files in your codebase. Each branch ha
 
 To create a branch, we **fork** it from another existing branch, likely `master`. Then we switch to the newly forked branch and start working inside the new branch. The new experimental branch will contain all the historical changes in the master branch up to the point of the fork. That is, the two branches do not stay in sync automatically going forward. In the case we decide to discard that experimental branch, we can simply delete it. On the other hand, if we want to keep the code we can **merge** commits from the experimental branch into our `master` branch.
 
-![forkmerge](https://github.com/jorditorresBCN/Git-Github-Basics/blob/master/img/forkmerge.png)
+![forkmerge](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/forkmerge.png)
 
 To create a new branch named "feature_x" and switch to it using `git checkout -b feature_x`. In order to switch back to master
 `git checkout master` and delete the branch again `git branch -d feature_x`. 
@@ -156,7 +155,7 @@ The next important thing we need to look at is the *Initialize this repository w
 
 Now you should see instructions (similar to the following screenshot) on how to connect your local repository in your computer to the remote one you just created on GitHub. 
 
-![Connecting local repository to Github repository](https://github.com/jorditorresBCN/Git-Github-Basics/blob/master/img/git_local_repository.png)
+![Connecting local repository to Github repository](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/git_local_repository.png)
 
 
 Looking at just the first option, the set of git commands should look very familiar, we have already done the first four commands. We only need to perform the last two commands in order to link our local repository with the remote one.
@@ -191,7 +190,7 @@ After a successfully login, we will see a message saying that our objects have b
 
 As a result we have in our remote GitHub account our files added with `git add`, in our case only `README.md`file.
 
-![firstgithubcontent](https://github.com/jorditorresBCN/Git-Github-Basics/blob/master/img/firstgithubcontent.png)
+![firstgithubcontent](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/firstgithubcontent.png)
 
 Sometimes the code in our remote repository will contain commits we do not have in your local repository (for example because we work on a team or we made a change to a file directly on GitHub.com). In those situations, we will need to **pull** the commits from the remote repository into our local repository with the command:
 
