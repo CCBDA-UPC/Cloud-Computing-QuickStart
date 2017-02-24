@@ -22,12 +22,11 @@
 <a name="about"/>
 Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
 
-Although it is an interpreted language rather than compiled language, hence might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve, Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly. 
+Although it is an interpreted language rather than compiled language and therefore might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve. Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly.
 
-Python is the programming choice language for many of my courses at the *Facultat d'Informàtica de Barcelona*  (Barcelona School of Informatics, FIB), the teaching institution of the *Universitat Politècnica de Catalunya - BarcelonaTech (UPC)* in charge of the university education in the fields of computer science, computer engineering, and related matters.
+Python is the programming language of choice for many of my courses at the Facultat d'Informàtica de Barcelona (Barcelona School of Informatics, FIB), the teaching institution of the Universitat Politècnica de Catalunya - BarcelonaTech (UPC) in charge of university education in the fields of computer science, computer engineering, and related matters.
 
-This hand-on is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the basic characteristics of Python to help those **students of any of my Master Courses who have no prior knowledge of Python** to learn by themselve the required background knowledge to follow the courses.
-
+This hand-on is a "Simple Beginner’s guide" that provides a fast-paced introduction to the basic characteristics of Python. It is intended for those students of any of my Master Courses who have no prior knowledge of Python to help them learn the required background knowledge by themselves.
 
 <a name="install"/>
 ##How to install Python
