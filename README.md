@@ -10,3 +10,6 @@ This set of Hands-on is intended for those students on my Masters' Courses who h
 * Hands-on 3: [Python Quick Start](https://github.com/jorditorresBCN/Quick-Start/blob/master/Python-Quick-Start.md) 
 * Hands-on 4: [Python Development Environment Quick Start](Phyton-Development-Environment-Quick-Start.md)
 * Hands-on 5: [Getting Started in the Cloud with AWS](https://github.com/jorditorresBCN/Quick-Start/blob/master/Quick-Start-AWS.md)
+
+
+Acknowledgements: I would like to thank some of my former students for his help with proofreading this documentation and improving it: Eloy Gil, Dani Cea and Mauro Gómez.
