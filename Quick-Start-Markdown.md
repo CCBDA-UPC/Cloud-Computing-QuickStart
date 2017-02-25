@@ -360,24 +360,24 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ```
 
 
-# BACKSLASH ESCAPES
+# Backslash escapes
 Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. 
 Markdown provides backslash escapes for the following characters:
 
-Character | Description
---- | ---
- **\\**   | backslash
- **\`**   | backtick
- \*    | asterisk
- **\_**   | underscore
- **\{\}**  | curly braces
- **\[\]**  | square brackets
- **\(\)**  | parentheses
- **\#**   | hash mark
- **\+**   | plus sign
- **\-**   | minus sign (hyphen)
- **\.**   | dot
- **\!**   | exclamation mark
+Character | Code | Description
+--- | --- | ---
+ **\\**   | `\\` | backslash
+ **\`**   | ```\` ``` | backtick
+ \*    | `\*` | asterisk
+ **\_**   | `\_` | underscore
+ **\{\}**  | `\{\}` | curly braces
+ **\[\]**  | `\[\]` | square brackets
+ **\(\)**  | `\(\)` | parentheses
+ **\#**   | `\#` | hash mark
+ **\+**   | `\+` | plus sign
+ **\-**   | `\-` | minus sign (hyphen)
+ **\.**   | `\.` | dot
+ **\!**   | `\!` | exclamation mark
 
 ---
 *Part of this Quick Start tutorial is based on https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet*
