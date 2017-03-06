@@ -72,7 +72,7 @@ For more detailed information about conda you can read the [conda documentation]
 <a name="ipython"/>
 ## New jupyter notebook
 
-After your installation proces is finished you can start iPython notebook by writing `jupyter notebook` on your terminal:
+After your installation process is finished you can start iPython notebook by writing `jupyter notebook` on your terminal:
 ``` 
 torres@vm:~$ jupyter notebook
 
