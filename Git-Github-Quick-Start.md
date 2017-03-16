@@ -127,6 +127,7 @@ Notice that we do not add `LICENSE.md` file intentionally, in order to show the 
 
 
 <a name="branching"/>
+
 ### 2.4. Branching
 Branching is a powerful mechanism in any repository tool that allows developers to veer off into a tangential or experimental direction, without affecting the main codebase.
 
