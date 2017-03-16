@@ -238,6 +238,7 @@ hands-on_lab $
 As you can see a new local git repository was created in a directory called `hands-on_lab`. All content from the remote repository `https://github.com/jorditorresBCN/git_local_repository.git` were downloaded into the newly created local repository. Finally, indicate that a remote was added to the local repository's configuration, pointing to the remote repository URL, aliased as `origin`. This is the same thing as issuing `git remote add origin https://github.com/jorditorresBCN/git_local_repository.git` from within the local repository directory.
 
 <a name="detail"/>
+
 ## 5. To go into more detail
 An excellent book is the [Pro Git](https://git-scm.com/book) book, written by Scott Chacon and Ben Straub and published by Apress. It is available [here](https://git-scm.com/book) (pdf, epub, mobi, html). All content is licensed under the Creative Commons Attribution Non Commercial Share Alike 3.0 license. Print versions of the book are available on [Amazon.com](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20).
 
