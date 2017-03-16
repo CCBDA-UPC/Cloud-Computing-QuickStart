@@ -21,7 +21,9 @@ This hands-on is a "simple Beginner's guide" that provides a fast-paced introduc
  
 
 <a name="started"/>
+
 ## 1. Getting Started
+
 [**Git**](https://git-scm.com/) is a free and open source distributed version control system (started in 2005 by Linus Torvald) designed to handle everything from small to very large code projects. With git, **users keep entire code files on their location machines**. However git keeps a historical record of the files in your codebase, as well as manage workflows that allow teams of programmers to work together and allowing them to revert any changes and go back to a previous code version.  For this purpouse git, store the files into a repository that is typically hosted on [**G+**](https://github.com/). GitHub took the git program and connected the people and code over the web, creating an eco-system and user interface for software projects that we can 'touch'. 
 
 
