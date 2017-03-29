@@ -31,7 +31,7 @@ This hand-on is a "Simple Beginner’s guide" that provides a fast-paced introdu
 
 <a name="install"/>
 
-##How to install Python
+## How to install Python
 
 We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on it is not important, the student should focus on learning Python as a language. For advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
 
@@ -88,7 +88,7 @@ Comments start with the pound (#) sign and are single-line, multi-line strings a
 
 <a name="variables"/>
 
-###Variables and operators
+### Variables and operators
 
 Python is implicitly typed language (i.e. you don’t have to declare variables), case sensitive (i.e. Barcelona and BARCELONA are two different variables) and object-oriented (i.e. everything is an object). Help in Python is always available right in the interpreter. Type *help()* for interactive help, or *help(object)* for help about object. If you want to know how an object works, all you have to do is call *help(\<object\>)* Also useful are *dir()*, which shows you all the object’s methods:
 
@@ -143,7 +143,7 @@ class int(object)
 ```
 <a name="datatypes"/>
 
-###Data types
+### Data types
 
 The data structures available in Python are lists, tuples and dictionaries. Lists are like one-dimensional arrays and we can also have lists of other lists or tuples. There are number of methods for lists (methods follow the list name). Tuples are immutable one-dimensional array.
 
@@ -212,7 +212,7 @@ Arrival: BA230 from Barcelona
 
 <a name="flow"/>
 
-###Flow control statements
+### Flow control statements
 Flow control statements are *if*, *for*, and *while*.  Often partnered with the if statement are else if and else. However, Python's else if is shortened into elif. After every conditional we have a colon. Next, we could proceed to a new line with number of spaces to tell Python we only want this code to be run when the previous conditional is satisfied. 
 
 ``` 
@@ -255,7 +255,7 @@ You can stop the loop using the “break” statement.
 In this example we use the range keyword (used to enumerate through members of a list and to obtain a list of numbers) to set the starting point and the point right after we would finish (this is precisely why the number 4 didn’t print). Python is quite fond of this idea of all the way up to a number, but not including it.
 
 <a name="functions"/>
-###Functions
+### Functions
 We can define a function by using the keyword def before your function name. Optional arguments are set in the function declaration after the mandatory arguments by being assigned a default value. Functions can return a tuple (and using tuple unpacking you can effectively return multiple values).
 
 ```
@@ -279,7 +279,7 @@ Barcelona
 
 <a name="lambda"/>
 
-###Lambda Functions
+### Lambda Functions
 Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called “lambda”. 
 
 >This is not exactly the same as lambda in functional programming languages
@@ -320,7 +320,7 @@ As you can see, Jordi() and George() do exactly the same and can be used in the 
 
 <a name="classes"/>
 
-###Classes
+### Classes
 
 Python supports a limited form of multiple inheritance in classes.
 
@@ -349,7 +349,7 @@ In the previous example the first part defines a Class. def __init__ is the cons
 
 <a name="iterators"/>
 
-###Iterators
+### Iterators
 
 Python define a object type for taking each item of something, one after another. Any time you use a loop, explicit or implicit, to go over a group of items, that is iteration
 
@@ -373,7 +373,7 @@ An iterator is an object with a next (Python 2) or __next__ (Python 3) method.
 ```
 <a name="exceptions"/>
 
-###Exceptions
+### Exceptions
 
 Exceptions in Python are handled with try-except blocks. See the following code for one example:
 
@@ -393,7 +393,7 @@ Invalid operation.
 
 <a name="importing"/>
 
-###Importing
+### Importing
 External libraries are used with the import \[libname\] keyword. We can also use from \[libname\] import \[funcname\] for individual functions.
 
 ```
@@ -412,7 +412,7 @@ In this example we are showing how first we are importing the whole library and 
 
 <a name="files"/>
 
-###Read/Write files
+### Read/Write files
 Python uses the following sintax for read/write files:
 ```
 >>> f = open("test.txt","w") #opens file with name of "test.txt"
