@@ -8,7 +8,7 @@ This set of Hands-on is intended for those students on my Masters' Courses who h
 * Hands-on 1: [Git and GitHub Quick Start](https://github.com/jorditorresBCN/Quick-Start/blob/master/Git-Github-Quick-Start.md)
 * Hands-on 2: [Markdown syntax](https://github.com/jorditorresBCN/Quick-Start/blob/master/Quick-Start-Markdown.md)
 * Hands-on 3: [Python Quick Start](https://github.com/jorditorresBCN/Quick-Start/blob/master/Python-Quick-Start.md) 
-* Hands-on 4: [Python Development Environment Quick Start](Phyton-Development-Environment-Quick-Start.md)
+* Hands-on 4: [Python Development Environment Quick Start](https://github.com/jorditorresBCN/Quick-Start/blob/master/Python-Development-Environment-Quick-Start.md)
 * Hands-on 5: [Getting Started in the Cloud with AWS](https://github.com/jorditorresBCN/Quick-Start/blob/master/Quick-Start-AWS.md)
 
 
