@@ -20,6 +20,7 @@
 * [Warming up: Running your first Python program](#first)
 
 <a name="about"/>
+
 Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
 
 Although it is an interpreted language rather than compiled language and therefore might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve. Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly.
@@ -29,6 +30,7 @@ Python is the programming language of choice for many of my courses at the Facul
 This hand-on is a "Simple Beginner’s guide" that provides a fast-paced introduction to the basic characteristics of Python. It is intended for those students of any of my Master Courses who have no prior knowledge of Python to help them learn the required background knowledge by themselves.
 
 <a name="install"/>
+
 ##How to install Python
 
 We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on it is not important, the student should focus on learning Python as a language. For advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
@@ -68,9 +70,11 @@ Congratulations, good job!
 If you need to install Python, you can download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/).
 
 <a name="basics"/>
+
 ## Python Basics
 
 <a name="indentation"/>
+
 ### Line indentation
 
 Python has no mandatory statement termination characters and blocks are specified by indentation (there are no braces to indicate blocks of code for class and function definitions or flow control). Statements that expect an indentation level end in a colon (:). The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. Python will advise you if there is a unclear line indentation with the following warning:
@@ -83,6 +87,7 @@ IndentationError: unexpected indent
 Comments start with the pound (#) sign and are single-line, multi-line strings are used for multi-line comments.
 
 <a name="variables"/>
+
 ###Variables and operators
 
 Python is implicitly typed language (i.e. you don’t have to declare variables), case sensitive (i.e. Barcelona and BARCELONA are two different variables) and object-oriented (i.e. everything is an object). Help in Python is always available right in the interpreter. Type *help()* for interactive help, or *help(object)* for help about object. If you want to know how an object works, all you have to do is call *help(\<object\>)* Also useful are *dir()*, which shows you all the object’s methods:
@@ -137,6 +142,7 @@ class int(object)
 
 ```
 <a name="datatypes"/>
+
 ###Data types
 
 The data structures available in Python are lists, tuples and dictionaries. Lists are like one-dimensional arrays and we can also have lists of other lists or tuples. There are number of methods for lists (methods follow the list name). Tuples are immutable one-dimensional array.
@@ -205,6 +211,7 @@ Arrival: BA230 from Barcelona
 ```
 
 <a name="flow"/>
+
 ###Flow control statements
 Flow control statements are *if*, *for*, and *while*.  Often partnered with the if statement are else if and else. However, Python's else if is shortened into elif. After every conditional we have a colon. Next, we could proceed to a new line with number of spaces to tell Python we only want this code to be run when the previous conditional is satisfied. 
 
@@ -271,6 +278,7 @@ Barcelona
 ```
 
 <a name="lambda"/>
+
 ###Lambda Functions
 Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called “lambda”. 
 
@@ -311,6 +319,7 @@ As you can see, Jordi() and George() do exactly the same and can be used in the 
 ```
 
 <a name="classes"/>
+
 ###Classes
 
 Python supports a limited form of multiple inheritance in classes.
@@ -339,6 +348,7 @@ Python supports a limited form of multiple inheritance in classes.
 In the previous example the first part defines a Class. def __init__ is the constructor function, the function that is called when a new instance of the class is created. The actual new instance is created in the line myCalc = Calculator(). The second part shows how to use this class in Python.
 
 <a name="iterators"/>
+
 ###Iterators
 
 Python define a object type for taking each item of something, one after another. Any time you use a loop, explicit or implicit, to go over a group of items, that is iteration
@@ -362,6 +372,7 @@ An iterator is an object with a next (Python 2) or __next__ (Python 3) method.
 <class ‘list_iterator’>
 ```
 <a name="exceptions"/>
+
 ###Exceptions
 
 Exceptions in Python are handled with try-except blocks. See the following code for one example:
@@ -381,6 +392,7 @@ Invalid operation.
 ```
 
 <a name="importing"/>
+
 ###Importing
 External libraries are used with the import \[libname\] keyword. We can also use from \[libname\] import \[funcname\] for individual functions.
 
@@ -399,6 +411,7 @@ In this example we are showing how first we are importing the whole library and 
 
 
 <a name="files"/>
+
 ###Read/Write files
 Python uses the following sintax for read/write files:
 ```
@@ -417,7 +430,9 @@ Barcelona, is the best city of the world.With an excellent weather.
 <a name="#environment"/>
 
 ## Python Environment
+
 <a name="packages"/>
+
 ### Python Packages
 We already know how to import packages. You can find near 100.000 packages [here](https://pypi.python.org/pypi). However let me list some of them as a example, that we could need for a scientific computation and data analysis:
 
@@ -478,6 +493,7 @@ $ deactivate
 ```
 
 <a name="first"/>
+
 ## Warming up: Running your first Python program
 
 Using the “random” library, we write a code that generates a random number between 1 and 20. Then let the player guess the number introduced, displaying if the number is to low or high. The game ends either when the number is guesses correctly.
