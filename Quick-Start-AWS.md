@@ -6,3 +6,7 @@ If you have not yet created an EC2 instance, you can follow this [step-by-step g
 
 ## Connecting to Your Linux Instance Using SSH
 After you launch your instance, in this [link](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html) you could find more details about how to interact with your EC2 instance 
+
+## Alternative
+If you prefer to use another Cloud provider instead AWS, please feel free to do that. However, you should indicate your decision to your teacher (by email is enough) before to start the homework.
+
