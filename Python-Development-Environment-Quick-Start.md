@@ -16,10 +16,9 @@ This hand-on is intended to be a "Simple Beginner’s guide" that provides a fas
 <a name="AnacondaChapter"/>
 
 ## Anaconda
- 
 I would recommend use [Anaconda](https://www.continuum.io/why-anaconda) available for Windows, OS X or Linux, 32- or 64-bit. Anaconda is a freemium open source distribution of the Python and R programming languages for large-scale data processing, predictive analytics, and scientific computing.
 
-Why Anaconda? Anaconda is a distribution of packages built for data science. It comes with conda, a package and environment manager. In a real project You will be using conda to create environments for isolating your projects that use different versions of Python and different packages. You could also use it to install, uninstall, and update packages in your environments. 
+Why Anaconda? Anaconda is a distribution of packages built for data science. It comes with conda, a package and environment manager with over 720 data science packages, including those that support data visualization, AI/machine learning, and other types of advanced analytics. In a real project You will be using conda to create environments for isolating your projects that use different versions of Python and different packages. You could also use it to install, uninstall, and update packages in your environments. 
 
 With Anaconda, it's simple to install the packages you will often use in real data science work. You'll also use it to create virtual environments that make working on multiple projects much less mind-twisting. Anaconda solved a lot of issues related with packages and multiple Python versions. 
 
