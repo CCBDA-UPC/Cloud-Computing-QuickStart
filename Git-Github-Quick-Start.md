@@ -41,7 +41,7 @@ Before to start it is important to clarify some key concepts:
 - The action of downloading commits that don’t exist on our local repository from a remote repository is called **pulling** changes.  The process of adding our local changes to the remote repository is called **pushing** changes.
 
 
-![Terminology](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/terminology.png)
+![Terminology](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/terminology.png)
 
 
 <a name="git"/>
@@ -117,7 +117,7 @@ Our local repository consists of three "trees" maintained by git. the first one 
 
 You can propose changes (add it to the Index) using `git add <filename>`( or `git add *` ). This is the first step in the basic git workflow. To actually commit these changes use `git commit -m "Commit message"`. Now the file is committed to the HEAD of your local working directory (but not in your remote repository yet).
 
-![workflow](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/workflow.png)
+![workflow](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/workflow.png)
 
 In our case we can execute:
 
@@ -138,7 +138,7 @@ In git, a **branch** is a copy of all the files in your codebase. Each branch ha
 
 To create a branch, we **fork** it from another existing branch, likely `master`. Then we switch to the newly forked branch and start working inside the new branch. The new experimental branch will contain all the historical changes in the master branch up to the point of the fork. That is, the two branches do not stay in sync automatically going forward. In the case we decide to discard that experimental branch, we can simply delete it. On the other hand, if we want to keep the code we can **merge** commits from the experimental branch into our `master` branch.
 
-![forkmerge](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/forkmerge.png)
+![forkmerge](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/forkmerge.png)
 
 To create a new branch named "feature_x" and switch to it using `git checkout -b feature_x`. In order to switch back to master
 `git checkout master` and delete the branch again `git branch -d feature_x`. 
@@ -164,7 +164,7 @@ The next important thing we need to look at is the *Initialize this repository w
 
 Now you should see instructions (similar to the following screenshot) on how to connect your local repository in your computer to the remote one you just created on GitHub. 
 
-![Connecting local repository to Github repository](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/git_local_repository.png)
+![Connecting local repository to Github repository](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/git_local_repository.png)
 
 
 Looking at just the first option, the set of git commands should look very familiar, we have already done the first four commands. We only need to perform the last two commands in order to link our local repository with the remote one.
@@ -172,9 +172,9 @@ Looking at just the first option, the set of git commands should look very famil
 Remember that your changes are in the HEAD of your local working copy. To send those changes to your remote repository, you need to add it with `git remote add origin <server>`. Now we are able to push our changes to the selected remote server:
 
 ```
-git_local_repository $ git remote add origin https://github.com/jorditorresBCN/git_local_repository.git
+git_local_repository $ git remote add origin https://github.com/angeltoribio-UPC-BCN/git_local_repository.git
 ```
-Before we move on, let's take a look at the command we just executed. The primary git command we issued is `git remote` to work with remote repositories. If we just issued `git remote` by itself, git will list all the remote repositories that your local repository knows about. If we pass additional sub-commands to the `git remote` command, we can further add, remove, and modify the remote GitHub repository that your local repository is linked to. The parameters `origin` and `https://github.com/jorditorresBCN/git_local_repository.git` refer to the remote repository. In particular `origin` is an alias that we will use locally to interact with this remote repository and  `https://github.com/jorditorresBCN/git_local_repository.git` indicates the URL of remote repository. If you open `.git/config` in a text editor, you will see how git stores the information we just added.
+Before we move on, let's take a look at the command we just executed. The primary git command we issued is `git remote` to work with remote repositories. If we just issued `git remote` by itself, git will list all the remote repositories that your local repository knows about. If we pass additional sub-commands to the `git remote` command, we can further add, remove, and modify the remote GitHub repository that your local repository is linked to. The parameters `origin` and `https://github.com/angeltoribio-UPC-BCN/git_local_repository.git` refer to the remote repository. In particular `origin` is an alias that we will use locally to interact with this remote repository and  `https://github.com/angeltoribio-UPC-BCN/git_local_repository.git` indicates the URL of remote repository. If you open `.git/config` in a text editor, you will see how git stores the information we just added.
 
 We are ready to **push** our code to GitHub with:
 ```
@@ -184,12 +184,12 @@ Here, `origin` is the alias of remote repository indicated before and `master` i
 
 If we have never pushed to GitHub before, we will now be seeing a login prompt, and we are required to introduce our GitHub username and password. If you're following along from the previous sections, your output should read similar as follows:
 ```
-Username for 'https://github.com': jorditorresBCN
-Password for 'https://jorditorresBCN@github.com': 
+Username for 'https://github.com': angeltoribio-UPC-BCN
+Password for 'https://angeltoribio-UPC-BCN@github.com': 
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 236 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/jorditorresBCN/git_local_repository.git
+To https://github.com/angeltoribio-UPC-BCN/git_local_repository.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
 ```
@@ -199,7 +199,7 @@ After a successfully login, we will see a message saying that our objects have b
 
 As a result we have in our remote GitHub account our files added with `git add`, in our case only `README.md`file.
 
-![firstgithubcontent](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/firstgithubcontent.png)
+![firstgithubcontent](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/firstgithubcontent.png)
 
 Sometimes the code in our remote repository will contain commits we do not have in your local repository (for example because we work on a team or we made a change to a file directly on GitHub.com). In those situations, we will need to **pull** the commits from the remote repository into our local repository with the command:
 
@@ -223,12 +223,12 @@ in your working directory to *fetch* and *merge* remote changes. In order to mer
 ## 4. Git clone
 So far, we have been talking about connecting an existing remote repository with an existing local repository. But what if we don't have an existing local repository, and just want to pull down all the contents of a remote repository? In this case we can use `git clone`to make an exact clone of an existing remote repository in our local repository.  The git clone command has several options, but most of the time we will only consider its basic usage `git clone <remote_repository_url> <local_directory_path>`.
 
-`git clone` is used mainly when we need to work with a remote repository, and do not yet have a local repository created. This is the case of many of the hands-on suggested in this course. For this reason we will use `git clone`in almost all laboratory hands-on sessions. For instance, assume that the documentation of today hands-on is at `https://github.com/jorditorresBCN/git_local_repository.git` (our today example).  Here's what it looks like in action:
+`git clone` is used mainly when we need to work with a remote repository, and do not yet have a local repository created. This is the case of many of the hands-on suggested in this course. For this reason we will use `git clone`in almost all laboratory hands-on sessions. For instance, assume that the documentation of today hands-on is at `https://github.com/angeltoribio-UPC-BCN/git_local_repository.git` (our today example).  Here's what it looks like in action:
 
 ```
 $ pwd
 /Users/jorditorres
-$ git clone https://github.com/jorditorresBCN/git_local_repository.git hands-on_lab
+$ git clone https://github.com/angeltoribio-UPC-BCN/git_local_repository.git hands-on_lab
 Cloning into 'hands-on_lab'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
@@ -241,11 +241,11 @@ hands-on_lab $ ls -a
 .		..		.git		README.md
 hands-on_lab $ 
 ```
-As you can see a new local git repository was created in a directory called `hands-on_lab`. All content from the remote repository `https://github.com/jorditorresBCN/git_local_repository.git` were downloaded into the newly created local repository. Finally, indicate that a remote was added to the local repository's configuration, pointing to the remote repository URL, aliased as `origin`. This is the same thing as issuing `git remote add origin https://github.com/jorditorresBCN/git_local_repository.git` from within the local repository directory.
+As you can see a new local git repository was created in a directory called `hands-on_lab`. All content from the remote repository `https://github.com/angeltoribio-UPC-BCN/git_local_repository.git` were downloaded into the newly created local repository. Finally, indicate that a remote was added to the local repository's configuration, pointing to the remote repository URL, aliased as `origin`. This is the same thing as issuing `git remote add origin https://github.com/angeltoribio-UPC-BCN/git_local_repository.git` from within the local repository directory.
 
 <a name="detail"/>
 
 ## 5. To go into more detail
 An excellent book is the [Pro Git](https://git-scm.com/book) book, written by Scott Chacon and Ben Straub and published by Apress. It is available [here](https://git-scm.com/book) (pdf, epub, mobi, html). All content is licensed under the Creative Commons Attribution Non Commercial Share Alike 3.0 license. Print versions of the book are available on [Amazon.com](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20).
 
-Now, we are ready to start a [new hands-on](https://github.com/jorditorresBCN/Python-Quick-Start). Enjoy!
+Now, we are ready to start a [new hands-on](https://github.com/angeltoribio-UPC-BCN/Python-Quick-Start). Enjoy!
