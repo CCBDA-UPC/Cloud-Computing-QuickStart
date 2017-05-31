@@ -1,10 +1,13 @@
 # Git and GitHub Quick Start
 
-This hands-on is a "simple Beginner's guide" that provides a fast-paced introduction to the basic characteristics of `git` .It is intended for those students on my Masters' Courses who have no prior knowledge of it, to help them learn the required background knowledge necessary to follow the courses. Let me stress again the importance of hands-on practice while you are exploring new technical knowledge. My recommendation is that you should read this guide on a computer and try to follow.
+This hands-on is a "simple Beginner's guide" that provides a fast-paced introduction to the basic characteristics of `git` .It is intended for those students enrolled in Computer Science Masters' Courses who have no prior knowledge of git/github, to help them learn the minimum required background knowledge necessary to follow the courses. The material has been written to provide a hands-on practice while you are exploring new technical knowledge. We recommend you to read this guide on a computer and try to perform all the exercises.
 	 
+There are plenty of courses and tutorials available on the Internet regarding this topic. Here you can find just a few pointers:
+- GITHUB https://try.github.io
+- UDEMY https://www.udemy.com/courses/search/?q=github&src=sac&kw=git
+- LYNDA https://www.lynda.com/GitHub-training-tutorials/1384-0.html
 
-
-
+## Table of Contents
 
 * [Getting Started](#started)
 * [Getting Started with Git](#git)
