@@ -1,4 +1,4 @@
-# Run a Linux OS in a Virtual Machine
+# Runing Linux OS using a Virtual Machine
 
 Due that many hands-on are assuming a Linux OS environment we suggest to use VirtualBox in order to run a Linux in a separate virtual machine in case you are working on top of a Windows environment.
 
