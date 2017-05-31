@@ -1,6 +1,6 @@
 # Run a Linux OS in a Virtual Machine
 
-Due that many hands-on are assuming a Linux OS environment we suggest to use VirtualBox in order to run a Linux in a separate virtual machine if you have a Windows environment.
+Due that many hands-on are assuming a Linux OS environment we suggest to use VirtualBox in order to run a Linux in a separate virtual machine in case you are working on top of a Windows environment.
 
 - You can download and install a VirtualBox from [https://www.virtualbox.org](https://www.virtualbox.org).
 - Ubuntu is a Debian-based Linux operating system, with Unity as its default desktop environment. It is based on free software. You can download a 64-bit Ubuntu Linux ISO from http://www.ubuntu.com/download/desktop.
