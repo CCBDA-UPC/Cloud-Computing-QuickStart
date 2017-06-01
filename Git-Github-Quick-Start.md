@@ -1,11 +1,7 @@
 # Git and GitHub Quick Start
 
 This hands-on is a "simple Beginner's guide" that provides a fast-paced introduction to the basic characteristics of `git` .It is intended for those students enrolled in Computer Science Masters' Courses who have no prior knowledge of git/github, to help them learn the minimum required background knowledge necessary to follow the courses. The material has been written to provide a hands-on practice while you are exploring new technical knowledge. We recommend you to read this guide on a computer and try to perform all the exercises.
-	 
-There are plenty of courses and tutorials available on the Internet regarding this topic. Here you can find just a few pointers:
-- GITHUB https://try.github.io
-- UDEMY https://www.udemy.com/courses/search/?q=github&src=sac&kw=git
-- LYNDA https://www.lynda.com/GitHub-training-tutorials/1384-0.html
+
 
 ## Table of Contents
 
@@ -21,6 +17,7 @@ There are plenty of courses and tutorials available on the Internet regarding th
     * [Branching](#branching2)
 * [Git clone](#clone)
 * [To go into more detail](#detail)
+* [Additional materials](#additional)
  
 
 <a name="started"/>
@@ -249,3 +246,12 @@ As you can see a new local git repository was created in a directory called `han
 An excellent book is the [Pro Git](https://git-scm.com/book) book, written by Scott Chacon and Ben Straub and published by Apress. It is available [here](https://git-scm.com/book) (pdf, epub, mobi, html). All content is licensed under the Creative Commons Attribution Non Commercial Share Alike 3.0 license. Print versions of the book are available on [Amazon.com](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20).
 
 Now, we are ready to start a [new hands-on](https://github.com/angeltoribio-UPC-BCN/Python-Quick-Start). Enjoy!
+
+<a name="additional"/>
+
+## Additional materials
+There are plenty of courses and tutorials available on the Internet regarding this topic. Here you can find just a few pointers:
+- GITHUB https://try.github.io
+- UDEMY https://www.udemy.com/courses/search/?q=github&src=sac&kw=git
+- LYNDA https://www.lynda.com/GitHub-training-tutorials/1384-0.html
+
