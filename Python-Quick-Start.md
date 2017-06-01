@@ -1,6 +1,6 @@
 # Python Quick Start
 
-* [About this hands-on](#about)
+* [About this hands-on guide](#about)
 * [How to Install Python](#install)
 * [Python Basics](#basics)
     * [Line indentation](#indentation)
@@ -23,41 +23,41 @@
 
 Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
 
-Although it is an interpreted language rather than compiled language and therefore might take up more CPU time (important detail in our Computer Architecture department), Python has a gentle learning curve. Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly.
+Although it is an interpreted language rather than compiled language and therefore programs might take up more CPU time (important detail for us, people from Computer Architecture department), Python has a gentle learning curve. Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly.
 
 Python is the programming language of choice for many of my courses at the Facultat d'Informàtica de Barcelona (Barcelona School of Informatics, FIB), the teaching institution of the Universitat Politècnica de Catalunya - BarcelonaTech (UPC) in charge of university education in the fields of computer science, computer engineering, and related matters.
 
-This hand-on is a "Simple Beginner’s guide" that provides a fast-paced introduction to the basic characteristics of Python. It is intended for those students of any of my Master Courses who have no prior knowledge of Python to help them learn the required background knowledge by themselves.
+This hand-on quickstart guide is a "Simple Beginner’s guide" that provides a fast-paced introduction to the basic characteristics of Python. It is intended for those students of any CS Master Courses who have no prior knowledge of Python to help them learn the required background knowledge by themselves.
 
 <a name="install"/>
 
 ## How to install Python
 
-We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on it is not important, the student should focus on learning Python as a language. For advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
+We can install Python 2 or Python 3. This is one of the debated topics in Python. There is no right/wrong choice here, specially if you are a beginner. Python 2 has an awesome community support, plethora of third-party libraries. On the other hand Python 3 is cleaner and faster. For the purpouse of this hands-on guide the used version is not important, the student should focus on learning Python as a language. If you need advice on choosing between Python 2 and Python 3 see [Python 2 or 3](https://wiki.python.org/moin/Python2orPython3).
 
-For the most part, Python 2 code will work with Python 3. Of course, most new features introduced with Python 3 versions won't be backwards compatible. The place where your Python 2 code will fail most often is the `print` statement.
+For the most part, Python 2 code will work with Python 3. Of course, most new features introduced with Python 3 versions are not backwards compatible. The place where your Python 2 code will fail most often is the `print` statement.
 For most of Python's history including Python 2, printing was done like so:
 ```python
 print "Hello", "world!"
 > Hello world!
 ```
-This was changed in Python 3 to a function.
+This was changed in Python 3 into a function.
 
 ```python
 print("Hello", "world!")
 > Hello world!
 ```
 
-Before you start, you will need Python on your computer, but you may not need to download it. Nowadays many Linux and UNIX distributions include a recent Python. Even some Windows computers now come with Python already installed. First of all check that you don’t already have Python installed by entering python in a command line. If you see a response from a Python interpreter it will include a version number in its initial display. If you use are in a environment you will see:
+Before you continue, you will need Python on your computer, but you may not need to download it. Nowadays many Linux and UNIX distributions include a recent Python versions. Even some Windows computers nowadays come with Python already installed. First of all check that you don’t already have Python installed by entering python in the command line. If you see a response from a Python interpreter it will include a version number in its initial display:
 
 ``` 
-torres@vm:~$ python
-Python 2.7.10 (default, Sep 23 2015, 04:34:14) 
+username@vm:~$ python
+Python 2.7.10 (default, Sep 23 2017, 04:34:14) 
 [GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.72)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
-For Warming up you can run your first Python program. You can use Python as a simple calculator to start with:
+to warm up you can run your first Python program. You can use Python as a simple calculator to start with:
 ``` 
 >>> 15+10
 25
@@ -65,7 +65,7 @@ For Warming up you can run your first Python program. You can use Python as a si
 ```
 Congratulations, good job!
 
->Note: Lines beginning with ">>>" and "..." indicate input to Python (these are the default prompts of the interactive interpreter). Everything else is output from Python.
+>Note: Lines beginning with ">>>" and "..." indicate input to Python (these are the default prompt of the interactive interpreter). Everything else is output from Python.
 
 If you need to install Python, you can download the most recent stable version of Python 2 or Python 3 from [general download page](https://www.python.org/downloads/).
 
@@ -77,7 +77,7 @@ If you need to install Python, you can download the most recent stable version o
 
 ### Line indentation
 
-Python has no mandatory statement termination characters and blocks are specified by indentation (there are no braces to indicate blocks of code for class and function definitions or flow control). Statements that expect an indentation level end in a colon (:). The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. Python will advise you if there is a unclear line indentation with the following warning:
+Python has no mandatory statement termination characters and blocks are specified by indentation (there are no braces to indicate blocks of code for class and function definitions or flow control). Statements that expect an additional indentation level at next line end with a colon (:). The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount of spaces. Python will advise you if there is an unclear line indentation showing the following warning:
 
 ``` 
 
@@ -90,7 +90,7 @@ Comments start with the pound (#) sign and are single-line, multi-line strings a
 
 ### Variables and operators
 
-Python is implicitly typed language (i.e. you don’t have to declare variables), case sensitive (i.e. Barcelona and BARCELONA are two different variables) and object-oriented (i.e. everything is an object). Help in Python is always available right in the interpreter. Type *help()* for interactive help, or *help(object)* for help about object. If you want to know how an object works, all you have to do is call *help(\<object\>)* Also useful are *dir()*, which shows you all the object’s methods:
+Python is an implicitly typed language (i.e. you don’t have to declare variables), case sensitive (i.e. Barcelona and BARCELONA are two different variables) and object-oriented (i.e. everything is an object). Help in Python is always available within the interpreter. Type *help()* for interactive help, or *help(object)* to get help about object. If you want to know how an object works, all you have to do is call *help(\<object\>)* Another useful command is *dir()*, which shows you all the object’s methods:
 
 
 ```
@@ -113,9 +113,9 @@ class int(object)
 (type q to exit)
 
 ```
-The addition, subtraction, multiplication, and division operations work just like expected. In addition we can use the modulus operator (%). All the modulus operator does is to divide the left side by the right side and get the remainder. The floor division operator (//) just divides the number and rounds down. The double * is just an easy way to provide exponents to Python.
+Addition, subtraction, multiplication, and division operations work as expected. The modulus operator (%) is also available. It divides the left side operand by the right side operand and returns the remainder. The floor division operator (//) divides both operands and rounds down the result. The double * is just an easy way to provide exponents to Python.
 
-Values are assigned with the sign “=”, in fact, objects are bound to names (the equality testing is done using two equal signs “==”). It is possible use the += and -= operators on many datatypes, strings included. You can also use multiple variables and swaps variables in one line. It doesn’t violate variable typing because values aren’t actually being assigned, but new objects are bound to the old names.
+Values are assigned using the equal sign “=”, in fact, objects are bound to names (the equality testing is done using two equal signs “==”). It is also possible use the += and -= operators on many datatypes, strings included. You can also use multiple variables and swap variables in one line. It doesn’t violate variable typing because values aren’t actually being assigned, but new objects are bound to the old names.
 
 ``` 
 >>> IntegerVar = 10
@@ -145,7 +145,7 @@ class int(object)
 
 ### Data types
 
-The data structures available in Python are lists, tuples and dictionaries. Lists are like one-dimensional arrays and we can also have lists of other lists or tuples. There are number of methods for lists (methods follow the list name). Tuples are immutable one-dimensional array.
+The data structures available in Python are lists, tuples and dictionaries. Lists are like one-dimensional arrays and we can also have lists of other lists or lists of tuples. Tuples are **immutable** one-dimensional arrays. There are abundant methods that can be applied to lists (methods follow the list name). 
 
 ``` 
 >>> sampleList = [1,2,3,4,5,6,7,8]
@@ -167,7 +167,7 @@ AttributeError: 'tuple' object has no attribute ‘append’
 
 ```
 
-Python dictionaries are associative arrays that has keys to obtain the elements of the dictionary. Dictionaries aren’t exactly based on an index, there is no particular order in dictionaries (we could add a key: value and, it will appear in random places). A big caution here is that you cannot create different values with the same key (Python will just overwrite the value of the duplicate keys).
+Python dictionaries are associative arrays that use keys to retrieve the elements of the dictionary. Dictionaries aren’t exactly based on an index, there is no particular order in dictionaries (we could add a key: value and, it will appear in random order). A big caution here is that you cannot create different values associated to the same key (Python will just overwrite the value of the duplicate keys).
 
 ``` 
 >>> myDicc = {'someItem': 2, 'otherItem': 20}
@@ -176,7 +176,7 @@ Python dictionaries are associative arrays that has keys to obtain the elements 
 >>>
 
 ```
-Python lists/dictionaries/tuples can be of any type, so you can mix them in. Variables can point to functions. The index of the first element is 0 and negative numbers count from the end towards the beginning ( -1 is the last element).
+Python lists/dictionaries/tuples can be of any type, therefore you can mix them in. Variables can also point to functions. The index of the first element is 0 and negative numbers used as index count from the end of the data structure towards the beginning (being -1 the last element).
 
 ``` 
 >>> Example = [1, "BCN", ["another", "list"], {"and","a","tuple"}]
@@ -192,7 +192,7 @@ set(['a', 'and', 'tuple'])
 
 ```
 
-Finally, Python strings can use either single or double quotation marks, and we can have quotation marks of one kind inside a string that uses the other kind (i.e. "He said 'I enjoy Barcelona'." ). Multiline strings are enclosed in triple double (or single) quotes  ("""). Another interesting feature is that Python supports Unicode out of the box, using the syntax u”This is a unicode string example”. To fill a string with values, we use the % operator and a tuple. Each %s gets replaced with an item from the tuple, left to right, and we can also use dictionary substitutions as we show in the following example:
+Finally, Python strings use either single or double quotation marks, and we can have quotation marks of one kind inside a string that uses the other kind (i.e. "He said 'I enjoy Barcelona'." ). Multiline strings are enclosed by three double (or single) quotes  ("""). Another interesting feature is that Python supports Unicode encoding out of the box, using the syntax u”This is a unicode string example”. To compose a string with values of different types, we use the % operator and a tuple. Each %s gets replaced by an item from the tuple, left to right, and we can also use dictionary replacements as we show in the following example:
 
 ``` 
 >>> MultiString = """ Example of 
@@ -213,14 +213,14 @@ Arrival: BA230 from Barcelona
 <a name="flow"/>
 
 ### Flow control statements
-Flow control statements are *if*, *for*, and *while*.  Often partnered with the if statement are else if and else. However, Python's else if is shortened into elif. After every conditional we have a colon. Next, we could proceed to a new line with number of spaces to tell Python we only want this code to be run when the previous conditional is satisfied. 
+Flow control statements are *if*, *for*, and *while*.  Often partnered with the if statement are *else if* and *else*. However, Python's *else if* is shortened into *elif*. After every conditional statement we have a colon. Next, we could proceed to a new indented line to tell Python we only want this code to be run when the previous conditional is satisfied. 
 
 ``` 
 >>> a = 20
 >>> if a >= 22:
 ...     print("Paris")
 ... elif a >= 21:
-...     print("Londres")
+...     print("London")
 ... else:
 ...     print("Barcelona")
 ... 
@@ -250,13 +250,13 @@ Loops in Python are very versatile and simple.
 >>>
 
 ```
-You can stop the loop using the “break” statement.
+You can exit the loop using the “break” statement.
 
-In this example we use the range keyword (used to enumerate through members of a list and to obtain a list of numbers) to set the starting point and the point right after we would finish (this is precisely why the number 4 didn’t print). Python is quite fond of this idea of all the way up to a number, but not including it.
+In the above example we use the range keyword (used to enumerate through members of a list and to obtain a list of numbers) to set the starting point and the point **right after the end** (that is precisely why number 4 didn’t print). Python is quite fond of this idea of all the way up to a number, but not including it.
 
 <a name="functions"/>
 ### Functions
-We can define a function by using the keyword def before your function name. Optional arguments are set in the function declaration after the mandatory arguments by being assigned a default value. Functions can return a tuple (and using tuple unpacking you can effectively return multiple values).
+We can define a function by using the keyword *def* before the function name. Optional arguments are set in the function declaration after the mandatory arguments by being assigned a default value. Functions can return a tuple (and by using tuple unpacking you can effectively return multiple values).
 
 ```
 >>> 
@@ -284,7 +284,7 @@ Python supports the creation of anonymous functions (i.e. functions that are not
 
 >This is not exactly the same as lambda in functional programming languages
 
-This piece of code shows the difference between a normal function definition("Jordi") and a lambda function ("George"):
+This piece of code shows the difference between defining a regular function ("Jordi") and a lambda function ("George"):
 
 ```
 >>> def Jordi (x): return x**2
@@ -298,7 +298,7 @@ This piece of code shows the difference between a normal function definition("Jo
 >>> 
 
 ```
-As you can see, Jordi() and George() do exactly the same and can be used in the same ways. Note that the lambda definition does not include a "return" statement. Also we can put a lambda definition anywhere a function is expected, and we don't have to assign it to a variable at all as we could see in the following examples:
+As you can see, Jordi() and George() do exactly the same and can be used in the same way. Note that the lambda definition does not include a "return" statement. Also we can put a lambda definition anywhere a function is expected, and we don't have to assign it to a variable at all, as we could see in the following examples:
 
 ```
 >>>
@@ -337,7 +337,7 @@ Python supports a limited form of multiple inheritance in classes.
 ...     def getCurrent(self):
 ...             return self.current
 ... 
->>> myCalc = Calculator() # make myCalc into a Calculator object
+>>> myCalc = Calculator() # make myCalc a Calculator object
 >>> myCalc.add(2) #use myCalc’s new add method derived from the Calculator class>>> print(myCalc.getCurrent())  
 2
 >>> myCalc.add(2)
@@ -345,17 +345,17 @@ Python supports a limited form of multiple inheritance in classes.
 4
 >>> 
 ```
-In the previous example the first part defines a Class. def __init__ is the constructor function, the function that is called when a new instance of the class is created. The actual new instance is created in the line myCalc = Calculator(). The second part shows how to use this class in Python.
+In the previous example the first part defines a Class. def __init__ is the *constructor function*, the function that is called when a new instance of the class is created. The actual new instance is created in the line myCalc = Calculator(). The second part shows how to use that class in Python.
 
 <a name="iterators"/>
 
 ### Iterators
 
-Python define a object type for taking each item of something, one after another. Any time you use a loop, explicit or implicit, to go over a group of items, that is iteration
+Python defines an object type for taking each item from an structured data type, one after another. Any time you use a loop, explicitly or implicitly, to go over a group of items, that is iteration.
 
-An iterable is an object that has an __iter__ method which returns an iterator, or which defines a __getitem__ method that can take sequential indexes starting from zero.
+An **iterable** is an object that has an __iter__ method which returns an iterator, or which defines a __getitem__ method that can take sequential indexes starting from zero.
 
-An iterator is an object with a next (Python 2) or __next__ (Python 3) method.
+An **iterator** is an object with a next (Python 2) or __next__ (Python 3) method.
 
 ```
 >>> vec = [1, 2, 3]
@@ -375,7 +375,7 @@ An iterator is an object with a next (Python 2) or __next__ (Python 3) method.
 
 ### Exceptions
 
-Exceptions in Python are handled with try-except blocks. See the following code for one example:
+Exceptions in Python are handled using try-except blocks. See the following code as an example:
 
 ```
 >>> def function():
@@ -394,9 +394,14 @@ Invalid operation.
 <a name="importing"/>
 
 ### Importing
-External libraries are used with the import \[libname\] keyword. We can also use from \[libname\] import \[funcname\] for individual functions.
+External libraries are used with the import \[libname\] keyword. We can also use from \[libname\] import \[funcname\] to import individual functions.
 
 ```
+>>> import random
+>>> randomint = random.randint(1, 100)
+67
+>>> print randomint
+>>>
 >>> from random import randint
 >>> randomint = random.randint(1, 100)
 >>> print randomint
@@ -406,14 +411,14 @@ External libraries are used with the import \[libname\] keyword. We can also use
 44
 >>>
 ```
-In this example we are showing how first we are importing the whole library and then accessing and individual function of that library, and then how we can import just the individual function and use it directly without needing to write the library.
+In the above example we first import the whole library and then access an individual function of that library, and then how we can import just the individual function and use it directly without needing to read the whole library.
 
 
 
 <a name="files"/>
 
 ### Read/Write files
-Python uses the following sintax for read/write files:
+Python uses the following sintax to read/write files:
 ```
 >>> f = open("test.txt","w") #opens file with name of "test.txt"
 >>> f.write("Barcelona, ")
@@ -434,11 +439,11 @@ Barcelona, is the best city of the world.With an excellent weather.
 <a name="packages"/>
 
 ### Python Packages
-We already know how to import packages. You can find near 100.000 packages [here](https://pypi.python.org/pypi). However let me list some of them as a example, that we could need for a scientific computation and data analysis:
+We already know how to import packages. You can find nearly 100.000 packages [here](https://pypi.python.org/pypi). However let us go through some of them as an example, since we could need them for scientific computation and data analysis:
 
-* **NumPy** and **SciPy** stands for Numerical Python and Scientific Python respectively. The most powerful feature of NumPy is n-dimensional array. This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general programming language to a very powerful matrix-oriented one.
+* **NumPy** and **SciPy** stand for Numerical Python and Scientific Python respectively. The most powerful feature of NumPy is n-dimensional array. This library also contains linear algebra functions or advanced random number capabilities. SciPy stands for Scientific Python and it is built on NumPy. Numpy and Scipy took python from a general purpose programming language to a very powerful matrix-oriented one.
 
-* **Pandas** is a library for structured data operations and manipulations. It is built on top of NumPy and it offers convenient data structures, called *Series* and *DataFrame*, which allow us to perform data manipulation in a flexible and concise way. Let's consider the following example, run from the Python interactive interpreter, using a small made-up toy example of user data:
+* **Pandas** is a library for structured data operation and manipulation. It is built on top of NumPy and it offers convenient data structures, called *Series* and *DataFrame*, which allow us to perform data manipulation in a flexible and concise way. Let's consider the following example, run from the Python interactive interpreter, using a small made-up toy example of user data:
      
 ```
    >>> import pandas as pd
@@ -496,7 +501,7 @@ $ deactivate
 
 ## Warming up: Running your first Python program
 
-Using the “random” library, we write a code that generates a random number between 1 and 20. Then let the player guess the number introduced, displaying if the number is to low or high. The game ends either when the number is guesses correctly.
+Using the “random” library, we have written some code that generates a random number between 1 and 20. Then let the player guess the number drawn, replying if the user's introduced number is above or below. The game ends when the number is correctly guessed.
 
 ``` 
 import random
@@ -522,6 +527,6 @@ To run a python script, simply use the following terminal command, where <file p
  torres@vm:~$ python guessnumber.py
 ```
 
-Now, we are ready to start a new hands-on. Enjoy!
+Now, we are ready to start a new hands-on guide. Enjoy!
 
-**First version: 30/11/2013. Updates 5/02/2014, 29/01/2017.**
+**First version: 30/11/2013. Updates 5/02/2014, 29/01/2017, 1/06/2017.**
