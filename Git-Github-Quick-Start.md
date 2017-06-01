@@ -53,7 +53,7 @@ You can verify that git is working from the command line:
 ```
 $ git --version
 ```
-You should see something like `git version 2.7.4`, that indicates the intalled version.
+You should see something like `git version 2.13.0`, that indicates the intalled version.
 
 In this hands-on quickstart guide we will be using the command line to interact with git repositories. There are also graphical user interface, or GUI, applications available for viewing and maintaining your repositories from Windows, Linux or OSX.
 
