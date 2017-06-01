@@ -91,32 +91,33 @@ Now we can create a local repository with the following command:
 ```
 git_local_repository $ git init
 ```
-We should see something like `Initialized empty Git repository in  git_local_repository/.git/`as an output that indicates that you have created a new repository in your current directory. Internally a `.git` directory was added to local directory as you can check with:
+We should see something like `Initialized empty Git repository in  git_local_repository/.git/`as an output indicating that you have created a new repository in your current directory. Internally a `.git` directory was added to local directory as you can check with:
 
 
 ```
 git_local_repository $ ls -a
 .		..		.git		LICENSE.md	README.md
 ```
-That turns that directory into a git repository. This `.git` *hidden* directory will contain all of the configuration and metadata necessary for git to keep track of our files and the changes that we make to them. 
+That command turns `.git` directory into a git repository. The `.git` *hidden* directory will contain all of the configuration and metadata necessary for git to keep track of our files and the changes that we'll make to them. 
 
-Usually we will want to store our identity information which tells all git repositories in our system our name/email, which will be applied to each commit. Type the following into the command line, replacing the fake identity with your own:
+Usually we will want to store our identity information to tell all git repositories in our system our name/email, which will be applied to each commit. Type the following text into the command line, replacing the fake initial identity with your own:
 
 ```
-git_local_repository $ git config --global user.name "JordiTorresBCN"
-git_local_repository $ git config --global user.email torres@ac.upc.edu
+git_local_repository $ git config --global user.name "angeltoribio-UPC-BCN"
+git_local_repository $ git config --global user.email angel.toribio@upc.edu
+git_local_repository $ git config -l
 ```
 
 
-After we initialize a directory as a git repository, we can then start issuing other git commands. **Warning, do not nest repositories**.
+After initializing a directory as a git repository, we can start issuing other git commands. **Warning, do not nest repositories!!!**.
 
 <a name="add"/>
+
 ### 2.3. Add & commit
 
-Our local repository consists of three "trees" maintained by git. the first one is your **_Working Directory_** which holds the actual files. the second one is the **_Index_** which acts as a staging area and finally the **_HEAD_** which points to the last commit we have made.
+Your local repository consists of three "trees" maintained by git. The first one is your **_Working Directory_** which holds the actual file you are editing. The second one is the **_Index_** which acts as a staging area. Finally the **_HEAD_** which points to the last commit you made.
 
-
-You can propose changes (add it to the Index) using `git add <filename>`( or `git add *` ). This is the first step in the basic git workflow. To actually commit these changes use `git commit -m "Commit message"`. Now the file is committed to the HEAD of your local working directory (but not in your remote repository yet).
+You can propose file changes (add the file to the Index) using `git add <filename>`( or `git add *` ). This is the first step in the basic git workflow. To actually commit these changes use `git commit -m "Commit message"`. Now the file is committed to the HEAD of your local working directory (but not yet in your remote repository).
 
 ![workflow](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/workflow.png)
 
@@ -127,7 +128,7 @@ git_local_repository $ git add README.md
 git_local_repository $ git commit -m "first commit"
 ```
 
-Notice that we do not add `LICENSE.md` file intentionally, in order to show the differences. Sometimes git repositories will have private data that you do not want shared (unintentionally added for instance). That is what the `.gitignore` file is for. This file is a list of files and/or directories that you do not want included in your repository. Git will not allow you to add any of the files referenced in  the file `.gitignore` to your repository.
+Notice that we do not add `LICENSE.md` file intentionally, in order to show the differences. Sometimes git repositories will have private data that you do not want to be shared (unintentionally added for instance). That is what the `.gitignore` file is for. That file is a list of files and/or directories that you do not want to be included in your repository. Git will then not allow you to add any of the files referenced in  the file `.gitignore` to your repository.
 
 
 <a name="branching"/>
