@@ -47,7 +47,7 @@ Before going deeper into the matter it is important to clarify some key concepts
 <a name="installing"/>
 
 ### 2.1. Installing git
-In order to intall git you can visit the [git download page](https://git-scm.com/download) and run the installer for your operating system.
+In order to install git you can visit the [git download page](https://git-scm.com/download) and run the installer program for your operating system.
 
 You can verify that git is working from the command line:
 ```
@@ -56,6 +56,8 @@ $ git --version
 You should see something like `git version 2.7.4`, that indicates the intalled version.
 
 In this hands-on quickstart guide we will be using the command line to interact with git repositories. There are also graphical user interface, or GUI, applications available for viewing and maintaining your repositories from Windows, Linux or OSX.
+
+<a name="init"/>
 
 ### 2.2. git init
 To start, let's create a new directory called `git_local_repository` and add a few files to it.
