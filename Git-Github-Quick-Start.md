@@ -55,12 +55,12 @@ $ git --version
 ```
 You should see something like `git version 2.13.0`, that indicates the intalled version.
 
-In this hands-on quickstart guide we will be using the command line to interact with git repositories. There are also graphical user interface, or GUI, applications available for viewing and maintaining your repositories from Windows, Linux or OSX.
+In this hands-on quickstart guide we will be using the command line to interact with git repositories. There are also graphical user interface applications, or GUI apps, available for viewing and maintaining your repositories from Windows, Linux or OSX.
 
 <a name="init"/>
 
 ### 2.2. git init
-To start, let's create a new directory called `git_local_repository` and add a few files to it.
+To begin, let's create a new directory called `git_local_repository` and add a few files to it.
 
 ```
 $ mkdir git_local_repository
@@ -73,7 +73,7 @@ As an example we created the files `README.md` and `LICENSE.md`, both are includ
 
 #### Markdown format
 
-These particular files use the [markdown] (https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/) format that allows to create sophisticated formatting for your prose (and code on GitHub) with simple syntax. For example:
+These particular files use the [markdown format](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/) that allows us to create sophisticated formatting for your prose (and code on GitHub) with a simple syntax. For example:
 - To create a heading, add one to six **#** symbols before your heading text. The number of # you use will determine the size of the heading.
 - To indicate emphasis with bold use \*\* before and after the selected text.
 - To indicate emphasis with italic use \* before and after the selected text.
