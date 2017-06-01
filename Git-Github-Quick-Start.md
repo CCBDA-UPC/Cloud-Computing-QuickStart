@@ -1,6 +1,6 @@
 # Git and GitHub Quick Start
 
-This hands-on is a "simple Beginner's guide" that provides a fast-paced introduction to the basic characteristics of `git` .It is intended for those students enrolled in Computer Science Masters' Courses who have no prior knowledge of git/github, to help them learn the minimum required background knowledge necessary to follow the courses. The material has been written to provide a hands-on practice while you are exploring new technical knowledge. We recommend you to read this guide on a computer and try to perform all the exercises.
+This hands-on quickstart guide is a "simple Beginner's guide" that provides a fast-paced introduction to the basic characteristics of `git` .It is intended for those students enrolled in Computer Science Masters' Courses who have no prior knowledge of git/github, to help them learn the minimum required background knowledge necessary to follow the courses. The material has been written to provide a hands-on practice while you are exploring new technical knowledge. We recommend you to read this guide on a computer and try to perform all the exercises.
 
 
 ## Table of Contents
@@ -41,10 +41,13 @@ Before going deeper into the matter it is important to clarify some key concepts
 
 
 <a name="git"/>
+
 ## 2. Getting Started with Git
+
 <a name="installing"/>
+
 ### 2.1. Installing git
-In order to intalling git you can visit the [git download page](https://git-scm.com/download) and run the installer for your operating system.
+In order to intall git you can visit the [git download page](https://git-scm.com/download) and run the installer for your operating system.
 
 You can verify that git is working from the command line:
 ```
@@ -52,7 +55,7 @@ $ git --version
 ```
 You should see something like `git version 2.7.4`, that indicates the intalled version.
 
-In this hands-on we will be using the command line to interact with git repositories. There are also graphical user interface, or GUI, applications available for viewing and maintaining your repositories from Windows, Linux or OSX.
+In this hands-on quickstart guide we will be using the command line to interact with git repositories. There are also graphical user interface, or GUI, applications available for viewing and maintaining your repositories from Windows, Linux or OSX.
 
 ### 2.2. git init
 To start, let's create a new directory called `git_local_repository` and add a few files to it.
@@ -151,9 +154,9 @@ In order to merge another branch into your active branch (e.g. master), use `git
 
 Now that you have set up your GitHub account, it is time to learn how to use it. Whenever you are logged in to the GitHub website, you will see a plus icon in the upper right corner. When you click on that, you will see a menu that includes a *New Repository* link. Click on that link. Choosing a repository name comes next (if we have spaces in our repo name, GitHub will automatically replace them with hyphens). 
 
-In this hands-on, we are going to create a remote repository on GitHub where we can push the local repository that we created  previously (our local and remote repos do not have to have the same name). We can decide if our repo is public or private. 
+In this hands-on quickstart guide, we are going to create a remote repository on GitHub where we can push the local repository that we created  previously (our local and remote repos do not have to have the same name). We can decide if our repo is public or private. 
 
-The next important thing we need to look at is the *Initialize this repository with a README* checkbox. This is a very important step in creating our remote repo. If we check the box, it will automatically create and commit a *README file* in our remote repo. We will usually create our local repo first, so we will not check this box in this case (this is the case of our example in this hands-on).
+The next important thing we need to look at is the *Initialize this repository with a README* checkbox. This is a very important step in creating our remote repo. If we check the box, it will automatically create and commit a *README file* in our remote repo. We will usually create our local repo first, so we will not check this box in this case (this is the case of our example in this hands-on quickstart guide).
 
 <a name="connecting"/>
 ### 3.2. Connecting local repository to Github repository 
@@ -219,7 +222,7 @@ in your working directory to *fetch* and *merge* remote changes. In order to mer
 ## 4. Git clone
 So far, we have been talking about connecting an existing remote repository with an existing local repository. But what if we don't have an existing local repository, and just want to pull down all the contents of a remote repository? In this case we can use `git clone`to make an exact clone of an existing remote repository in our local repository.  The git clone command has several options, but most of the time we will only consider its basic usage `git clone <remote_repository_url> <local_directory_path>`.
 
-`git clone` is used mainly when we need to work with a remote repository, and do not yet have a local repository created. This is the case of many of the hands-on suggested in this course. For this reason we will use `git clone`in almost all laboratory hands-on sessions. For instance, assume that the documentation of today hands-on is at `https://github.com/angeltoribio-UPC-BCN/git_local_repository.git` (our today example).  Here's what it looks like in action:
+`git clone` is used mainly when we need to work with a remote repository, and do not yet have a local repository created. This is the case of many of the hands-on guides suggested in this course. For this reason we will use `git clone`in almost all laboratory hands-on sessions. For instance, assume that the documentation of today's hands-on session is at `https://github.com/angeltoribio-UPC-BCN/git_local_repository.git` (our today example).  Here's what it looks like in action:
 
 ```
 $ pwd
@@ -249,4 +252,4 @@ There are plenty of courses and tutorials available on the Internet regarding th
 
 An excellent book is the [Pro Git](https://git-scm.com/book) book, written by Scott Chacon and Ben Straub and published by Apress. It is available [here](https://git-scm.com/book) (pdf, epub, mobi, html). All content is licensed under the Creative Commons Attribution Non Commercial Share Alike 3.0 license. Print versions of the book are available on [Amazon.com](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20).
 
-Now, we are ready to start a [new hands-on](https://github.com/angeltoribio-UPC-BCN/Python-Quick-Start). Enjoy!
+Now, we are ready to start a [new hands-on quickstart guides](https://github.com/angeltoribio-UPC-BCN/Python-Quick-Start). Enjoy!
