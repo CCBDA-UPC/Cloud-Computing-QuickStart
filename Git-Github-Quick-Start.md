@@ -23,16 +23,16 @@ This hands-on is a "simple Beginner's guide" that provides a fast-paced introduc
 
 ## 1. Getting Started
 
-[**Git**](https://git-scm.com/) is a free and open source distributed version control system (started in 2005 by Linus Torvald) designed to handle everything from small to very large code projects. With git, **users keep entire code files on their location machines**. However git keeps a historical record of the files in your codebase, as well as manage workflows that allow teams of programmers to work together and allowing them to revert any changes and go back to a previous code version.  For this purpouse git, store the files into a repository that is typically hosted on [**G+**](https://github.com/). GitHub took the git program and connected the people and code over the web, creating an eco-system and user interface for software projects that we can 'touch'. 
+[**Git**](https://git-scm.com/) is a free and open source distributed version control system (started in 2005 by Linus Torvald) designed to handle everything from small to very large code projects. With git, **users keep entire code files on their location machines**. However git keeps a historical record of the files in your codebase, as well as manage workflows that allow teams of programmers to work together and allowing them to revert any changes and go back to a previous code version.  For this purpouse git, store the files into a repository that is typically hosted on GitHub ([**G+**](https://github.com/)). GitHub took the git program and connected the people and code over the web, creating an ecosystem and user interface for software projects that we can 'touch'. 
 
 
-Before to start it is important to clarify some key concepts:
+Before going deeper into the matter it is important to clarify some key concepts:
 
 - **Snapshot** is the way git keeps track of our code history recording what our files look like at a given point in time. We can decide when to take a snapshot and go back to visit any previous snapshot.
 
-- **Commit** refers to the act of creating a snapshot. Essentially, a project in GitHub is made up of a bunch of commits. Basically a commit contain 3 pieces of information: information about how the files changed from previous snapshot, a reference to the commit that came before it (called the *parent commit*) and a hash code name to identify the commit.
+- **Commit** refers to the act of creating a snapshot. Essentially, a project in GitHub is made up of a bunch of commits. Basically a commit contains 3 pieces of information: information about how the files changed from the previous snapshot, a reference to the commit that came before it (called the *parent commit*) and a hash code name to identify the commit.
 
-- **Repository**, often shortened to **repo**, refers the collection of all the files, the history of those files and all the commits. A repository can live in our local machine, referenced as a our **local repository**,  or on a remote on GitHub's servers, named **remote repository**. 
+- **Repository**, often shortened to **repo**, refers the collection of all the files, the history of these files and all the commits. A repository can live in our local machine, referenced as a our **local repository**,  or on a remote on GitHub's server, named **remote repository**. 
 
 - The action of downloading commits that don’t exist on our local repository from a remote repository is called **pulling** changes.  The process of adding our local changes to the remote repository is called **pushing** changes.
 
