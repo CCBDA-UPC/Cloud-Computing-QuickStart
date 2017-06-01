@@ -255,4 +255,4 @@ There are plenty of courses and tutorials available on the Internet regarding Gi
 
 An excellent book is the [Pro Git](https://git-scm.com/book) book, written by Scott Chacon and Ben Straub and published by Apress. It is available [here](https://git-scm.com/book) (pdf, epub, mobi, html). All content is licensed under the Creative Commons Attribution Non Commercial Share Alike 3.0 license. Print versions of the book are available on [Amazon.com](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20).
 
-Now, we are ready to start a [new hands-on quickstart guide](https://github.com/angeltoribio-UPC-BCN/Python-Quick-Start). Enjoy!
+Now, we are ready to start a [new hands-on quickstart guide](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/Python-Quick-Start.md). Enjoy!
