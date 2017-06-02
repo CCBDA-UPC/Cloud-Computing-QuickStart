@@ -1,9 +1,9 @@
 # Markdown syntax
 
-Markdown is a way to style text on the web. It is very popular among computer science engineers because it is intended to be as easy-to-read and easy-to-write as is feasible. Monstly, Markdown is just regular text with a few non-alphabetic characters thorwn in, like \# or \*. Github uses its own version of the Markdown syntax which provides an additional set of useful features. This is a subset of Github-flavored Markdown syntax that I'm using.
+Markdown is a way to style text on the web. It is very popular among computer science engineers because it is intended to be as easy-to-read and easy-to-write as is feasible. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, such as \# or \*. Github uses its own version of the Markdown syntax which provides an additional set of useful features. This is a subset of Github-flavored Markdown syntax that I'm using.
 
 
-# Markdown codes for "Headers"
+# Markdown code for "Headers"
 We have 6 levels:
 ```
 # Header 1
@@ -36,47 +36,47 @@ Header 2
 --------
 
 
-# Markdown codes for "Emphasis"
+# Markdown code for "Emphasis"
 We have italics, bold, italic+bold and strikethrough:
 
 ```
-Italics, with *asterisks* or _underscores_.
+Italics, use *asterisks* or _underscores_.
 
-Bold, with **asterisks** or __underscores__.
+Bold, use **asterisks** or __underscores__.
 
-Italic+Bold with **asterisks and _underscores_**.
+Italic+Bold use **asterisks and _underscores_**.
 
-Strikethrough with two tildes. ~~Scratch this.~~
+Strikethrough use two tildes. ~~Scratch this.~~
 ```
 
-Italics, with *asterisks* or _underscores_.
+Italics, use *asterisks* or _underscores_.
 
-Bold, with **asterisks** or __underscores__.
+Bold, use **asterisks** or __underscores__.
 
-Italic+Bold with **asterisks and _underscores_**.
+Italic+Bold use **asterisks and _underscores_**.
 
-Strikethrough with two tildes. ~~Scratch this.~~
+Strikethrough use two tildes. ~~Scratch this.~~
 
 
-Highlighting code inline isn't part of the Markdown spec, however Github support it, using `back-ticks around` the especific code: 
+Highlighting code inline isn't part of the Markdown spec, however Github supports it, using `backticks around` the specific code: 
 
 ```no-highlight
-Inline `code` has `back-ticks around` it.
+Inline `code` has `backticks around` it.
 ```
 
-Inline `code` has `back-ticks around` it.
+Inline `code` has `backticks around` it.
 
 
-# Markdown codes for "Ordered Lists"
-Actual numbers don't matter in an ordered list, just that it's a number. Could content a unordered or ordered list. A text box can be aligned with the above item as shown in the example (keep a :
+# Markdown code for "Ordered Lists"
+Actual numbers don't matter in an ordered list, it only matters that there's a number. Lists can be ordered or unordered. A text box can be aligned with the item above as shown in the example (use three spaces to indent):
 ```
 1. List Item 1
 1. List Item 2
-  1. Ordered sub-list Item 1
-  3. Ordered sub-list Item 2
+   1. Ordered sub-list Item 1
+   3. Ordered sub-list Item 2
 5. List Item 3
-  * Unordered sub-list item 1
-  * Unordered sub-list item 2
+   * Unordered sub-list item 1
+   * Unordered sub-list item 2
   
     Some text that should be aligned with the above item.
    
@@ -91,120 +91,114 @@ Actual numbers don't matter in an ordered list, just that it's a number. Could c
 
 1. List Item 1
 1. List Item 2
-  1. Ordered sub-list Item 1
-  3. Ordered sub-list Item 2
+   1. Ordered sub-list Item 1
+   3. Ordered sub-list Item 2
 5. List Item 3
-  * Unordered sub-list item 1
-  * Unordered sub-list item 2
+   * Unordered sub-list item 1
+   * Unordered sub-list item 2
    
-    Some text that should be aligned with the above item.
+     Some text that should be aligned with the item above .
    
-    Another text that should be aligned with the above item.  
+     Another text that should be aligned with the item above.  
     
 7. List Item 4
    
-   Some text that should be aligned with the above item.
+   Some text that should be aligned with the item above.
    
-   Another text that should be aligned with the above item.
+   Another text that should be aligned with the item above.
  
-# Markdown codes for "Unordered Lists"
+# Markdown code for "Unordered Lists"
 Unordered list can use asterisks, or minuses, or pluses.
 
 ```
 * List Item 1
 * List Item 2
-  1. Ordered sub-list Item 1
-  3. Ordered sub-list Item 2
+     1. Ordered sub-list Item 1
+     3. Ordered sub-list Item 2
 + List Item 3
   * Unordered sub-list item 1
   * Unordered sub-list item 2
   
 - List Item 4
-   
-   Some text that should be aligned with the above item.
-   
-   Another text that should be aligned with the above item.
-
+   Some text that should be aligned with the item above.
+   Another text that should be aligned with the item above.
 ```
-
 * List Item 1
 * List Item 2
-  1. Ordered sub-list Item 1
-  3. Ordered sub-list Item 2
+   1. Ordered sub-list Item 1
+   3. Ordered sub-list Item 2
 + List Item 3
-  * Unordered sub-list item 1
-  * Unordered sub-list item 2
-  
+   * Unordered sub-list item 1
+   * Unordered sub-list item 2
 - List Item 4
-   
-   Some text that should be aligned with the above item.
-   
-   Another text that should be aligned with the above item.
+   Some text that should be aligned with the item above.
+   Another text that should be aligned with the item above.
 
-# Markdown codes for "Links"
+# Markdown code for "Links"
 We have 3 ways to create links:
 ```
-[This is an inline-style link to my web page](http://www.JordiTorres.Barcelona)
+[This is an inline-style link to my web page](http://www.angeltoribio.com)
 
-URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
-
-```
-
-[This is an inline-style link to my web page](http://www.JordiTorres.Barcelona)
+URLs will automatically get turned into links: http://www.angeltoribio.com
 
 ```
-URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
+
+[This is an inline-style link to my web page](http://www.angeltoribio.com)
+
+```
+URLs will automatically become links: http://www.angeltoribio.com
 ```
 
-URLs will automatically get turned into links: http://www.JordiTorres.Barcelona
+URLs will automatically become links: http://www.angeltoribio.com
 
 You can also use numbers or text for reference-style a link:
 ```
 [This is a reference-style link to my web page][text_or_number]
 
-[text_or_number]: http://www.JordiTorres.Barcelona
+[text_or_number]: http://www.angeltoribio.com
 ```
 [This is a reference-style link to my web page][text_or_number]
 
-[text_or_number]: http://www.JordiTorres.Barcelona
+[text_or_number]: http://www.angeltoribio.com
 
-Finally, despite it isn't part of the Markdown spec, if you want to link in a specific position in the same page `.md` you can create a label as:
+Finally, despite it isn't part of the Markdown spec, if you want to link to a specific position in the same page `.md` you can create a label as:
 
 ```
 <a name="code"/>
 ```
-in the correct position and use
+above the text to want to have a link to and to create a link to that position use
 ```
 [Code](#code)  
 ```
 <a name="code"/>
 [Code](#code)  
 
-# Markdown codes for "Images"
-We can do it either in inline-style or reference-style:
+# Markdown code for "Images"
+We can insert images by using either an inline-style or a reference-style:
 ```
-![UPC Barcelona Tech](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
+![UPC Barcelona Tech](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
 
 ![UPC Barcelona Tech][UPC-logo]
 
-[UPC-logo]: https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo"
+[UPC-logo]: https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo"
 
 ```
-![UPC Barcelona Tech](https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
+![UPC Barcelona Tech](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
 
 
 ![UPC Barcelona Tech][UPC-logo]
 
-[UPC-logo]: https://github.com/jorditorresBCN/Quick-Start/blob/master/img/UPClogo.png  "UPC logo"
+[UPC-logo]: https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/UPClogo.png  "UPC logo"
 
 
 
 
-# Markdown codes for "Bloc code"
+# Markdown code for "Bloc code"
 
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+Blocks of code are either fenced by lines with three backticks <code>```</code>, or are indented using four spaces. I only recommend using the fenced code blocks -- they're easier to spot and they support syntax highlighting.
 
-<pre lang="no-highlight"><code>```javascript
+<pre lang="no-highlight"><code>
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
@@ -215,7 +209,7 @@ print s
 ```
  
 ```
-No language indicated, so no syntax highlighting. 
+No language indicated, therefore no syntax highlighting. 
 But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 ```
 </code></pre>
@@ -233,12 +227,12 @@ print s
 ```
 
 ```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+No language indicated, therefore no syntax highlighting in Markdown Here (varies on Github). 
 But let's throw in a <b>tag</b>.
 ```
 
-# Markdown codes for "Tables"
-You can add tables using colons to align columns: 
+# Markdown code for "Tables"
+You can add tables using colons to align column content: 
 
 ```no-highlight
 
@@ -272,7 +266,7 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-# Markdown codes for "Blockquotes"
+# Markdown code for "Blockquotes"
 
 
 ```no-highlight
@@ -289,7 +283,7 @@ Markdown | Less | Pretty
 
 > This is a very long line that will still be quoted properly when it wraps. This is a very long line that will still be quoted properly when it wraps. This is a very long line that will still be quoted properly when it wraps.
 
-# Markdown codes for "Blockquotes"
+# Markdown code for "inline HTML"
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
 
@@ -313,7 +307,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 
 
-# Markdown codes for "Horizontal Rule"
+# Markdown code for "Horizontal Rule"
 
 
 ```
@@ -366,7 +360,7 @@ Markdown provides backslash escapes for the following characters:
 
 Character | Code | Description
 --- | --- | ---
- **\\**   | `\\` | backslash
+ **\\**   | `\\` | back slash
  **\`**   | ```\` ``` | backtick
  \*    | `\*` | asterisk
  **\_**   | `\_` | underscore
@@ -381,3 +375,4 @@ Character | Code | Description
 
 ---
 *Part of this Quick Start tutorial is based on https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet*
+
