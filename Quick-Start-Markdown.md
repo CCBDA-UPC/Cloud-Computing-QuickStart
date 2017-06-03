@@ -176,19 +176,19 @@ above the text to want to have a link to and to create a link to that position u
 # Markdown code for "Images"
 We can insert images by using either an inline-style or a reference-style:
 ```
-![UPC Barcelona Tech](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
+![UPC Barcelona Tech](./img/UPClogo.png "UPC logo")
 
 ![UPC Barcelona Tech][UPC-logo]
 
-[UPC-logo]: https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo"
+[UPC-logo]: ./img/UPClogo.png "UPC logo"
 
 ```
-![UPC Barcelona Tech](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/UPClogo.png "UPC logo")
+![UPC Barcelona Tech](./img/UPClogo.png "UPC logo")
 
 
 ![UPC Barcelona Tech][UPC-logo]
 
-[UPC-logo]: https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/UPClogo.png  "UPC logo"
+[UPC-logo]: ./img/UPClogo.png  "UPC logo"
 
 
 
