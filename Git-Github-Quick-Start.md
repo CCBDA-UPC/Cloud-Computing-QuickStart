@@ -37,7 +37,7 @@ Before going deeper into the matter it is important to clarify some key concepts
 - The action of downloading commits that don’t exist on our local repository from a remote repository is called **pulling** changes.  The process of adding our local changes to the remote repository is called **pushing** changes.
 
 
-![Terminology](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/terminology.png)
+![Terminology](./img/terminology.png)
 
 
 <a name="git"/>
@@ -119,7 +119,7 @@ Your local repository consists of three "trees" maintained by git. The first one
 
 You can propose file changes (add the file to the Index) using `git add <filename>`( or `git add *` ). This is the first step in the basic git workflow. To actually commit these changes use `git commit -m "Commit message"`. Now the file is committed to the HEAD of your local working directory (but not yet in your remote repository).
 
-![workflow](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/workflow.png)
+![workflow](./img/workflow.png)
 
 In our case we can execute:
 
@@ -140,7 +140,7 @@ In git, a **branch** is a copy of all the files in your codebase. Each branch ha
 
 To create a new branch, we **fork** it from an existing one, likely the `master` branch. Then we are immediately switched to the newly forked branch and the future operations will act uppon the new branch. The new experimental branch will keep all the historical changes of the master branch up to the point of the fork. That is, the two branches do not stay in sync automatically going forward. In case we decide to discard that experimental branch, we can simply delete it. On the other hand, if we want to keep the code modifications we can **merge** the commits from the experimental branch into the `master` branch.
 
-![forkmerge](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/forkmerge.png)
+![forkmerge](./img/forkmerge.png)
 
 To create a new branch named "feature_x" and switch to it we use `git checkout -b feature_x`. In order to switch back to master
 `git checkout master` and to delete the branch `git branch -d feature_x`. 
@@ -166,7 +166,7 @@ The next important thing we need to look at is the *Initialize this repository w
 
 Now you should see instructions (similar to the following screenshot) on how to connect your local repository in your computer to the remote one you just created on GitHub. 
 
-![Connecting local repository to Github repository](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/git_local_repository.png)
+![Connecting local repository to Github repository](./img/git_local_repository.png)
 
 
 Looking at just the first option, the set of git commands that should look very familiar, we have already issued the first four commands. We only need to perform the last two commands in order to link our local repository with the remote one.
@@ -201,7 +201,7 @@ After a successfull login, we will see a message saying that our objects have be
 
 As a result we have in our remote GitHub account our files added with `git add`, in our case only `README.md`file.
 
-![firstgithubcontent](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/img/firstgithubcontent.png)
+![firstgithubcontent](./img/firstgithubcontent.png)
 
 Sometimes the code in our remote repository will contain commits that we do not have in your local repository (for example because we work inside a team or we made a change to a file directly at GitHub.com). In these situations, we will need to **pull** the commits from the remote repository into our local repository with the command:
 
@@ -255,4 +255,4 @@ There are plenty of courses and tutorials available on the Internet regarding Gi
 
 An excellent book is the [Pro Git](https://git-scm.com/book) book, written by Scott Chacon and Ben Straub and published by Apress. It is available [here](https://git-scm.com/book) (pdf, epub, mobi, html). All content is licensed under the Creative Commons Attribution Non Commercial Share Alike 3.0 license. Print versions of the book are available on [Amazon.com](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20).
 
-Now, we are ready to start a [new hands-on quickstart guide](https://github.com/angeltoribio-UPC-BCN/Quick-Start/blob/master/Python-Quick-Start.md). Enjoy!
+Now, we are ready to start a [new hands-on quickstart guide](./Python-Quick-Start.md). Enjoy!
