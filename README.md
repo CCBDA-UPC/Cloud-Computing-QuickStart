@@ -14,4 +14,4 @@ Let's bear in mind the importance of hands-on practice while you are exploring n
 * Hands-on 5: [Getting Started in the Cloud with AWS](./Quick-Start-AWS.md)
 
 
-Acknowledgements: Prof. Jordi Torres and some of his former students for their help with proofreading and improving this documentation: Eloy Gil, Dani Cea, Xisco Sastre and Mauro Gómez.
+Acknowledgements: Thanks to Prof. Jordi Torres for all his work and also to some of his former students for their help with proofreading and improving this documentation: Eloy Gil, Dani Cea, Xisco Sastre and Mauro Gómez.
