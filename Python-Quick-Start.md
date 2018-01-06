@@ -527,4 +527,4 @@ To run a python script, just use the following terminal command, where <file pat
  torres@vm:~$ python guessnumber.py
 ```
 
-Now, we are ready to start a new hands-on guide. Enjoy!
+Now, we are ready to start a [new hands-on quickstart guide](./Python-Development-Environment-Quick-Start.md). Enjoy!
