@@ -1,6 +1,6 @@
 # Git and GitHub Quick Start
 
-This hands-on quickstart guide is a "simple Beginner's guide" that provides a fast-paced introduction to the essential characteristics of `git`. It is intended for those students enrolled in Computer Science Masters' Courses who have no prior knowledge of git/Github, to help them learn the minimum required background knowledge necessary to follow the courses. The material has been written to provide a hands-on practice while you are exploring new technical knowledge. We recommend you to read this guide on a computer and try to complete all the exercises.
+This hands-on quickstart guide is a "simple Beginner's guide" that provides a fast-paced introduction to the essential characteristics of `git`. It is intended for those students enrolled in Computer Science Masters' Courses who have no prior knowledge of git/Github, to help them learn the minimum required background knowledge necessary to follow the courses. The material has been written to provide a hands-on practice while the student explores new technical expertise. We recommend you to read this guide on a computer and try to complete all the exercises.
 
 
 ## Table of Contents
@@ -23,10 +23,10 @@ This hands-on quickstart guide is a "simple Beginner's guide" that provides a fa
 
 ## 1. Getting Started
 
-[**Git**](https://git-scm.com/) is a free and open source distributed version control system (started in 2005 by Linus Torvald) designed to handle everything from small to extensive code projects. Using git, **users keep entire code files on their location machines**. However, git maintains a historical record of the files in your codebase, as well as manage workflows that allow teams of programmers to work together and allowing them to revert any changes and go back to a previous code version.  For this purpose git, store the files into a repository being GitHub ([**G+**](https://github.com/)) a popular alternative. GitHub took the git program and connected the people and code over the web, creating an ecosystem and user interface for software projects that we can 'touch'. 
+[**Git**](https://git-scm.com/) is a free and open source distributed version control system (started in 2005 by Linus Torvald) designed to handle everything from small to extensive code projects. Using git, **users keep entire code files on their location machines**. However, git maintains a historical record of the files in your codebase, as well as manages workflows that allow teams of programmers to work together, allowing them to revert any changes and go back to a previous code version.  For this purpose git, stores the files into a shared repository being GitHub ([**G+**](https://github.com/)) a popular alternative. GitHub took the git program and connected the people and code over the web, creating an ecosystem and user interface for software projects that we can 'touch'. 
 
 
-Before going deeper into the matter, it is important to clarify some fundamental concepts:
+Before going deeper into the matter, it is important to clarify some central concepts:
 
 - **Snapshot** is the way git keeps track of our code history recording what our files look like at a given point in time. We can decide when to take a snapshot and go back to visit any previous snapshot.
 
@@ -53,9 +53,9 @@ You can verify that git is working from the command line:
 ```
 $ git --version
 ```
-You should see something like `git version 2.13.0`, that indicates the installed version.
+You should view something like `git version 2.13.0`, that indicates the installed version.
 
-In this hands-on quickstart guide, we will be using the command line to interact with git repositories. There are also graphical user interface applications, or GUI apps, available for Windows, Linux and OSX. Using these apps, you can view and maintain your repositories.
+In this hands-on quickstart guide, we will be using the command line to interact with git repositories. There are also graphical user interface applications, or GUI apps, available for Windows, Linux, and OSX. Using these apps, you can view and maintain your repositories.
 
 <a name="init"/>
 
@@ -100,7 +100,7 @@ git_local_repository $ ls -a
 ```
 That command changes the `.git` directory into a git repository. The `.git` *hidden* directory will contain all of the configuration and metadata necessary for git to keep track of our files and the changes that we'll make to them. 
 
-Usually, we want to store our identity information to tell our name/email to all git repositories in our system, which will be applied to each commit. Type the following text into the command line, replacing the shown identity with your own:
+Usually, we want to store our identity information to tell our name/email to all git repositories in our system, which will be applied to each future commit. Type the following text into the command line, replacing the shown identity with your own:
 
 ```
 git_local_repository $ git config --global user.name "angeltoribio-UPC-BCN"
@@ -184,7 +184,7 @@ git_local_repository $ git push -u origin master
 ```
 Here, `origin` is the alias of remote repository indicated before and `master` indicates the remote repository branch.
 
-If we have never pushed to GitHub before, we will now be seeing a login prompt, and we are required to introduce our GitHub username and password. If you are following along from the previous sections, your output should read similarly as follows:
+If we have never pushed to GitHub before, we will now be seeing a login prompt, and we are required to introduce our GitHub username and password. If you are following along from the previous sections, your output should read, approximately, as follows:
 ```
 Username for 'https://github.com': angeltoribio-UPC-BCN
 Password for 'https://angeltoribio-UPC-BCN@github.com': 
