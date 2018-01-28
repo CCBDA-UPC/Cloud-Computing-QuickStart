@@ -155,7 +155,7 @@ To merge another branch into your active branch (e.g., master), use `git merge <
 
 ### 3.1. Creating a GitHub account
 
-[**Github**](https://github.com/) offers free accounts for users and organizations working on public and open source projects, as well as paid accounts that offer unlimited private repositories. GitHub has a special [Education Programm](https://education.github.com/) that includes very interesting perks. If you are a student go and [**get the Student Developer Pack**](https://education.github.com/pack)!
+[**Github**](https://github.com/) offers free accounts for users and organizations working on public and open source projects, as well as paid accounts that offer unlimited private repositories. GitHub has an [**Education Program**](https://education.github.com/) that includes very interesting perks. If you are a student, go and [**get the Student Developer Pack**](https://education.github.com/pack)!
 
 Once you have your GitHub account set up, it is time to learn how to use it. Whenever you are logged in to the GitHub website, you will see a plus icon in the upper right corner. When you click on that, you will see a menu that includes a *New Repository* option. Click on the link. Choosing a repository name comes next (if we have spaces in our repo name, GitHub will automatically replace them with hyphens). 
 
