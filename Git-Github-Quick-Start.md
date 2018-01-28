@@ -148,12 +148,14 @@ To create a new branch named "feature_x" and switch to it we use `git checkout -
 To merge another branch into your active branch (e.g., master), use `git merge <branch>`. Git tries to auto-merge changes.  Unfortunately (and obviously), this is not always possible and results in **_conflicts_**. You are responsible for solving these merging conflicts manually by editing the files reported by git. After fixing the conflicts, you will need to mark them as merged with `git add <filename>`. Before merging changes, you can also preview them by using `git diff <source_branch> <target_branch>`.
 
 <a name="github"/>
+
 ## 3. Getting Started with GitHub
 
 <a name="account"/>
+
 ### 3.1. Creating a GitHub account
 
-[**Github**](https://github.com/) offers free accounts for users and organizations working on public and open source projects, as well as paid accounts that offer unlimited private repositories.
+[**Github**](https://github.com/) offers free accounts for users and organizations working on public and open source projects, as well as paid accounts that offer unlimited private repositories. GitHub has a special [Education Programm](https://education.github.com/) that includes very interesting perks. If you are a student go and [**get the Student Developer Pack**](https://education.github.com/pack)!
 
 Once you have your GitHub account set up, it is time to learn how to use it. Whenever you are logged in to the GitHub website, you will see a plus icon in the upper right corner. When you click on that, you will see a menu that includes a *New Repository* option. Click on the link. Choosing a repository name comes next (if we have spaces in our repo name, GitHub will automatically replace them with hyphens). 
 
@@ -162,6 +164,7 @@ In this hands-on quickstart guide, we are going to create a remote repository on
 The next important thing we need to look at is the *Initialize this repository with a README* check box. That is an essential step in creating our remote repo. If we check the box, it will automatically create and commit a *README file* in our remote repo. We will usually create our local repo first, so we will not check this box in this case (this is the case of our example in this hands-on quickstart guide).
 
 <a name="connecting"/>
+
 ### 3.2. Connecting local repository to Github repository 
 
 Now you should see instructions (similar to the following screenshot) on how to connect your local repository to your computer to the remote one you just created on GitHub. 
@@ -211,6 +214,7 @@ git_local_repository $ git pull origin master
 
 
 <a name="branching2"/>
+
 ### 3.3. Branching
 It is important to be aware that branches can exist both locally and on remote repositories. A branch is not available to others unless you push the branch to your remote repository
 `git push origin <branch>`. 
@@ -222,6 +226,7 @@ git_local_repository $ git pull
 In your working directory to *fetch* and *merge* remote changes. To merge another branch into your active branch (e.g., master), use `git merge <branch>`. 
 
 <a name="clone"/>
+
 ## 4. Git clone
 So far, we have been talking about connecting an existing remote repository to an existing local repository. However, what if we do not have an existing local repository, and we just want to pull down all the contents from a remote repository? In this case, we can use `git clone`to make an exact clone of an existing remote repository in our local repository.  The git clone command has several options, but most of the time we will only consider its basic usage `git clone <remote_repository_url> <local_directory_path>`.
 
