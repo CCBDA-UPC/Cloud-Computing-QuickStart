@@ -23,9 +23,9 @@
 
 Python is a widely used programming language (source code is now available under the GNU General Public License – GPL) started by [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) that supports multiple programming paradigms.
 
-Although it is an interpreted language rather than compiled language and therefore programs might take up more CPU time (important detail for us, people from Computer Architecture department), Python has a gentle learning curve. Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly.
+Although it is an interpreted language rather than a compiled language, and therefore programs might take up more CPU time (important detail for us, people from Computer Architecture department), Python has a gentle learning curve. Python is readable, writeable, and endlessly powerful. Its simplicity lets you become productive quickly.
 
-Python is the programming language of choice for many of my courses at the Facultat d'Informàtica de Barcelona (Barcelona School of Informatics, FIB), the teaching institution of the Universitat Politècnica de Catalunya - BarcelonaTech (UPC) in charge of university education in the fields of computer science, computer engineering, and related matters.
+Python is the programming language of choice for many of my courses at the Facultat d'Informàtica de Barcelona (Barcelona School of Informatics, FIB), the teaching institution of the Universitat Politècnica de Catalunya - BarcelonaTech (UPC) in charge of university education in the fields of computer science, computer engineering, and related matters. Python is also the soul of **[Django](https://www.djangoproject.com/)**, *"the web framework for perfectionists with deadlines"*. Python & Django allow you to create stunning web apps in a matter of a few days or even hours. 
 
 This hand-on quickstart guide is a "Simple Beginner’s guide" that provides a fast-paced introduction to the essential characteristics of Python. It is intended for those students of any CS Master Courses who have no prior knowledge of Python to help them learn the required background knowledge by themselves.
 
@@ -84,13 +84,15 @@ Python has no mandatory statement termination characters and blocks are specifie
 IndentationError: unexpected indent
 
 ```
-Comments start with the pound (#) sign and are single-line, multi-line strings are used for multi-line comments.
+Comments start with the number/hash/pound (#) sign and are single-line, multi-line strings are used for multi-line comments.
 
 <a name="variables"/>
 
 ### Variables and operators
 
-Python is an implicitly typed language (i.e., you do not have to declare variables), case sensitive (i.e., Barcelona and BARCELONA are two different variables) and object-oriented (i.e., everything is an object). Help in Python is always available within the interpreter. Type *help()* for interactive help, or *help(object)* to get help about object. If you want to know how an object works, all you have to do is call *help(\<object\>)* Another useful command is *dir()*, which shows you all the object’s methods:
+Python is an implicitly typed language (i.e., you do not have to declare variables), case sensitive (i.e., Barcelona and BARCELONA are two different variables) and object-oriented (i.e., everything is an object). 
+
+Help in Python is always available within the interpreter. Type *help()* for interactive help, or *help(object)* to get help about object. If you want to know how an object works, all you have to do is call *help(\<object\>)* Another useful command is *dir()*, which shows you all the object’s methods:
 
 
 ```
@@ -255,7 +257,9 @@ You can exit the loop at any point by using the “break” statement.
 In the above example, we use the range keyword (enumerating through members of a list and obtaining a list of numbers) to set the starting point and the point **right after the end** (that is precisely why number 4 did not print). Python is quite fond of this idea of all the way up to a number, but not including it.
 
 <a name="functions"/>
+
 ### Functions
+
 We can define a function by using the keyword *def* before the function's name. Optional arguments are set in the function declaration after the mandatory arguments by being assigned a default value. Functions can return a tuple (and by using tuple unpacking you can effectively return multiple values).
 
 ```
