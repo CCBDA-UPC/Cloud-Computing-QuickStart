@@ -11,33 +11,37 @@
 
 <a name="about"/>
 Until now we have discovered how to write our first program in Python and how to install the required environment.  Alternately, we can download and install an environment that can simplify package management and deployment (which also comes with pre-installed libraries). 
-This hands-on guide is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the Python Development Environment  [Anaconda](https://www.continuum.io/why-anaconda). Note that Python code in these hands-on guides uses version 2.7.
+
+This hands-on guide is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the Python Development Environment [Anaconda](https://www.continuum.io/why-anaconda). Note that Python code in these hands-on guides uses version 2.7.
 
 <a name="AnacondaChapter"/>
 
 ## Anaconda
 I would recommend using [Anaconda](https://www.continuum.io/why-anaconda) which is available for Windows, OS X and Linux, 32- or 64-bit. Anaconda is a freemium open source distribution of the Python and R programming languages for large-scale data processing, predictive analytics, and scientific computing.
 
-Why Anaconda? Anaconda is a distribution of packages built for data science. It comes with conda, a package and environment manager with over 720 data science packages, including those that support data visualization, AI/machine learning, and several other types of advanced analytics. In a real project, you will be using `conda` to create environments that isolate your projects which use different versions of Python and different packages. You could also use `conda` to install, uninstall, and update packages in your environments. 
+#### Why Anaconda? 
+Anaconda is a distribution of packages built for data science. It comes with conda, a package and environment manager with over 720 data science packages, including those that support data visualization, AI/machine learning, and several other types of advanced analytics. In a real project, you will be using `conda` to create environments that isolate your projects using different versions of Python and different packages. You could also use `conda` to install, uninstall, and update packages in your environments. 
 
 Anaconda solved lots of issues related to package interaction and multiple Python versions. 
 
 <a name="Conda"/>
 
 #### Conda
-Anaconda is a distribution of software that comes with `conda`, `Python`, and many scientific packages and their dependencies. The application `conda` is a package and environment manager. Anaconda is a fairly large download (~500 MB) because it comes with the most common data science packages in Python. There is also [**Miniconda**](https://conda.io/miniconda.html), a smaller distribution that includes only conda and Python. You can still use `conda` to install any of the packages that have not been downloaded. Using conda to manage your packages and environments will reduce future issues dealing with the various libraries you will be using. 
+Anaconda is a distribution of software that comes with `conda`, `Python`, and many scientific packages and their dependencies. The application `conda` is a package and environment manager. 
+
+Anaconda is a fairly large download (~500 MB) because it comes with the most common data science packages in Python. There is also [**Miniconda**](https://conda.io/miniconda.html), a smaller distribution that includes only conda and Python. You can still use `conda` to install any of the packages that have not been downloaded. Using conda to manage your packages and environments will reduce future issues dealing with the various libraries you will be using. 
 
 <a name="managing"/>
 
 #### Managing Packages
-Package managers are used to installing libraries and other software on your computer. You are already familiar with `pip`: it is the default package manager for Python libraries. `Conda` is similar to `pip` except that the available packages are focused on data science while `pip` is for general purpose. `conda` is not Python-specific and it can also install non-Python packages. However, not all Python libraries are available from Anaconda and conda, and for this reason, you can still use `pip` alongside `conda` to install packages.
+Package managers are used to installing libraries and other software on your computer. You probaly are already familiar with `pip`: it is the default package manager for Python libraries. `Conda` is similar to `pip` except that the available packages are focused on data science while `pip` is for general purpose. `conda` is not Python-specific and it can also install non-Python packages. However, not all Python libraries are available from Anaconda and conda, and for this reason, you can still use `pip` alongside `conda` to install packages.
 
 <a name="environments"/>
 
 #### Environments
-Along with managing packages, `conda` is also a virtual environment manager. It is similar to [`virtualenv`](http://docs.python-guide.org/en/latest/dev/virtualenvs/). **Environments allow you to separate and isolate the packages you are using for different projects**. Sometimes you could be working with code that depends on different versions of some library. For example, you could have code that uses new features of a package and code that uses old features that have been removed from the package. It is practically impossible to have two versions of the same package installed simultaneously. Instead, you should make an environment for each version of the package then work in the appropriate environment for each project.  This issue happens quite frequently when dealing with Python 2 and Python 3 at the same time.
+Along with managing packages, `conda` is also a virtual environment manager. It is similar to the Python default [`virtualenv`](http://docs.python-guide.org/en/latest/dev/virtualenvs/). **Environments allow you to separate and isolate the packages you are using for different projects**. Sometimes you could be working with code that depends on different versions of some library. For example, you could have code that uses new features of a package and code that uses old features that have been removed from the package. It is practically impossible to have two versions of the same package installed simultaneously. Instead, you should make an environment for each version of the package and then work in the appropriate environment for each project.  That issue happens quite frequently when dealing with Python 2 and Python 3 at the same time.
 
-We can also export the list of packages in an environment to a file, and then include that file with your code. That allows other people to quickly load all the dependencies for the shared code. Pip has similar functionality with `pip freeze > requirements.txt` (“freeze” the current state of the environment packages creating a `requirements.txt` file, which contains a simple list of all the packages in the current environment, and their respective versions).
+We can also export the list of packages in an environment to a file, and then include that file along with your code. That allows other people to quickly load all the dependencies for the shared code. Pip has similar functionality with `pip freeze > requirements.txt` (“freeze” the current state of the environment packages creating a `requirements.txt` file, which contains a simple list of all the packages in the current environment, and their respective versions).
 
 <a name="installing"/>
 
