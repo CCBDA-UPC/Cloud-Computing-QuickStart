@@ -44,7 +44,7 @@ Along with managing packages, `conda` is also a virtual environment manager. It 
 We can also export the list of packages in an environment to a file, and then include that file along with your code. That allows other people to quickly load all the dependencies for the shared code. Pip has similar functionality with `pip freeze > requirements.txt` (“freeze” the current state of the environment packages creating a `requirements.txt` file, which contains a simple list of all the packages in the current environment, and their respective versions).
 
 ### PyCharm and Anaconda
-Once you have Anaconda installed, PyCharm seamlessly interacts with Anaconda allowing you to create environments, install packages in the different environments. Always using a visual interface that saves time and effort.
+Once you have Anaconda installed, PyCharm seamlessly interacts with Anaconda allowing you to create environments and install packages in the different environments. Always using a visual interface that saves time and effort.
 
 ![PyCharm](./img/PyCharmConda.png)
 
