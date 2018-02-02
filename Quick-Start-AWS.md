@@ -1,6 +1,8 @@
 # Getting Started in the Cloud (with AWS)
 
-We advice you to join the [**AWS Educate Program**](https://aws.amazon.com/education/awseducate/) to take advantage of educational material such as hands-on experience with AWS technology, training, content, career pathways and the AWS Educate job board. Students from member institutions, such as Universitat Politècnica de Catalunya - BarcelonaTech, can obtain 100USD in credits to explore all AWS services.
+We advise you to join the [**AWS Educate Program**](https://aws.amazon.com/education/awseducate/) to take advantage of educational material such as hands-on experience with AWS technology, training, content, career pathways and the AWS Educate job board. Students from member institutions, such as Universitat Politècnica de Catalunya - BarcelonaTech, can obtain 100USD in credits to explore all AWS services.
+
+This video provides a [quick tour of the basics of AWS](https://youtu.be/ubCNZRNjhyo) for anybody who wants to begin using AWS. If you get carried out by the video, before you fill in the form, remember that if you are a student, you'd better register as so to obtain the extra perks.
 
 ## Create EC2 AWS instances
 Amazon Elastic Compute Cloud (EC2) is the Amazon Web Service you can use to create and run virtual machines in the cloud (AWS call these virtual machines 'instances'). If you are not familiar with Debian-based distributions like Ubuntu, don't worry, you can choose a 14.04 or 16.04 version, that currently are the most commonly used. Amazon Linux is similar and for our purposes works fine too.
