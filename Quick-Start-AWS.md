@@ -11,7 +11,7 @@ If you have not yet created an EC2 instance, you can follow this [step-by-step g
 ## Connecting to your Linux Instance Using SSH
 After you launch your instance, using this [link](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html) you can find more details about how to interact with your EC2 instance
 
-### Obtain your AWS credentials
+## Obtain your AWS credentials
 
 Check [Creating, Disabling, and Deleting Access Keys for Your AWS Account](https://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html) to obtain the `Access Key ID` and `AWS Secret Access Key` for the configuration.
 
@@ -36,7 +36,7 @@ Then choose Download Key File to save the access key ID and secret access key to
 
 ![Lab06-13](./img/aws04.png "Group")
 
-### Install and configure AWS CLI and EB CLI
+## Install and configure AWS CLI and EB CLI
 
 [AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) and [Elastic Beanstalk Command Line Interface](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html) will allow you to interact with Amazon Web Services from your command line and through Python, or other programming languages, libraries. They provide convenient access to the AWS REST API.
 
