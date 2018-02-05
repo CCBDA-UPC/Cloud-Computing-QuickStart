@@ -62,7 +62,81 @@ _$ eb —version
 EB CLI 3.12.1 (Python 3.6.3)
 ```
 
+## Access your AWS resources using the command line interface (CLI)
 
+```
+_$ aws ec2 describe-instances
+{
+    "Reservations": [
+        {
+            "OwnerId": "46436xx84yy9",
+            "ReservationId": "r-07c8aa893424bddec",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "PublicDnsName": "",
+                    "RootDeviceType": "ebs",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "EbsOptimized": false,
+                    "LaunchTime": "2018-01-01T18:12:58.000Z",
+                    "PrivateIpAddress": "172.31.12.184",
+                    "ProductCodes": [],
+                    "VpcId": "vpc-b4b433d3",
+                    "StateTransitionReason": "User initiated (2018-01-01 18:20:49 GMT)",
+                    "InstanceId": "i-04d3757be201d3f1b",
+                    "EnaSupport": true,
+                    "ImageId": "ami-d6cda0af",
+                    "PrivateDnsName": "ip-172-31-12-184.eu-west-1.compute.internal",
+                    "KeyName": "ccbda_upc",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "ccbda_upc_security_group",
+                            "GroupId": "sg-d5b478af"
+                        }
+                    ],
+                    "ClientToken": "",
+                    "SubnetId": "subnet-83962fe4",
+                    "InstanceType": "t2.micro",
+                    "
+
+```
+
+Check the results and compare the data provided with what you can see on your web interface: in particular **Instance ID**, **Instance Type**, **Instance State**.
+
+![aws05](./img/aws05.png "Group")
+
+You can now start the stopped instance. Check on the web interface that it is being started.
+
+```
+_$ aws ec2 start-instances --instance-ids i-04d3757be201d3f1b
+{
+    "StartingInstances": [
+        {
+            "InstanceId": "i-04d3757be201d3f1b",
+            "CurrentState": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "PreviousState": {
+                "Code": 80,
+                "Name": "stopped"
+            }
+        }
+    ]
+}
+
+
+```
+
+![aws06](./img/aws06.png "Running")
+
+Don't forget to stop your EC2 instance to avoid unnecessary expenses.
 
 ## Alternative
 If you prefer to use another Cloud provider instead AWS, please feel free to do so. However, you should communicate your decision to your teacher (an email is enough) before starting the assignments.
