@@ -220,7 +220,7 @@ Go to [AWS S3 management console](https://s3.console.aws.amazon.com/s3/home?regi
 
 ![aws07](./img/aws07.png "Running")
 
-Once it is created it can be accesses using AWS CLI:
+Once it is created it can be accessed using AWS CLI:
 
 
 ```
