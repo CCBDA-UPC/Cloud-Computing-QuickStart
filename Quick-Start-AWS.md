@@ -209,7 +209,7 @@ Don't forget to stop your EC2 instance to avoid unnecessary expenses.
 
 ## Create AWS S3 bucket
 
-AWS S3 service stands for Simple Cloud Storage Service. The popular Dropbox tool is based on AWS S3. The costs of S3 are very moderate therefore we can create our version of Dropbox in less than 5 minutes.
+AWS S3 service stands for Simple Cloud Storage Service. The popular [Dropbox](https://www.dropbox.com/) tool is based on AWS S3. The costs of S3 are very moderate therefore we can create our version of Dropbox in less than 5 minutes.
 
 Go to [AWS S3 management console](https://s3.console.aws.amazon.com/s3/home?region=eu-west-1) and create a new bucket following the wizard instructions.
 
