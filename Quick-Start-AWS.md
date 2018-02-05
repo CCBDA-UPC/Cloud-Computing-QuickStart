@@ -84,11 +84,11 @@ _$ aws ec2 describe-instances
                         "Name": "stopped"
                     },
                     "EbsOptimized": false,
-                    "LaunchTime": "2018-01-01T18:12:58.000Z",
+                    "LaunchTime": "2018-01-05T10:37:18.000Z",
                     "PrivateIpAddress": "172.31.12.184",
                     "ProductCodes": [],
                     "VpcId": "vpc-b4b433d3",
-                    "StateTransitionReason": "User initiated (2018-01-01 18:20:49 GMT)",
+                    "StateTransitionReason": "User initiated (2018-01-05 10:45:36 GMT)",
                     "InstanceId": "i-04d3757be201d3f1b",
                     "EnaSupport": true,
                     "ImageId": "ami-d6cda0af",
@@ -103,8 +103,77 @@ _$ aws ec2 describe-instances
                     "ClientToken": "",
                     "SubnetId": "subnet-83962fe4",
                     "InstanceType": "t2.micro",
-                    "
-
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use",
+                            "MacAddress": "02:5e:3c:ab:35:7c",
+                            "SourceDestCheck": true,
+                            "VpcId": "vpc-b4b433d3",
+                            "Description": "",
+                            "NetworkInterfaceId": "eni-6d476e43",
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-172-31-12-184.eu-west-1.compute.internal",
+                                    "Primary": true,
+                                    "PrivateIpAddress": "172.31.12.184"
+                                }
+                            ],
+                            "PrivateDnsName": "ip-172-31-12-184.eu-west-1.compute.internal",
+                            "Attachment": {
+                                "Status": "attached",
+                                "DeviceIndex": 0,
+                                "DeleteOnTermination": true,
+                                "AttachmentId": "eni-attach-75573304",
+                                "AttachTime": "2018-01-01T18:12:58.000Z"
+                            },
+                            "Groups": [
+                                {
+                                    "GroupName": "ccbda_upc_security_group",
+                                    "GroupId": "sg-d5b478af"
+                                }
+                            ],
+                            "SubnetId": "subnet-83962fe4",
+                            "OwnerId": "464364984609",
+                            "PrivateIpAddress": "172.31.12.184"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Placement": {
+                        "Tenancy": "default",
+                        "GroupName": "",
+                        "AvailabilityZone": "eu-west-1b"
+                    },
+                    "Hypervisor": "xen",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "Status": "attached",
+                                "DeleteOnTermination": true,
+                                "VolumeId": "vol-049fc23e02887bcc5",
+                                "AttachTime": "2018-01-01T18:12:59.000Z"
+                            }
+                        }
+                    ],
+                    "Architecture": "x86_64",
+                    "StateReason": {
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown",
+                        "Code": "Client.UserInitiatedShutdown"
+                    },
+                    "RootDeviceName": "/dev/sda1",
+                    "VirtualizationType": "hvm",
+                    "Tags": [
+                        {
+                            "Value": "ccbda_ubuntu",
+                            "Key": "Name"
+                        }
+                    ],
+                    "AmiLaunchIndex": 0
+                }
+            ]
+        }
+    ]
+}
 ```
 
 Check the results and compare the data provided with what you can see on your web interface: in particular **Instance ID**, **Instance Type**, **Instance State**.
