@@ -133,7 +133,7 @@ _$ aws ec2 describe-instances
                                 }
                             ],
                             "SubnetId": "subnet-83962fe4",
-                            "OwnerId": "464364984609",
+                            "OwnerId": "46436xx84yy9",
                             "PrivateIpAddress": "172.31.12.184"
                         }
                     ],
