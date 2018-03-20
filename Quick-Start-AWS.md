@@ -2,16 +2,21 @@
 
 We advise you to join the [**AWS Educate Program**](https://aws.amazon.com/education/awseducate/) to take advantage of educational material such as hands-on experience with AWS technology, training, content, career pathways and the AWS Educate job board. Students from member institutions, such as Universitat Politècnica de Catalunya - BarcelonaTech, can obtain 100USD in credits to explore all AWS services.
 
-To get quick overview of AWS, watch this [quick tour of the basics of AWS](https://youtu.be/ubCNZRNjhyo) for anybody who wants to begin using AWS. If you get carried out by the video, before you fill in the form, remember that if you are a student, you'd better register as so to obtain the extra perks.
+To get a quick overview of AWS, watch this [quick tour of the basics of AWS](https://youtu.be/ubCNZRNjhyo) for anybody who wants to begin using AWS. If you get carried out by the video, before you fill in the form, remember that if you are a student, you'd better register as so to obtain the extra perks.
 
 ## Create EC2 AWS instances
-Amazon Elastic Compute Cloud (EC2) is the Amazon Web Service you can use to create and run virtual machines in the cloud (AWS call these virtual machines 'instances'). If you are not familiar with Debian-based distributions like Ubuntu, don't worry, you can choose a 14.04 or 16.04 version, that currently are the most commonly used. Amazon Linux is similar and for our purposes works fine too.
+Amazon Elastic Compute Cloud (EC2) is the Amazon Web Service you can use to create and run virtual machines in the cloud (AWS call these virtual machines 'instances'). If you are not familiar with Debian-based distributions like Ubuntu, don't worry, you can choose between 14.04 and 16.04 version, which currently are the most commonly used. Amazon Linux is similar and for our purposes works fine too.
+
 If you have not yet created an EC2 instance, you can follow this [step-by-step guide to launch a Linux virtual machine](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/) on Amazon EC2 within an [AWS Free Tier](https://aws.amazon.com/free/).
 
 ## Connecting to your Linux Instance Using SSH
 After you launch your instance, using this [link](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html) you can find more details about how to interact with your EC2 instance
 
 ## Obtain your AWS credentials
+
+AWS allows you to interact programmatically with their services using a REST API. You can use the REST API directly, through a command line Interface (AWS CLI) or invoking libraries available for different programming languages.
+
+You, therefore, need a set of credentials to authenticate and authorize the access to your AWS resources.
 
 Check [Creating, Disabling, and Deleting Access Keys for Your AWS Account](https://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html) to obtain the `Access Key ID` and `AWS Secret Access Key` for the configuration.
 
@@ -209,13 +214,13 @@ Don't forget to stop your EC2 instance to avoid unnecessary expenses.
 
 ## Create AWS S3 bucket
 
-AWS S3 service stands for Simple Cloud Storage Service. The popular Dropbox tool is based on AWS S3. The costs of S3 are very moderate therefore we can create our version of Dropbox in less than 5 minutes.
+AWS S3 service stands for Simple Cloud Storage Service. The popular [Dropbox](https://www.dropbox.com/) tool is based on AWS S3. The costs of S3 are very moderate therefore we can create our version of Dropbox in less than 5 minutes.
 
 Go to [AWS S3 management console](https://s3.console.aws.amazon.com/s3/home?region=eu-west-1) and create a new bucket following the wizard instructions.
 
 ![aws07](./img/aws07.png "Running")
 
-Once it is created it can be accesses using AWS CLI:
+Once it is created it can be accessed using AWS CLI:
 
 
 ```
