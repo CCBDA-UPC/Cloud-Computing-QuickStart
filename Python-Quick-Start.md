@@ -483,10 +483,16 @@ $ mkdir my_new_project
 $ cd my_new_project 
 $ virtualenv my_env 
 ```
-To activate the environment, we can type the following command:
+To activate the environment, we can type the following command in unix:
 
 ```
 $ source my_env/bin/activate
+```
+
+or in MS-Windows:
+
+```
+$ my_env\Scripts\activate
 ```
 Once the environment is active, the following will be added to the prompt:
 
