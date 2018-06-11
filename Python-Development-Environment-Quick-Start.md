@@ -12,7 +12,7 @@
 <a name="about"/>
 Until now we have discovered how to write our first program in Python and how to install the required environment.  Alternately, we can download and install an environment that can simplify package management and deployment (which also comes with pre-installed libraries). 
 
-This hands-on guide is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the Python Development Environment [Anaconda](https://www.continuum.io/why-anaconda). Note that Python code in these hands-on guides uses version 2.7.
+This hands-on guide is intended to be a "Simple Beginner’s guide" that provides a fast-paced introduction to the Python Development Environment [Anaconda](https://www.continuum.io/why-anaconda). Note that Python code in these hands-on guides uses version 3.6.
 
 <a name="AnacondaChapter"/>
 
