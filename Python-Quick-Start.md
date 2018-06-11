@@ -299,7 +299,7 @@ This piece of code shows the difference between defining a regular function ("Jo
 >>> print Jordi(10)
 100
 >>> 
->>> George=lambda x:x**2
+>>> George = lambda x:x**2
 >>> print George(10)
 100
 >>> 
