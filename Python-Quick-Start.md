@@ -345,11 +345,12 @@ Python supports a limited form of multiple inheritance in classes.
 ...             return self.current
 ... 
 >>> myCalc = Calculator() # make myCalc a Calculator object
->>> myCalc.add(2) #use myCalc’s new add method derived from the Calculator class>>> print(myCalc.getCurrent())  
-2
+>>> myCalc.add(3) #use myCalc’s new add method derived from the Calculator class
+>>> print(myCalc.getCurrent())  
+3
 >>> myCalc.add(2)
 >>> print(myCalc.getCurrent())
-4
+5
 >>> 
 ```
 In the previous example the first part defines a Class. def __init__ is the *constructor function*, the function that is called when a new instance of the class is created. The actual new instance is created in the line myCalc = Calculator(). The second part shows how to use that class in Python.
