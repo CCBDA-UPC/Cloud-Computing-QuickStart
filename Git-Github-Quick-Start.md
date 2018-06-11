@@ -258,6 +258,8 @@ There are plenty of courses and tutorials available on the Internet regarding Gi
 - UDEMY https://www.udemy.com/courses/search/?q=github&src=sac&kw=git
 - LYNDA https://www.lynda.com/GitHub-training-tutorials/1384-0.html
 
+[GitHub cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
 An excellent book is the [Pro Git](https://git-scm.com/book) book, written by Scott Chacon and Ben Straub and published by Apress. It is available [here](https://git-scm.com/book) (pdf, epub, mobi, HTML). All content is licensed under the Creative Commons Attribution Non-Commercial Share Alike 3.0 license. Print versions of the book are available on [Amazon.com](https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20).
 
 Now, we are ready to start a [new hands-on quickstart guide](./Python-Quick-Start.md). Enjoy!
