@@ -125,16 +125,16 @@ Values are assigned using the equal sign “=”, in fact, objects are bound to 
 ``` 
 >>> IntegerVar = 10
 >>> IntegerVar += 10
->>> print IntegerVar
+>>> print (IntegerVar)
 20
 >>> StringVar = "Welcome"
 >>> StringVar += " to Barcelona"
->>> print StringVar
+>>> print (StringVar)
 Welcome to Barcelona
 >>> IntegerVar, StringVar = StringVar, IntegerVar
->>> print IntegerVar
+>>> print (IntegerVar)
 Welcome to Barcelona
->>> print StringVar
+>>> print (StringVar)
 20
 >>> help (StringVar)
 Help on int object:
@@ -159,10 +159,10 @@ The data structures available in Python are lists, tuples and dictionaries. List
 >>> sampleTuple = (1,2,3,4,5,6,7,8)
 >>> print (sampleTuple)
 (1, 2, 3, 4, 5, 6, 7, 8)
->>> print sampleList
+>>> print (sampleList)
 [1, 2, 3, 4, 5, 6, 7, 8]
 >>> sampleList.append(9)
->>> print sampleList
+>>> print (sampleList)
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 >>> sampleTuple.append(9)
 Traceback (most recent call last):
@@ -185,14 +185,14 @@ Python lists/dictionaries/tuples can be of any type. Therefore you can mix them 
 
 ``` 
 >>> Example = [1, "BCN", ["another", "list"], {"and","a","tuple"}]
->>> print Example
+>>> print (Example)
 [1, 'BCN', ['another', 'list'], set(['a', 'and', 'tuple'])]
 >>> myfunction = len
->>> print myfunction (Example)
+>>> print (myfunction (Example))
 4
 >>> print Example[-1]
 set(['a', 'and', 'tuple'])
->>> print Example[3]
+>>> print (Example[3])
 set(['a', 'and', 'tuple'])
 
 ```
@@ -203,14 +203,14 @@ Finally, Python strings use either single or double quotation marks, and we can 
 >>> MultiString = """ Example of 
 … a multiline
 … string"""
->>> print MultiString
+>>> print (MultiString)
  Example of 
 a multiline
 string
 >>> 
->>> print "Arrival: %s from %s" % ( "BA230", "Barcelona")
+>>> print ("Arrival: %s from %s" % ( "BA230", "Barcelona"))
 Arrival: BA230 from Barcelona
->>> print "Arrival: %(fly)s from %(city)s" % {"fly":"BA230", "city":"Barcelona"}
+>>> print ("Arrival: %(fly)s from %(city)s" % {"fly":"BA230", "city":"Barcelona"})
 Arrival: BA230 from Barcelona
 
 ```
@@ -390,7 +390,7 @@ Exceptions in Python are handled using try-except blocks. See the following code
 ...             # Division by zero raises an exception
 ...             10 / 0
 ...     except ZeroDivisionError:
-...             print "Invalid operation."
+...             print ("Invalid operation.")
 ... 
 >>> function()
 Invalid operation.
@@ -407,14 +407,14 @@ External libraries are used with the import \[libname\] keyword. We can also use
 >>> import random
 >>> randomint = random.randint(1, 100)
 67
->>> print randomint
+>>> print (randomint)
 >>>
 >>> from random import randint
 >>> randomint = random.randint(1, 100)
->>> print randomint
+>>> print (randomint)
 84
 >>> randomint = random.randint(1, 100)
->>> print randomint
+>>> print print (randomint)
 44
 >>>
 ```
