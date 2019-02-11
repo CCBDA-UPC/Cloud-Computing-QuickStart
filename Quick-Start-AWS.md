@@ -253,7 +253,3 @@ upload: img\firstgithubcontent.png to s3://ccbda-upc/img/firstgithubcontent.png
 Check that your files are available using the AWS S3 console.
 
 ![aws08](./img/aws08.png "Running")
-
-
-## Alternative
-If you prefer to use another Cloud provider instead AWS, please feel free to do so. However, you should communicate your decision to your teacher (an email is enough) before starting the assignments.
