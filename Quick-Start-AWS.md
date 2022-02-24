@@ -7,7 +7,7 @@ To get a quick overview of AWS, watch this [quick tour of the basics of AWS](htt
 ## Create EC2 AWS instances
 Amazon Elastic Compute Cloud (EC2) is the Amazon Web Service you can use to create and run virtual machines in the cloud (AWS call these virtual machines 'instances'). If you are not familiar with Debian-based distributions like Ubuntu, don't worry, you can choose between 14.04 and 16.04 version, which currently are the most commonly used. Amazon Linux is similar and for our purposes works fine too.
 
-If you have not yet created an EC2 instance, you can follow this [step-by-step guide to launch a Linux virtual machine](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/) on Amazon EC2 within an [AWS Free Tier](https://aws.amazon.com/free/).
+If you have not yet created an EC2 instance, you can follow this [step-by-step guide to launch a Linux virtual machine](https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html) on Amazon EC2 within an [AWS Free Tier](https://aws.amazon.com/free/).
 
 ## Connecting to your Linux Instance Using SSH
 After you launch your instance, using this [link](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html) you can find more details about how to interact with your EC2 instance
