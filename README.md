@@ -6,7 +6,6 @@ This set of Hands-on is intended for those students on Masters' Courses who have
 
 Let's bear in mind the importance of hands-on practice while you are exploring new technical knowledge. This material has been written for anyone to read it on a computer while trying to follow all the proposed exercises.
 
-* Hands-on 0: [Run a Linux OS in a Virtual Machine](./LinuxOS-VirtualMachine.md) (Only for Windows users)
 * Hands-on 1: [Git and GitHub Quick Start](./Git-Github-Quick-Start.md)
 * Hands-on 2: [Markdown syntax](./Quick-Start-Markdown.md)
 * Hands-on 3: [Python Quick Start](./Python-Quick-Start.md) 
