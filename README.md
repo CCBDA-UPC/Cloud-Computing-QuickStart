@@ -1,6 +1,6 @@
 # Quick Start Knowledge Toolbox
 
-These hands-on are a set of "simple Beginner's guides"  initially written by Prof. Jordi Torres. Thay are meant to provide a fast-paced introduction to the necessary technologies required for many of the courses that he taught at the *Facultat d'Informàtica de Barcelona*  (Barcelona School of Informatics, FIB), the teaching institution of the *Universitat Politècnica de Catalunya - BarcelonaTech (UPC)* in charge of university education in the fields of computer science, computer engineering, and related matters.
+These hands-on are a set of "simple Beginner's guides"  initially written by Prof. Jordi Torres. They are meant to provide a fast-paced introduction to the necessary technologies required for many of the courses that he taught at the *Facultat d'Informàtica de Barcelona*  (Barcelona School of Informatics, FIB), the teaching institution of the *Universitat Politècnica de Catalunya - BarcelonaTech (UPC)* in charge of university education in the fields of computer science, computer engineering, and related matters.
 
 This set of Hands-on is intended for those students on Masters' Courses who have no prior knowledge of the explained technologies, to help them learn the required background knowledge, necessary to follow the courses they have enrolled into. 
 
